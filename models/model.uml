@@ -1,0 +1,182 @@
+@startuml
+
+/' TODO: Split up this file '/
+
+skinparam Dpi 150
+skinparam Monochrome true
+skinparam LineType ortho
+hide circle
+/' skinparam CircledCharacterRadius 0 '/
+/' skinparam CircledCharacterFontSize 0 '/
+skinparam Default {
+  TextAlignment center
+  FontName Helvetica
+}
+skinparam Class {
+  AttributeIconSize 0
+  BackgroundColor White
+  FontStyle bold
+  StereotypeFontSize 10
+}
+skinparam Rectangle {
+  BackgroundColor White
+  FontStyle bold
+  FontSize 11
+  StereotypeFontSize 10
+}
+skinparam Object {
+  BackgroundColor White
+  FontStyle bold
+  FontSize 11
+  StereotypeFontSize 10
+}
+
+skinparam Entity {
+  StereotypeFontSize 10
+}
+
+!definelong primitiveType(x)
+rectangle x <<primitiveType>> {
+}
+!enddefinelong
+
+!definelong dataType(x)
+rectangle x <<dataType>> {
+}
+!enddefinelong
+
+primitiveType(NaturalNumber)
+primitiveType(String)
+dataType(Iso639Code)
+dataType(Iso15924Code)
+dataType(Uri)
+
+class LocalizedString {
+  +text: String
+  +script: Iso15924Code
+  +language: Iso639Code
+}
+
+class NameComponent {
+  +componentId: Uri
+  +description: LocalizedString
+  +examples: LocalizedString[0..*]
+}
+
+LocalizedString <|-- NameComponent
+/' String -- LocalizedString '/
+/' Iso639Code -- LocalizedString '/
+/' Iso15924Code -- LocalizedString '/
+
+class Surname {
+  +type: SurnameType[0..*]
+}
+class GivenName {
+  +type: GivenNameType[0..*]
+}
+class Honorific {
+  +type: HonorificType[0..*]
+}
+class RoleName {
+  +type: RoleType[0..*]
+}
+class AdditionalName {
+  +type: AdditionalNameType[0..*]
+}
+class GenerationalName {
+  +type: GenerationalNameType[0..*]
+}
+
+NameComponent <|-- Surname
+NameComponent <|-- GivenName
+NameComponent <|-- Honorific
+NameComponent <|-- RoleName
+NameComponent <|-- AdditionalName
+NameComponent <|-- GenerationalName
+
+Surname          -- SurnameType
+GivenName        -- GivenNameType
+Honorific        -- HonorificType
+RoleName         -- RoleNameType
+AdditionalName   -- AdditionalNameType
+GenerationalName -- GenerationalNameType
+
+enum RoleNameType <<enumeration>> {
+  office
+  stage
+}
+
+enum HonorificType <<enumeration>> {
+  academic
+}
+
+enum SurnameType <<enumeration>> {
+  patronymic
+  matronymic
+}
+
+enum GivenNameType <<enumeration>> {
+}
+
+enum AdditionalNameType <<enumeration>> {
+}
+
+enum GenerationalNameType <<enumeration>> {
+  NaturalNumber
+  String
+}
+
+interface TemplateFragment {
+  +toString(): String
+}
+
+TemplateFragment <|.. LocalizedString
+TemplateFragment <|.. NameComponent
+TemplateFragment -- NameTemplate
+
+class NameTemplate {
+  +fragments: TemplateFragment[1..*]
+}
+
+class DisplayCriterion {
+  +predicate: Predicate
+}
+note left of DisplayCriterion
+  predicate - needs more thoughts
+  E.g., screen estate, formality
+end note
+
+class NameDisplayProfile {
+  +displayTemplate: NameTemplate
+  +displayCriteria: DisplayCriterion[1..*]
+}
+note bottom: displayCriteria - conjunction or dysjunction?
+
+DisplayCriterion -- NameDisplayProfile
+NameTemplate -- NameDisplayProfile
+
+class DisplayProfilePreference {
+  +culturalProfiles: Uri[0..*]
+}
+
+class CulturalProfile {
+  +profileId: Uri
+  +displayProfiles: NameDisplayProfile[1..*]
+}
+
+class Person {
+  +name: PersonalName
+}
+
+class PersonalName {
+  +components: NameComponent[1..*]
+  +displayProfilePreference: DisplayProfilePreference
+}
+
+NameComponent -- PersonalName
+Person -- PersonalName
+DisplayProfilePreference -- PersonalName
+DisplayProfilePreference -- CulturalProfile
+NameDisplayProfile -- CulturalProfile
+
+@enduml

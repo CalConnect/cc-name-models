@@ -1,0 +1,100 @@
+@startuml
+
+skinparam Dpi 150
+skinparam Monochrome true
+skinparam LineType ortho
+hide circle
+/' skinparam CircledCharacterRadius 0 '/
+/' skinparam CircledCharacterFontSize 0 '/
+skinparam Default {
+  TextAlignment center
+  FontName Helvetica
+}
+skinparam Class {
+  AttributeIconSize 0
+  BackgroundColor White
+  FontStyle bold
+  StereotypeFontSize 10
+}
+skinparam Rectangle {
+  BackgroundColor White
+  FontStyle bold
+  FontSize 11
+  StereotypeFontSize 10
+}
+skinparam Object {
+  BackgroundColor White
+  FontStyle bold
+  FontSize 11
+  StereotypeFontSize 10
+}
+
+skinparam Entity {
+  StereotypeFontSize 10
+}
+
+class NameComponent {
+  +componentId: Uri
+  +description: LocalizedString
+  +examples: LocalizedString[0..*]
+}
+
+class Surname {
+  +type: SurnameType[0..*]
+}
+class GivenName {
+  +type: GivenNameType[0..*]
+}
+class Honorific {
+  +type: HonorificType[0..*]
+}
+class RoleName {
+  +type: RoleType[0..*]
+}
+class AdditionalName {
+  +type: AdditionalNameType[0..*]
+}
+class GenerationalName {
+  +type: GenerationalNameType[0..*]
+}
+
+NameComponent <|-- Surname
+NameComponent <|-- GivenName
+NameComponent <|-- Honorific
+NameComponent <|-- RoleName
+NameComponent <|-- AdditionalName
+NameComponent <|-- GenerationalName
+
+Surname          -- SurnameType
+GivenName        -- GivenNameType
+Honorific        -- HonorificType
+RoleName         -- RoleNameType
+AdditionalName   -- AdditionalNameType
+GenerationalName -- GenerationalNameType
+
+enum RoleNameType <<enumeration>> {
+  office
+  stage
+}
+
+enum HonorificType <<enumeration>> {
+  academic
+}
+
+enum SurnameType <<enumeration>> {
+  patronymic
+  matronymic
+}
+
+enum GivenNameType <<enumeration>> {
+}
+
+enum AdditionalNameType <<enumeration>> {
+}
+
+enum GenerationalNameType <<enumeration>> {
+  NaturalNumber
+  String
+}
+
+@enduml

@@ -1,0 +1,45 @@
+= CalConnect ISO TC 37 Name Model
+:docnumber: XXXXX
+:tc-document-number: 9999
+:edition: 1
+:ref-docnumber: ISO XXXXX:2018(E)
+:copyright-year: 2018
+:language: en
+:title-intro-en: Computer applications in terminology
+:title-main-en: Naming -- Structure of personal names
+:title-intro-fr: Applications informatiques en terminologie
+:title-main-fr: Nommage -- Structure des noms de personnes
+:doctype: international-standard
+:docstage: 10
+:docsubstage: 92
+:technical-committee-type: TC
+:technical-committee-number: 37
+:technical-committee: Language and terminology
+:subcommittee-type: SC
+:subcommittee-number: 4
+:subcommittee: Language resource management
+:workgroup-type: WG
+:workgroup-number: 4
+:workgroup: Lexical Resources
+:secretariat: KATS
+:language: en
+:draft:
+:toc:
+:stem:
+:xrefstyle: short
+:imagesdir: models
+
+include::sections/0a-foreword.adoc[]
+include::sections/0b-intro.adoc[]
+
+include::sections/01-scope.adoc[]
+include::sections/02-norm-refs.adoc[]
+include::sections/03-termsdef.adoc[]
+include::sections/04-personal-name.adoc[]
+include::sections/05-name-component.adoc[]
+include::sections/06-name-pattern.adoc[]
+include::sections/07-name-profile.adoc[]
+
+include::sections/a1-annex.adoc[]
+include::sections/a2-cultures.adoc[]
+include::sections/zz-references.adoc[]

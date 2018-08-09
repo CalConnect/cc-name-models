@@ -1,0 +1,31 @@
+
+[bibliography]
+== Bibliography
+
+* [[[ISO9945,ISO/IEC/IEEE 9945:2009]]], _Information technology -- Portable Operating System Interface (POSIX®) Base Specifications, Issue 7_
+
+* [[[ISO19788-5,ISO/IEC 19788-5:2012]]], _Information technology -- Learning, education and training -- Metadata for learning resources -- Part 5: Educational elements_
+
+* [[[ISO12234-3,ISO 12234-3:2016]]], _Electronic still picture imaging -- Removable memory -- Part 3: XMP for digital photography_
+
+* [[[ISO9075-1,ISO/IEC 9075-1:2016]]], _Information technology -- Database languages -- SQL -- Part 1: Framework (SQL/Framework)_
+
+* [[[ISO14813-5,ISO 14813-5:2010]]], _Intelligent transport systems -- Reference model architecture(s) for the ITS sector -- Part 5: Requirements for architecture description in ITS standards_
+
+* [[[ISO14198,ISO/TS 14198:2012]]], _Road vehicles -- Ergonomic aspects of transport information and control systems -- Calibration tasks for methods which assess driver demand due to the use of in-vehicle systems_
+
+* [[[ISO29003,ISO/IEC TS 29003:2018]]], _Information technology -- Security techniques -- Identity proofing
+_
+
+* [[[ISO14105,ISO/TR 14105:2011]]], _Document management -- Change management for successful electronic document management system (EDMS) implementation_
+
+* [[[ISO20944-1,ISO/IEC 20944-1:2013]]], _Information technology -- Metadata Registries Interoperability and Bindings (MDR-IB) -- Part 1: Framework, common vocabulary, and common provisions for conformance_
+
+* [[[ISO5127,ISO 5127:2017]]], _Information and documentation -- Foundation and vocabulary_
+
+* [[[ISO31320,ISO/IEC/IEEE 31320-2:2012]]], _Information technology -- Modeling Languages -- Part 2: Syntax and Semantics for IDEF1X97 (IDEFobject)_
+
+* [[[ISO639-3,ISO/IEC 639-3:2007]]], _Codes for the representation of names of languages -- Part 3: Alpha-3 code for comprehensive coverage of languages_
+
+* [[[ISO15961,ISO/IEC 15961:2004]]], _Information technology -- Radio frequency identification (RFID) for item management -- Data protocol: application interface_
+

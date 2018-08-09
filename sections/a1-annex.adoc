@@ -1,0 +1,77 @@
+[[AnnexA]]
+[appendix,subtype=informative]
+== Enumeration of name components
+
+TODO
+
+[source=TODO]
+****
+Informative text
+****
+
+=== Introduction
+
+=== Types of surname
+
+* Patrilineal surname
+* Matrilineal surname
+* Matronymic
+* Patronymic
+* Teknonymic
+* Maiden
+
+=== Types of given name
+
+TODO.
+
+=== Honorific types
+
+English
+
+* urn:iso:name:honorific:mr
+* urn:iso:name:honorific:mrs
+* urn:iso:name:honorific:miss
+* urn:iso:name:honorific:ms
+* urn:iso:name:honorific:ms
+
+TODO: meanings of slash. disambiguate
+* urn:iso:name:honorific:rank:Emperor / Empress
+* urn:iso:name:honorific:rank:King / Queen
+* urn:iso:name:honorific:rank:Archduke / Archduchess
+* urn:iso:name:honorific:rank:Grand Prince / Grand Princess 
+* urn:iso:name:honorific:rank:Grand Duke / Grand Duchess
+* urn:iso:name:honorific:rank:Prince / Princess / Infante / Infanta / Królewicz / królewna
+* urn:iso:name:honorific:rank:Duke / Duchess
+* urn:iso:name:honorific:rank:Sovereign Prince / Sovereign Princess / Fürst / Fürstin
+* urn:iso:name:honorific:rank:Marquess / Marquis / Marchioness / Margrave / Landgrave / Count palatine
+* urn:iso:name:honorific:rank:Count / Countess / Earl , Burgrave / Châtelain / Castellan
+* urn:iso:name:honorific:rank:Viscount/Viscountess / Vidame
+* urn:iso:name:honorific:rank:Baron / Baroness
+* urn:iso:name:honorific:rank:Baronet / Baronetess/ Hereditary Knight / Lady / Ritter / Ridder
+* urn:iso:name:honorific:rank:Knight / Dame Chevalier
+* urn:iso:name:honorific:rank:Esquire / Laird / Edler / Jonkheer / Junker
+* urn:iso:name:honorific:rank:Gentleman / Younger / Maid
+
+
+Occupation
+
+* urn:iso:name:honorific:occupation:doctor
+* urn:iso:name:honorific:occupation:esquire
+* urn:iso:name:honorific:occupation:captain
+* urn:iso:name:honorific:occupation:coach
+* urn:iso:name:honorific:occupation:officer
+* urn:iso:name:honorific:occupation:reverend
+* urn:iso:name:honorific:occupation:father
+* urn:iso:name:honorific:occupation:rabbi
+* urn:iso:name:honorific:occupation:professor
+
+
+=== Role name
+
+=== Generational name
+
+* Junior
+* Senior
+* Numerical
+
+

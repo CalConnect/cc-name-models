@@ -1,0 +1,17 @@
+== Name profile
+
+=== General
+
+image::display-profile.png[]
+
+=== Rendering of name
+
+* Preference of presentation
+* Contextual presentation: formal, informal, etc.
+
+
+Concern:
+
+* abbreviation
+* priority
+

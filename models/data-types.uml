@@ -1,0 +1,60 @@
+@startuml
+
+/' TODO: Split up this file '/
+
+skinparam Dpi 150
+skinparam Monochrome true
+skinparam LineType ortho
+hide circle
+/' skinparam CircledCharacterRadius 0 '/
+/' skinparam CircledCharacterFontSize 0 '/
+skinparam Default {
+  TextAlignment center
+  FontName Helvetica
+}
+skinparam Class {
+  AttributeIconSize 0
+  BackgroundColor White
+  FontStyle bold
+  StereotypeFontSize 10
+}
+skinparam Rectangle {
+  BackgroundColor White
+  FontStyle bold
+  FontSize 11
+  StereotypeFontSize 10
+}
+skinparam Object {
+  BackgroundColor White
+  FontStyle bold
+  FontSize 11
+  StereotypeFontSize 10
+}
+
+skinparam Entity {
+  StereotypeFontSize 10
+}
+
+!definelong primitiveType(x)
+rectangle x <<primitiveType>> {
+}
+!enddefinelong
+
+!definelong dataType(x)
+rectangle x <<dataType>> {
+}
+!enddefinelong
+
+primitiveType(NaturalNumber)
+primitiveType(String)
+dataType(Iso639Code)
+dataType(Iso15924Code)
+dataType(Uri)
+
+class LocalizedString {
+  +text: String
+  +script: Iso15924Code
+  +language: Iso639Code
+}
+
+@enduml

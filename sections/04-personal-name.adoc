@@ -1,0 +1,12 @@
+== Personal name
+
+=== General
+
+A personal name is...
+
+image::personal-name.png[]
+
+=== Data types
+
+image::data-types.png[]
+

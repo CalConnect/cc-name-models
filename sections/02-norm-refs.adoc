@@ -1,0 +1,7 @@
+
+[bibliography]
+== Normative References
+
+* [[[ISO639-1,ISO 639-1]]], _Codes for the representation of names of languages -- Part 1: Alpha-2 code_
+
+* [[[ISO15924,ISO 15924]]], _Information and documentation -- Codes for the representation of names of scripts_

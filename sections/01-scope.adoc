@@ -1,0 +1,46 @@
+
+:sectnums:
+== Scope
+
+TODO
+
+This document specifies the "Personal Name" model,
+suitable for machine encoding of the digital storage and transmission of
+the following data elements:
+
+* name components,
+
+* name display profile that is applicable only when the associated criteria are satisfied;
+and
+
+* template for displaying personal names.
+
+This document does not handle the following:
+
+* linkage of a name to an identity
+
+A name model:
+
+* to encode names of a person
+* can be used in an environment with or without a backing store
+** if with a backing store, may imply mutability of model
+
+Name profile:
+
+* to guide rendering of a name model as a string
+
+
+Usage:
+
+* Business cards, vCard
+* Bibliographic management
+* Identification documents
+* Travel (hotel, airplane tickets)
+* Machine application usage: personalized display, mailing lists
+
+TODO:
+
+* Organize survey of existing personal naming patterns
+* Building a set of profiles for cultures
+* Display preference profiles for your own names
+*

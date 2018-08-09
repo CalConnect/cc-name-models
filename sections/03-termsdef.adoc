@@ -1,0 +1,184 @@
+
+[[terms]]
+== Terms and Definitions
+
+TODO: define terms "`language`" and "`culture`"
+
+[[term-name]]
+=== name
+
+verbal _designation_ (<<ISO5127,clause 3.1.5.24>>) of an _individual concept_ (<<ISO5127,clause 3.1.2.16>>)
+
+[.source]
+<<ISO5127,clause 3.1.5.28>>
+
+////
+designation of an object by a linguistic expression
+
+[.source]
+<<ISO19788-5,clause 3.7>>
+////
+
+
+[[term-person]]
+=== person
+
+human being
+
+[.source]
+<<ISO29003,clause 3.12>>
+
+
+[[term-personal-name]]
+=== personal name
+alt:[anthroponym]
+
+name (<<term-name>>) of a _person_ (<<term-person>>)
+
+[.source]
+<<ISO5127,clause 3.1.5.43>>, preferred term _personal name_ used in this document,
+replaced term _human being_ with term _person_ used in this document.
+
+
+[[term-locale]]
+=== locale
+
+definition of the subset of a user's environment that depends on
+language and cultural conventions
+
+[.source]
+<<ISO9945,clause 4.211>>
+
+
+[[term-criterion]]
+=== criterion
+
+threshold or value of a variable to be met
+
+[.source]
+<<ISO14198,clause 3.2>>
+
+
+[[term-name-display-profile]]
+=== name display profile
+
+profile that associates a set of _criteria_
+(<<term-criterion>>) and _layout templates_ (<<term-name-display-template>>)
+
+
+[[term-data-type]]
+=== data type
+
+set of representable values
+
+[.source]
+<<ISO9075-1,clause 3.1.1.4>>
+
+
+[[term-primitive-type]]
+=== primitive type
+
+pre-defined basic datatype without any substructure, such as an integer or a
+string
+
+[.source]
+<<ISO14813-5,clause B.1.118>>
+
+
+[[term-localized-string]]
+=== localized string
+
+user-context-dependent string determined by a particular _locale_ (<<term-locale>>)
+
+[.source]
+<<ISO20944-1,clause 3.21.10.2>>, added reference to term _locale_
+
+
+[[term-template-fragment]]
+=== template fragment
+
+_localized string_ (<<term-localized-string>>)
+or _name component_ (<<term-name-component>>)
+used in a _name display template_ (<<term-name-display-template>>)
+
+
+[[term-name-component]]
+=== name component
+
+component that form part of a _personal name_ (<<term-personal-name>>)
+
+
+[[term-name-display-template]]
+=== name display template
+
+specification of ordering of
+_template fragments_ (<<term-template-fragment>>)
+for a _name display profile_ (<<term-name-display-profile>>)
+of a _cultural name display profile_ (<<term-cultural-name-display-profile>>)
+
+
+[[term-cultural-name-display-profile]]
+=== cultural name display profile
+
+set of _name display profiles_ (<<term-name-display-profile>>)
+pertaining to a particular _culture_ (<<term-culture>>)
+
+
+[[term-culture]]
+=== culture
+
+pattern of beliefs and expectations shared by the organization's members
+
+[.source]
+<<ISO14105,clause 2.1>>
+
+TODO: Culture should refer to something larger than an "organization".
+
+
+
+[[term-language-id]]
+=== language identifier
+[alt]#language symbol#
+
+symbol that uniquely identifies a particular language
+
+[.source]
+<<ISO639-3,clause 3.3>>
+
+
+[[term-script]]
+=== script
+
+set of graphic characters used for the written form of one or more languages
+
+[.source]
+<<ISO15924,clause 3.7>>
+
+
+[[term-script-code]]
+=== script code
+
+combination of characters used to represent the name of a _script_
+(<<term-script>>)
+
+[.source]
+<<ISO15924,clause 3.8>>
+
+
+[[term-uri]]
+=== URI
+
+compact sequence of characters that identifies an abstract or physical resource
+
+[.source]
+<<ISO12234-3,clause 3.4>>
+
+
+=== style
+
+TODO.
+
+=== honorific
+
+TODO.
+

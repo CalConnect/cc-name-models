@@ -1,0 +1,79 @@
+@startuml
+
+/' TODO: Split up this file '/
+
+skinparam Dpi 150
+skinparam Monochrome true
+skinparam LineType ortho
+hide circle
+/' skinparam CircledCharacterRadius 0 '/
+/' skinparam CircledCharacterFontSize 0 '/
+skinparam Default {
+  TextAlignment center
+  FontName Helvetica
+}
+skinparam Class {
+  AttributeIconSize 0
+  BackgroundColor White
+  FontStyle bold
+  StereotypeFontSize 10
+}
+skinparam Rectangle {
+  BackgroundColor White
+  FontStyle bold
+  FontSize 11
+  StereotypeFontSize 10
+}
+skinparam Object {
+  BackgroundColor White
+  FontStyle bold
+  FontSize 11
+  StereotypeFontSize 10
+}
+
+skinparam Entity {
+  StereotypeFontSize 10
+}
+
+interface TemplateFragment {
+  +toString(): String
+}
+
+TemplateFragment -- NameTemplate
+
+class NameTemplate {
+  +fragments: TemplateFragment[1..*]
+}
+
+class DisplayCriterion {
+  +predicate: Predicate
+}
+note left of DisplayCriterion
+  predicate - needs more thoughts
+  E.g., screen estate, formality
+end note
+
+class NameDisplayProfile {
+  +displayTemplate: NameTemplate
+  +displayCriteria: DisplayCriterion[1..*]
+}
+note bottom: displayCriteria - conjunction or dysjunction?
+
+DisplayCriterion -- NameDisplayProfile
+NameTemplate -- NameDisplayProfile
+
+class DisplayProfilePreference {
+  +culturalProfiles: Uri[0..*]
+}
+
+class CulturalProfile {
+  +profileId: Uri
+  +displayProfiles: NameDisplayProfile[1..*]
+}
+
+DisplayProfilePreference -- PersonalName
+DisplayProfilePreference -- CulturalProfile
+NameDisplayProfile -- CulturalProfile
+
+@enduml
+
