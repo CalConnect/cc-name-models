@@ -2,11 +2,13 @@
 
 === General
 
-A personal name is...
+A personal name is represented by the following model.
 
 image::personal-name.png[]
 
 === Data types
+
+These are the basic data types used in this document.
 
 image::data-types.png[]
 

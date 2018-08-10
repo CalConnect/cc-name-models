@@ -44,3 +44,8 @@ given name, patronymic and one or two bynames.
 Different cultures have different conventions for personal names. This is a
 list of articles about particular cultures' naming conventions.
 
+=== Abbreviation
+
+[example]
+"`Pablo Diego José Francisco de Paula Juan Nepomuceno María de los Remedios Cipriano de la Santísima Trinidad Ruiz y Picasso`" becomes "`Pablo Ruiz y Picasso`".
+

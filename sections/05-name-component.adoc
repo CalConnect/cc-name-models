@@ -15,11 +15,11 @@ Founding father of the Republic of China: "`Sun Yat-sen`"
 * Birth name: "`Man`" (文)
 * "`pet-name`": "`Tai Tseung`" (帝象)
 * "`genealogical name`": "`De Ming`" (德明)
-* Courtesy name: Jai Ji (載之)
-* Baptised name: Yat Sun (日新)
+* Courtesy name: "`Jai Ji`" (載之)
+* Baptised name: "`Yat Sun`" (日新)
 * "`art-name`": "`Yat Sen`" (逸仙)
 * Popular name: "`孫中山`" (Sun Zhongshan)
-* Japanese name: 中山樵 (Nakayama Sho)
+* Japanese name: "`中山樵`" (Nakayama Sho)
 
 "`Pablo Diego José Francisco de Paula Juan Nepomuceno María de los Remedios Cipriano de la Santísima Trinidad Ruiz y Picasso`"
 
@@ -44,7 +44,10 @@ Bill Gates
 * Q: How do we show "`Bill Gates`"?
 * Popular name: Bill Gates?
 
+
 === Anonymous
+
+Sometimes people don't want to be known.
 
 === Pseudonym
 
@@ -67,7 +70,7 @@ Latinisations, although there are many other methods of choosing a pseudonym.
 
 TODO: change wording
 
-A surname, family name, or last name is the portion (in some cultures) of a personal name that indicates a person's family (or tribe or community, depending on the culture).[1] Depending on the culture, all members of a family unit may have identical surnames or there may be variations based on the cultural rules.
+A surname, family name, or last name is the portion (in some cultures) of a personal name that indicates a person's family (or tribe or community, depending on the culture). Depending on the culture, all members of a family unit may have identical surnames or there may be variations based on the cultural rules.
 
 ==== Compound surname
 
@@ -105,11 +108,15 @@ TODO: wording
 
 Some people have no surname.
 
-However, in some areas of the world, many people are known by a single name, and so are said to be mononymous. Still other cultures lack the concept of specific, fixed names designating people, either individually or collectively. Certain isolated tribes, such as the Machiguenga of the Amazon, do not use personal names.[i]
+However, in some areas of the world, many people are known by a single
+name, and so are said to be mononymous. Still other cultures lack the
+concept of specific, fixed names designating people, either
+individually or collectively. Certain isolated tribes, such as the
+Machiguenga of the Amazon, do not use personal names.
 
 NOTE: Mononymic name is considered as a given name without a surname.
 
-=== Given Name
+=== Given name
 
 TODO: change wording
 
@@ -123,7 +130,7 @@ given to Desideria Clary not at birth but when she was created Crown
 Princess of Sweden in 1810.
 
 A given name (also known as a first name, forename or Christian name) is a part
-of a person's personal name.[1] It identifies a specific person, and
+of a person's personal name. It identifies a specific person, and
 differentiates that person from the other members of a group (typically a
 family or clan) who have a common surname. The term given name refers to the
 fact that the name usually is bestowed upon a person, normally to a child by
@@ -132,14 +139,14 @@ name which historically was given at baptism, is now also typically given by
 the parents at birth.
 
 In informal situations, given names are often used in a familiar and friendly
-manner.[1] In more formal situations, a person's surname is more commonly
+manner. In more formal situations, a person's surname is more commonly
 used a distinction needs to be made between people with the same
 surname. The idioms "on a first-name basis" and "being on first-name terms"
-refer to the familiarity inherent in addressing someone by their given name.[1]
+refer to the familiarity inherent in addressing someone by their given name.
 
 By contrast, a surname (also known as a family name, last name, or gentile
 name), which is normally inherited, is typically shared with other members of
-one's immediate family.[2] Regnal names and religious or monastic names are
+one's immediate family. Regnal names and religious or monastic names are
 special given names bestowed upon someone receiving a crown or entering a
 religious order. Such a person then typically becomes known chiefly by that
 name.
@@ -152,7 +159,9 @@ Mary Barbara Hamilton Cartland.
 
 ==== Arabic name
 
-Arabic names were historically based on a long naming system; most Arabs did not have given/middle/family names, but a full chain of names. This system was mainly in use throughout the Arab world.
+Arabic names were historically based on a long naming system; most
+Arabs did not have given/middle/family names, but a full chain of
+names. This system was mainly in use throughout the Arab world.
 
 * Ism, given name, first name or personal name
 * Laqab, surname, nickname, title, honorific
@@ -170,8 +179,10 @@ Arabic names were historically based on a long naming system; most Arabs did not
 ==== Generational name
 
 [example]
-* Jose Maria Rodrigues Jr.
-* King George VI
+Jose Maria Rodrigues Jr.
+
+[example]
+King George VI
 
 ==== Posthumous name
 
@@ -196,7 +207,7 @@ Categories of honorifics
 "`Mr.`", "`Ms.`"
 
 A style of office or honorific is an official or legally recognized
-title.[1][2] A style, by tradition or law, precedes a reference to a person who
+title. A style, by tradition or law, precedes a reference to a person who
 holds a post or political office, and is sometimes used to refer to the office
 itself. An honorific can also be awarded to an individual in a personal
 capacity. Such styles are particularly associated with monarchies, where they
@@ -221,7 +232,6 @@ languages have anti-honorific (despective or humilific) first person forms
 whose effect is to enhance the relative honor accorded to the person addressed.
 
 Different types of honorific:
-TODO
 
 * Name: Elizabeth Angela Marguerite Bowes-Lyon
 * An address: Her Majesty Queen Elizabeth The Queen Mother
@@ -278,18 +288,31 @@ Duchess
 
 TODO: wording
 
-A style of office or honorific is an official or legally recognized title.[1][2] A style, by tradition or law, precedes a reference to a person who holds a post or political office, and is sometimes used to refer to the office itself. An honorific can also be awarded to an individual in a personal capacity. Such styles are particularly associated with monarchies, where they may be used by a wife of an office holder or of a prince of the blood, for the duration of their marriage. They are also almost universally used for presidents in republics and in many countries for members of legislative bodies, higher-ranking judges and senior constitutional office holders. Leading religious figures also have styles.
+A style of office or honorific is an official or legally recognized
+title. A style, by tradition or law, precedes a reference to a person
+who holds a post or political office, and is sometimes used to refer to
+the office itself. An honorific can also be awarded to an individual in
+a personal capacity. Such styles are particularly associated with
+monarchies, where they may be used by a wife of an office holder or of
+a prince of the blood, for the duration of their marriage. They are
+also almost universally used for presidents in republics and in many
+countries for members of legislative bodies, higher-ranking judges and
+senior constitutional office holders. Leading religious figures also
+have styles.
 
 Concerns:
 
 * a person who's a judge in both US and in UK: need both encoded, since their displays would be different
 
 [example]
+====
 * His/Her Honour Judge X (abbreviation HHJ X, oral address Your Honour) – Circuit judges in England and Wales
 * The Honourable Mr./Ms. Justice X (abbreviation X J, referential His Lordship/Her Ladyship; oral address My Lord/Lady or Your Lordship/Your Ladyship) – Judges of the High Court of Justice of England and Wales
 * The Right Honourable Lord/Lady Justice X (abbreviated to X LJ) – Judge of the Court of Appeal of England and Wales
-* (The) Lord/Lady/The Baroness[3] X (abbreviated to Lord/Baroness X, referred to as His Lordship/Her Ladyship, addressed orally as My Lord/My Lady) – Judges in the High Court of Justiciary and the Court of Session in Scotland, and the Supreme Court of the United Kingdom
+* (The) Lord/Lady/The Baroness X (abbreviated to Lord/Baroness X, referred to as His Lordship/Her Ladyship, addressed orally as My Lord/My Lady) – Judges in the High Court of Justiciary and the Court of Session in Scotland, and the Supreme Court of the United Kingdom
 * The Honorable (abbreviation The Hon. (Full Name), oral address Your Honor) – Judges and Justices in the United States
+====
+
 
 ==== Rank
 
@@ -300,31 +323,46 @@ Esquire as a social rank in UK (lawyer in US)
 
 ==== Qualification
 
-"`Dr.`", "`J.D.`", "`M.D.`", "`Ph.D.`", "Ir."
+* "`Dr.`"
+* "`J.D.`"
+* "`M.D.`"
+* "`Ph.D.`"
+* "`Ir.`"
 
 
 ==== Occupation
 
-"Doctor", "Esquire", "Captain", "Coach", "Officer", "Reverend" for all clergy or "Father" (for a Catholic, Eastern Orthodox, Oriental Orthodox, or Anglican Christian priest), "Rabbi" for Jewish clergy, or Professor
+* "`Doctor`"
+* "`Esquire`"
+* "`Captain`"
+* "`Coach`"
+* "`Officer`"
+* "`Reverend`"
+* "`Father`"
+* "`Rabbi`"
+* "`Professor`"
+
 
 ==== Role
 
 [example]
-* Ex-President
+Ex-President
 
 ==== Honors
 
-"`OBE`", "`JP`", "`CBE`"
-
+* OBE
+* JP
+* CBE
+* ...
 
 === Localization
 
 [quote,Japanese saying]
 You don't know my name until you know me.
 
-* "`大和`"
-* => Daiwa or Yamato
-* "`東海林`" (Example from W3C)
-* => Tōkairin or Shōji
+[example]
+大和 can be read as Daiwa or Yamato
 
+[example]
+東海林 can be read as Tōkairin or Shōji (example from W3C)
 

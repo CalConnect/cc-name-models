@@ -6,7 +6,7 @@
 Personal names are among the most commonly exchanged information on the
 Internet.
 
-TODO
-
 This International Standard facilitates the interchange and interaction
 of names between humans and applications without loss of fidelity.
+
+// TODO

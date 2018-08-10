@@ -15,3 +15,4 @@ Concern:
 * abbreviation
 * priority
 
+Given a fixed-width, how best to render an abbreviated name (with honorifics) that is appropriate.
