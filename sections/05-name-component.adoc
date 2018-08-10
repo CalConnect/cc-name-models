@@ -49,6 +49,10 @@ Bill Gates
 
 Sometimes people don't want to be known.
 
+=== Unknown
+
+Sometimes people are simply not known. (TODO: treat it as Anonymous?)
+
 === Pseudonym
 
 * Stage name
