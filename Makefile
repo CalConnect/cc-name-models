@@ -13,7 +13,7 @@ XMI          := $(patsubst %.uml,%.xmi,$(MAIN_UML_SRC))
 PNG          := $(patsubst %.uml,%.png,$(MAIN_UML_SRC))
 SVG          := $(patsubst %.uml,%.svg,$(MAIN_UML_SRC))
 
-ALL_UML_SRC := *.uml
+ALL_UML_SRC := models/*.uml
 SRC_xmi     := $(ALL_UML_SRC)
 SRC_png     := $(ALL_UML_SRC)
 SRC_svg     := $(ALL_UML_SRC)
@@ -99,7 +99,8 @@ endef
 
 $(foreach FORMAT,$(FORMATS),$(eval $(WATCH_TASKS)))
 
-serve: $(NODE_BIN_DIR)/live-server revealjs-css reveal.js images
+# serve: $(NODE_BIN_DIR)/live-server revealjs-css reveal.js images
+serve: $(NODE_BIN_DIR)/live-server
 	export PORT=$${PORT:-8123} ; \
 	port=$${PORT} ; \
 	for html in $(HTML); do \
@@ -107,5 +108,5 @@ serve: $(NODE_BIN_DIR)/live-server revealjs-css reveal.js images
 		port=$$(( port++ )) ;\
 	done
 
-watch-serve: $(NODE_BIN_DIR)/run-p
+watch-serve: $(NODE_BIN_DIR)/run-p $(NODE_BIN_DIR)/onchange $(NODE_BIN_DIR)/live-server
 	$< watch serve
