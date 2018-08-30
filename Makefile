@@ -3,7 +3,9 @@ DOC      := $(patsubst %.adoc,%.doc,$(MAIN_SRC))
 XML      := $(patsubst %.adoc,%.xml,$(MAIN_SRC))
 HTML     := $(patsubst %.adoc,%.html,$(MAIN_SRC))
 
-ALL_ADOC_SRC := *.adoc **/*.adoc
+# For 'watch' tasks
+# ALL_ADOC_SRC := *.adoc **/*.adoc
+ALL_ADOC_SRC := iso-*.adoc sections/*.adoc
 SRC_doc      := $(ALL_ADOC_SRC)
 SRC_xml      := $(ALL_ADOC_SRC)
 SRC_html     := $(ALL_ADOC_SRC)
@@ -13,28 +15,29 @@ XMI          := $(patsubst %.uml,%.xmi,$(MAIN_UML_SRC))
 PNG          := $(patsubst %.uml,%.png,$(MAIN_UML_SRC))
 SVG          := $(patsubst %.uml,%.svg,$(MAIN_UML_SRC))
 
-ALL_UML_SRC := models/*.uml
+# For 'watch' tasks
+# The files can't be symlinks, or else no change could be detected.
+ALL_UML_SRC := $(MAIN_UML_SRC) ../common/uml/style.uml.inc
 SRC_xmi     := $(ALL_UML_SRC)
 SRC_png     := $(ALL_UML_SRC)
 SRC_svg     := $(ALL_UML_SRC)
 
 ALL_SRC := $(ALL_ADOC_SRC) $(ALL_UML_SRC)
 
-FORMATS := html doc xml xmi png #svg
+FORMATS := png html doc xml #svg xmi
 
-_OUT_FILES := $(foreach FORMAT,$(FORMATS),$(shell echo $(FORMAT) | tr '[:lower:]' '[:upper:]'))
-OUT_FILES  := $(foreach F,$(_OUT_FILES),$($F))
-
-OUT_PNG_FILES  := $(PNG)
+FORMAT_UPCASED := $(foreach FORMAT,$(FORMATS),$(shell echo $(FORMAT) | tr '[:lower:]' '[:upper:]'))
+OUT_FILES  := $(foreach F,$(FORMAT_UPCASED),$($F))
 
 SHELL := /bin/bash
 
-all: $(OUT_PNG_FILES) $(OUT_FILES)
+# all: $(FORMATS)
+all: png doc xml $(OUT_FILES-HTML)
 
-%.png: %.uml
-	plantuml $^
+%.png: %.uml models/style.uml.inc
+	plantuml $<
 
-%.xmi: %.uml
+%.xmi: %.uml models/style.uml.inc
 	plantuml -xmi:star $^
 
 %.xml %.html %.doc:	%.adoc | bundle
@@ -67,6 +70,9 @@ clean:
 bundle:	Gemfile Gemfile.lock
 	bundle
 
+models/style.uml.inc:
+	ln -s ../../common/uml/style.uml.inc models/
+
 Gemfile Gemfile.lock package.json:
 	ln -s ../common/$@ .
 
@@ -91,8 +97,8 @@ watch: $(NODE_BIN_DIR)/onchange
 
 define WATCH_TASKS
 watch-$(FORMAT): $(NODE_BIN_DIR)/onchange
-	make $(FORMAT)
-	$$< $$(SRC_$(FORMAT)) -- make $(FORMAT)
+	make clean-$(FORMAT) $(FORMAT)
+	$$< $$(SRC_$(FORMAT)) -- make clean-$(FORMAT) $(FORMAT)
 
 .PHONY: watch-$(FORMAT)
 endef
