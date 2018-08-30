@@ -105,7 +105,7 @@ used in a _name display template_ (<<term-name-display-template>>)
 [[term-name-component]]
 === name component
 
-component that form part of a _personal name_ (<<term-personal-name>>)
+component that forms part of a _personal name_ (<<term-personal-name>>)
 
 
 [[term-name-display-template]]
