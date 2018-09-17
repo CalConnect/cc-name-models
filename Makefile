@@ -110,7 +110,7 @@ serve: $(NODE_BIN_DIR)/live-server
 	export PORT=$${PORT:-8123} ; \
 	port=$${PORT} ; \
 	for html in $(HTML); do \
-		$< --entry-file=$$html --port=$${port} --ignore="*.html,*.xml,Makefile,Gemfile.*,package.*.json" --wait=1000 & \
+		$< --entry-file=$$html --port=$${port} --ignore="**/*.html,**/*.xml,Makefile,Gemfile.*,**/*.json" --wait=1000 & \
 		port=$$(( port++ )) ;\
 	done
 
