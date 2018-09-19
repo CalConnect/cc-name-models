@@ -1,0 +1,144 @@
+= Call 20180829
+
+Notes as taken by JL.
+
+Attendees:
+
+LR:: Laurent Romary
+RT:: Ronald Tse
+JL:: Jeffrey Lau
+
+keep LR in the loop for metanorma.
+
+
+== Direction of project
+
+more pros, 
+
+more diagram explanation.
+
+LR: what to do with Annexes?
+
+would like more modelling features.
+
+Annex B:
+
+a more formal / sturctured way for culture profiles.
+
+wikipedia is good src for citation. is reliable.
+
+transform into more formal. explanatory.
+
+== Review ToC
+
+
+Scope: shold be more concise.
+
+1/ 2 paras for scoping the doc.
+
+business case: mention in introduction
+: one page.  why it's important.
+
+NWIP form 4.  business case would go there.
+scope has to be really one/two paras maximum.
+should not explain focus / methodology. only explain features .
+
+e.g. serialization....
+ 
+model set in parallel with TEI serialization so as to make sure nothing is missed.
+
+scope covering the features expressing the doc.
+
+LR then proof read sentence to sentence to make sure.
+
+Normative references:
+put standards from Terms and Definitions in normative references
+
+
+WG4 secretary Annetta. knows ISO directives by heart. good to check with her on these.
+
+Make sure to update Terms and Definitions and remove those that aren't used.
+
+Diagrams: need text explaining.
+
+need explicit explanations for diagrams. one or two sentences.
+
+RT: ask experts for comments?
+LR: depends on maturity. don't want too early draft to review.
+TBdiscussed: the possible agenda.
+
+NWIP january. 
+
+
+== Document walkthrough
+
+iterate and improve before then.Maybe circulate to some ppl for comments around Autumn.
+
+Need to remove overhead for various sections.
+
+E.g. surname:  various types.... there should be a definition.
+List types as data categories.
+
+need to avoid psuedo serialization
+
+
+Data categories.
+
+camel case code: xxxxx
+conceptual domain: { a, b }
+
+definition: english explanation
+examples:
+sources: azdapted fromX and Y.
+
+full excplaining like above: in annex.
+
+e.g. compound name, need to refer to it in a ... way.
+
+
+double checking TandD and text.
+
+need to point to the same data category.
+
+sec 5. should reflect all rectangles in diagram.
+
+name of name profile: need to differentiate modelling and displaying. because profile can mean displaying.
+
+RT:  need help on cultures
+
+i.e. Annex B.  can be reflected in sections 4567.
+Right now, not everything is modelled.
+
+LR:  take the material we have, e.g. Chinese.
+
+FOr each thing put as sentences, a prototypical structure.  make sure e.g. art name is presented in things described in sec 5.
+
+LR: locale.. sensitive issue.  e.g. HK: english first name.  China: so big, must be very diverse.  e.g. arabic script users.
+
+RT:  culture is > language.
+
+but the challenge is: where to find all these experts?
+
+LR: several groups.  e.g. WG4.
+
+SC4, word segmentation of CJK.
+
+== Next steps
+
+five months until Jan.
+
+Can get together every month.  End of month.  Skype on document.
+
+October: WG4 meeting in Berlin. can contact Annetta for ... of NWIP.
+
+Nov Dec: can circulate to friends.
+
+Jan: real ballot.
+
+== more steps
+
+define constraints...
+
+=== operational matters
+
+registry for data cats.  Annex: initial set.
