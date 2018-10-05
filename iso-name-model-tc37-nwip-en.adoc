@@ -28,6 +28,8 @@
 :stem:
 :xrefstyle: short
 :imagesdir: models
+:local-cache-only:
+:data-uri-image:
 
 include::sections/0a-foreword.adoc[]
 include::sections/0b-intro.adoc[]
