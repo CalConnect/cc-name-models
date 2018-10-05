@@ -17,7 +17,7 @@ SVG          := $(patsubst %.uml,%.svg,$(MAIN_UML_SRC))
 
 # For 'watch' tasks
 # The files can't be symlinks, or else no change could be detected.
-ALL_UML_SRC := $(MAIN_UML_SRC) ../common/uml/style.uml.inc
+ALL_UML_SRC := $(MAIN_UML_SRC)
 SRC_xmi     := $(ALL_UML_SRC)
 SRC_png     := $(ALL_UML_SRC)
 SRC_svg     := $(ALL_UML_SRC)
@@ -65,16 +65,10 @@ $(foreach FORMAT,$(FORMATS),$(eval $(FORMAT_TASKS)))
 open: open-html
 
 clean:
-	rm -f $(OUT_FILES) Gemfile Gemfile.lock package.json
+	rm -f $(OUT_FILES)
 
-bundle:	Gemfile Gemfile.lock
+bundle:
 	bundle
-
-models/style.uml.inc:
-	ln -s ../../common/uml/style.uml.inc models/
-
-Gemfile Gemfile.lock package.json:
-	ln -s ../common/$@ .
 
 .PHONY: bundle all open clean
 
