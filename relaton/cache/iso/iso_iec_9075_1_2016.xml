@@ -1,0 +1,61 @@
+<bibitem type="international-standard" id="ISO/IEC9075-1-2016">
+  <fetched>2019-01-30</fetched>
+  <title format="text/plain" language="en" script="Latn">Information technology -- Database languages -- SQL -- Part 1: Framework (SQL/Framework)</title>
+  <uri type="src">https://www.iso.org/standard/63555.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:63555:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/06/35/63555.detail.rss</uri>
+  <docidentifier type="ISO">ISO/IEC 9075-1:2016</docidentifier>
+  <date type="published">
+    <on>2016</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Electrotechnical Commission</name>
+      <abbreviation>IEC</abbreviation>
+      <uri>www.iec.ch</uri>
+    </organization>
+  </contributor>
+  <edition>5</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="plain" language="en" script="Latn">ISO/IEC 9075-1:2016 describes the conceptual framework used in other parts of ISO/IEC 9075 to specify the grammar of SQL and the result of processing statements in that language by an SQL-implementation.ISO/IEC 9075-1:2016 also deﬁnes terms and notation used in the other parts of ISO/IEC 9075.</abstract>
+  <status>
+    <stage>90</stage>
+    <substage>92</substage>
+  </status>
+  <copyright>
+    <from>2016</from>
+    <owner>
+      <organization>
+        <name>ISO/IEC</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletes">
+    <bibitem>
+      <formattedref>ISO/IEC 9075-1:2011</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="obsoletes">
+    <bibitem>
+      <formattedref>ISO/IEC NP 9075-1</formattedref>
+    </bibitem>
+  </relation>
+  <editorialgroup>
+    <technical_committee number="1" type="TC">ISO/IEC JTC 1/SC 32Data management and interchange</technical_committee>
+  </editorialgroup>
+  <ics>
+    <code>35.060</code>
+    <text>Languages used in information technology</text>
+  </ics>
+</bibitem>

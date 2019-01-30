@@ -3,7 +3,7 @@
 :tc-document-number: 9999
 :edition: 1
 :ref-docnumber: ISO XXXXX:2018(E)
-:copyright-year: 2018
+:copyright-year: 2019
 :language: en
 :title-intro-en: Computer applications in terminology
 :title-main-en: Naming -- Structure of personal names
@@ -27,9 +27,13 @@
 :toc:
 :stem:
 :xrefstyle: short
-:imagesdir: models
+:imagesdir: images
+:docfile: iso-name-model-tc37-nwip-en.adoc
+:mn-document-class: iso
+:mn-output-extensions: xml,html,doc,html_alt
 :local-cache-only:
 :data-uri-image:
+
 
 include::sections/0a-foreword.adoc[]
 include::sections/0b-intro.adoc[]

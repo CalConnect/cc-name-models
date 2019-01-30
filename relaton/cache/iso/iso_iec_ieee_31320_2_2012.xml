@@ -1,0 +1,58 @@
+<bibitem type="international-standard" id="ISO/IEC/IEEE31320-2-2012">
+  <fetched>2019-01-30</fetched>
+  <title format="text/plain" language="en" script="Latn">Information technology -- Modeling Languages -- Part 2: Syntax and Semantics for IDEF1X97 (IDEFobject)</title>
+  <uri type="src">https://www.iso.org/standard/60614.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:60614:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/06/06/60614.detail.rss</uri>
+  <docidentifier type="ISO">ISO/IEC/IEEE 31320-2:2012</docidentifier>
+  <date type="published">
+    <on>2012</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Electrotechnical Commission</name>
+      <abbreviation>IEC</abbreviation>
+      <uri>www.iec.ch</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name/>
+      <abbreviation>IEEE</abbreviation>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="plain" language="en" script="Latn">ISO/IEC/IEEE 31320-2:2012 describes the semantics and syntax of IDEF1X, a language used to represent a conceptual schema. Two styles of IDEF1X model are described. </abstract>
+  <status>
+    <stage>90</stage>
+    <substage>93</substage>
+  </status>
+  <copyright>
+    <from>2012</from>
+    <owner>
+      <organization>
+        <name>ISO/IEC/IEEE</name>
+      </organization>
+    </owner>
+  </copyright>
+  <editorialgroup>
+    <technical_committee number="1" type="TC">ISO/IEC JTC 1/SC 7Software and systems engineering</technical_committee>
+  </editorialgroup>
+  <ics>
+    <code>35.080</code>
+    <text>Software</text>
+  </ics>
+</bibitem>

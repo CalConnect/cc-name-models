@@ -1,0 +1,43 @@
+<bibitem type="international-standard" id="ISO12234-3-2016">
+  <fetched>2019-01-30</fetched>
+  <title format="text/plain" language="en" script="Latn">Electronic still picture imaging -- Removable memory -- Part 3: XMP for digital photography</title>
+  <uri type="src">https://www.iso.org/standard/57732.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:57732:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/05/77/57732.detail.rss</uri>
+  <docidentifier type="ISO">ISO 12234-3:2016</docidentifier>
+  <date type="published">
+    <on>2016</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="plain" language="en" script="Latn">ISO 12234-3:2016 defines an XMP namespace for the metadata used in digital photography applications that is formatted for exchange using the syntax of the XML and provides standard definitions of this metadata.</abstract>
+  <status>
+    <stage>60</stage>
+    <substage>60</substage>
+  </status>
+  <copyright>
+    <from>2016</from>
+    <owner>
+      <organization>
+        <name>ISO</name>
+      </organization>
+    </owner>
+  </copyright>
+  <editorialgroup>
+    <technical_committee number="42" type="TC">ISO/TC 42Photography</technical_committee>
+  </editorialgroup>
+  <ics>
+    <code>37.040.99</code>
+    <text>Other standards related to photography</text>
+  </ics>
+</bibitem>

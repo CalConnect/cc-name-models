@@ -1,0 +1,59 @@
+<bibitem type="international-standard" id="ISO/TS14198-2012">
+  <fetched>2019-01-30</fetched>
+  <title format="text/plain" language="en" script="Latn">Road vehicles -- Ergonomic aspects of transport information and control systems -- Calibration tasks for methods which assess driver demand due to the use of in-vehicle systems</title>
+  <uri type="src">https://www.iso.org/standard/54496.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:54496:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/05/44/54496.detail.rss</uri>
+  <docidentifier type="ISO">ISO/TS 14198:2012</docidentifier>
+  <date type="published">
+    <on>2012</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name/>
+      <abbreviation>TS</abbreviation>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="plain" language="en" script="Latn">ISO/TS 14198:2012 provides procedures that can be used as a secondary task in a dual task setting to determine whether that evaluation setting is standardized and valid for purposes of assessing driver attentional demand due to the use of an in-vehicle system. It does not define calibration procedures for other evaluation activities that a laboratory might undertake.ISO/TS 14198:2012 provides advice on the selection of an appropriate candidate calibration task, given an attentional demand evaluation procedure that uses primary driving-like task settings and procedures which are defined outside of ISO/TS 14198:2012.</abstract>
+  <status>
+    <stage>90</stage>
+    <substage>92</substage>
+  </status>
+  <copyright>
+    <from>2012</from>
+    <owner>
+      <organization>
+        <name>ISO/TS</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletes">
+    <bibitem>
+      <formattedref>ISO/PRF TS 14198</formattedref>
+    </bibitem>
+  </relation>
+  <editorialgroup>
+    <technical_committee number="22" type="TC">ISO/TC 22/SC 39Ergonomics</technical_committee>
+  </editorialgroup>
+  <ics>
+    <code>13.180</code>
+    <text>Ergonomics</text>
+  </ics>
+  <ics>
+    <code>43.040.15</code>
+    <text>Car informatics. On board computer systems</text>
+  </ics>
+</bibitem>

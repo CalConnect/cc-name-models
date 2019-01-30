@@ -1,47 +1,51 @@
-MAIN_SRC := $(wildcard iso-*.adoc)
-DOC      := $(patsubst %.adoc,%.doc,$(MAIN_SRC))
-XML      := $(patsubst %.adoc,%.xml,$(MAIN_SRC))
-HTML     := $(patsubst %.adoc,%.html,$(MAIN_SRC))
-
-# For 'watch' tasks
-# ALL_ADOC_SRC := *.adoc **/*.adoc
-ALL_ADOC_SRC := iso-*.adoc sections/*.adoc
-SRC_doc      := $(ALL_ADOC_SRC)
-SRC_xml      := $(ALL_ADOC_SRC)
-SRC_html     := $(ALL_ADOC_SRC)
-
-MAIN_UML_SRC := $(wildcard models/*.uml)
-XMI          := $(patsubst %.uml,%.xmi,$(MAIN_UML_SRC))
-PNG          := $(patsubst %.uml,%.png,$(MAIN_UML_SRC))
-SVG          := $(patsubst %.uml,%.svg,$(MAIN_UML_SRC))
-
-# For 'watch' tasks
-# The files can't be symlinks, or else no change could be detected.
-ALL_UML_SRC := $(MAIN_UML_SRC)
-SRC_xmi     := $(ALL_UML_SRC)
-SRC_png     := $(ALL_UML_SRC)
-SRC_svg     := $(ALL_UML_SRC)
-
-ALL_SRC := $(ALL_ADOC_SRC) $(ALL_UML_SRC)
-
-FORMATS := png html doc xml #svg xmi
-
-FORMAT_UPCASED := $(foreach FORMAT,$(FORMATS),$(shell echo $(FORMAT) | tr '[:lower:]' '[:upper:]'))
-OUT_FILES  := $(foreach F,$(FORMAT_UPCASED),$($F))
-
+#!make
 SHELL := /bin/bash
 
-# all: $(FORMATS)
-all: png doc xml $(OUT_FILES-HTML)
+include metanorma.env
+export $(shell sed 's/=.*//' metanorma.env)
 
-%.png: %.uml models/style.uml.inc
-	plantuml $<
+FORMATS := $(METANORMA_FORMATS)
+comma := ,
+empty :=
+space := $(empty) $(empty)
+FORMATS_LIST := $(subst $(space),$(comma),$(FORMATS))
 
-%.xmi: %.uml models/style.uml.inc
-	plantuml -xmi:star $^
+SRC  := $(filter-out README.adoc, $(wildcard *.adoc))
+XML  := $(patsubst %.adoc,%.xml,$(SRC))
+HTML := $(patsubst %.adoc,%.html,$(SRC))
+DOC  := $(patsubst %.adoc,%.doc,$(SRC))
+PDF  := $(patsubst %.adoc,%.pdf,$(SRC))
+WSD  := $(wildcard models/*.wsd)
+XMI	 := $(patsubst models/%,xmi/%,$(patsubst %.wsd,%.xmi,$(WSD)))
+PNG	 := $(patsubst models/%,images/%,$(patsubst %.wsd,%.png,$(WSD)))
 
-%.xml %.html %.doc:	%.adoc | bundle
-	bundle exec metanorma -t iso -x xml,html,doc $^
+COMPILE_CMD_LOCAL := bundle exec metanorma $$FILENAME
+COMPILE_CMD_DOCKER := docker run -v "$$(pwd)":/metanorma/ ribose/metanorma "metanorma $$FILENAME"
+
+ifdef METANORMA_DOCKER
+  COMPILE_CMD := echo "Compiling via docker..."; $(COMPILE_CMD_DOCKER)
+else
+  COMPILE_CMD := echo "Compiling locally..."; $(COMPILE_CMD_LOCAL)
+endif
+
+_OUT_FILES := $(foreach FORMAT,$(FORMATS),$(shell echo $(FORMAT) | tr '[:lower:]' '[:upper:]'))
+OUT_FILES  := $(foreach F,$(_OUT_FILES),$($F))
+
+all: images $(OUT_FILES)
+
+%.xml %.html %.doc %.pdf:	%.adoc | bundle
+	FILENAME=$^; \
+	${COMPILE_CMD}
+
+images: $(PNG)
+
+images/%.png: models/%.wsd
+	plantuml -tpng -o ../images/ $<
+
+xmi: $(XMI)
+
+xmi/%.xmi: models/%.wsd
+	plantuml -xmi:star -o ../xmi/ $<
 
 define FORMAT_TASKS
 OUT_FILES-$(FORMAT) := $($(shell echo $(FORMAT) | tr '[:lower:]' '[:upper:]'))
@@ -60,15 +64,13 @@ endef
 
 $(foreach FORMAT,$(FORMATS),$(eval $(FORMAT_TASKS)))
 
-# open: $(foreach FORMAT,$(FORMATS),open-$(FORMAT))
-
 open: open-html
 
 clean:
 	rm -f $(OUT_FILES)
 
 bundle:
-	bundle
+	if [ "x" == "${METANORMA_DOCKER}x" ]; then bundle; fi
 
 .PHONY: bundle all open clean
 
@@ -91,22 +93,40 @@ watch: $(NODE_BIN_DIR)/onchange
 
 define WATCH_TASKS
 watch-$(FORMAT): $(NODE_BIN_DIR)/onchange
-	make clean-$(FORMAT) $(FORMAT)
-	$$< $$(SRC_$(FORMAT)) -- make clean-$(FORMAT) $(FORMAT)
+	make $(FORMAT)
+	$$< $$(SRC_$(FORMAT)) -- make $(FORMAT)
 
 .PHONY: watch-$(FORMAT)
 endef
 
 $(foreach FORMAT,$(FORMATS),$(eval $(WATCH_TASKS)))
 
-# serve: $(NODE_BIN_DIR)/live-server revealjs-css reveal.js images
-serve: $(NODE_BIN_DIR)/live-server
+serve: $(NODE_BIN_DIR)/live-server revealjs-css reveal.js images
 	export PORT=$${PORT:-8123} ; \
 	port=$${PORT} ; \
 	for html in $(HTML); do \
-		$< --entry-file=$$html --port=$${port} --ignore="**/*.html,**/*.xml,Makefile,Gemfile.*,**/*.json" --wait=1000 & \
+		$< --entry-file=$$html --port=$${port} --ignore="*.html,*.xml,Makefile,Gemfile.*,package.*.json" --wait=1000 & \
 		port=$$(( port++ )) ;\
 	done
 
-watch-serve: $(NODE_BIN_DIR)/run-p $(NODE_BIN_DIR)/onchange $(NODE_BIN_DIR)/live-server
+watch-serve: $(NODE_BIN_DIR)/run-p
 	$< watch serve
+
+#
+# Deploy jobs
+#
+
+publish:
+	mkdir -p published  && \
+	cp -a $(basename $(SRC)).* published/ && \
+	cp $(firstword $(HTML)) published/index.html; \
+	if [ -d "images" ]; then cp -a images published; fi
+
+deploy_key:
+	openssl aes-256-cbc -K $(encrypted_$(ENCRYPTION_LABEL)_key) \
+		-iv $(encrypted_$(ENCRYPTION_LABEL)_iv) -in $@.enc -out $@ -d && \
+	chmod 600 $@
+
+deploy: deploy_key
+	export COMMIT_AUTHOR_EMAIL=$(COMMIT_AUTHOR_EMAIL); \
+	./deploy.sh
