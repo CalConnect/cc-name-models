@@ -1,4 +1,4 @@
-= CalConnect Standard: Information and documentation -- Bibliographic reference model and serialization
+= CalConnect Standard: Computer applications in terminology -- Naming -- Structure of personal names
 
 This work item belongs to TC VCARD.
 
@@ -6,7 +6,7 @@ image:https://travis-ci.com/CalConnect/csd-name-models.svg?branch=master["Build 
 
 This document is available in its rendered forms here:
 
-* https://calconnect.github.io/csd-name-models/[CC/ISO: Information and documentation -- Bibliographic reference model and serialization (HTML)]
+* https://calconnect.github.io/csd-name-models/[CC/ISO: Computer applications in terminology -- Naming -- Structure of personal names (HTML)]
 
 == Fetching the document
 
