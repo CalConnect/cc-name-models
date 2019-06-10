@@ -1,5 +1,5 @@
 <bibitem type="international-standard" id="ISO/IEC9075-1-2016">
-  <fetched>2019-01-30</fetched>
+  <fetched>2019-06-11</fetched>
   <title format="text/plain" language="en" script="Latn">Information technology -- Database languages -- SQL -- Part 1: Framework (SQL/Framework)</title>
   <uri type="src">https://www.iso.org/standard/63555.html</uri>
   <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:63555:en</uri>
@@ -44,6 +44,11 @@
   <relation type="obsoletes">
     <bibitem>
       <formattedref>ISO/IEC 9075-1:2011</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="obsoletes">
+    <bibitem>
+      <formattedref>ISO/IEC 9075-1:2011/Cor 1:2013</formattedref>
     </bibitem>
   </relation>
   <relation type="obsoletes">

@@ -1,0 +1,43 @@
+= Computer applications in terminology -- Naming -- Structure of personal names
+:docnumber: 37100
+:copyright-year: 2019
+:language: en
+:doctype: standard
+:edition: 1
+:status: working-draft
+:revdate: 2019-06-05
+:published-date: 2019-06-05
+:script: Latn
+:technical-committee: VCARD
+:fullname: Ronald Tse
+:surname: Tse
+:givenname: Ronald
+:fullname_2: Jeffrey Lau
+:surname_2: Lau
+:givenname_2: Jeffrey
+:draft:
+:toc:
+:stem:
+:xrefstyle: short
+:imagesdir: images
+:docfile: cc-37100.adoc
+:mn-document-class: csd
+:mn-output-extensions: xml,html,pdf,rxl
+:local-cache-only:
+:data-uri-image:
+
+include::sections-cc/00-foreword.adoc[]
+include::sections/0b-intro.adoc[]
+
+include::sections/01-scope.adoc[]
+include::sections/02-norm-refs.adoc[]
+include::sections/03-termsdef.adoc[]
+include::sections/04-personal-name.adoc[]
+include::sections/05-name-component.adoc[]
+include::sections/06-name-pattern.adoc[]
+include::sections/07-name-profile.adoc[]
+
+include::sections/a1-annex.adoc[]
+include::sections/a2-cultures.adoc[]
+include::sections/zz-references.adoc[]
+

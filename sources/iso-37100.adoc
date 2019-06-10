@@ -1,14 +1,16 @@
-= CalConnect ISO TC 37 Name Model
-:docnumber: XXXXX
+= Computer applications in terminology -- Naming -- Structure of personal names
+:docnumber: 37100
 :tc-document-number: 9999
 :edition: 1
-:ref-docnumber: ISO XXXXX:2018(E)
+:ref-docnumber: ISO 37100:2018(E)
 :copyright-year: 2019
 :language: en
 :title-intro-en: Computer applications in terminology
-:title-main-en: Naming -- Structure of personal names
+:title-main-en: Naming
+:title-part-en: Structure of personal names
 :title-intro-fr: Applications informatiques en terminologie
-:title-main-fr: Nommage -- Structure des noms de personnes
+:title-main-fr: Nommage
+:title-part-fr: Structure des noms de personnes
 :doctype: international-standard
 :docstage: 10
 :docsubstage: 92
@@ -28,14 +30,14 @@
 :stem:
 :xrefstyle: short
 :imagesdir: images
-:docfile: iso-name-model-tc37-nwip-en.adoc
+:docfile: iso-37100.adoc
 :mn-document-class: iso
-:mn-output-extensions: xml,html,doc,html_alt
+:mn-output-extensions: xml,html,doc,html_alt,rxl
 :local-cache-only:
 :data-uri-image:
 
 
-include::sections/0a-foreword.adoc[]
+include::sections-iso/00-foreword.adoc[]
 include::sections/0b-intro.adoc[]
 
 include::sections/01-scope.adoc[]

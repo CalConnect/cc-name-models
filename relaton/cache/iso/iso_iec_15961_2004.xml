@@ -1,5 +1,5 @@
 <bibitem type="international-standard" id="ISO/IEC15961-2004">
-  <fetched>2019-01-30</fetched>
+  <fetched>2019-06-11</fetched>
   <title format="text/plain" language="en" script="Latn">Information technology -- Radio frequency identification (RFID) for item management -- Data protocol: application interface</title>
   <uri type="src">https://www.iso.org/standard/30528.html</uri>
   <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:30528:en</uri>
@@ -53,7 +53,7 @@
   </relation>
   <relation type="updates">
     <bibitem>
-      <formattedref>ISO/IEC 15961-3</formattedref>
+      <formattedref>ISO/IEC 15961-3:2019</formattedref>
     </bibitem>
   </relation>
   <relation type="updates">

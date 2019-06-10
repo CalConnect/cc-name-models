@@ -1,0 +1,306 @@
+
+[appendix,obligation=informative]
+== Examples in JSON
+
+[source,json]
+----
+{
+  "givenName": [
+    {
+    }
+  ],
+  "generationalName": [
+    {
+      "abbreviated": "III"
+      // 三世
+      // The Third
+    }
+  ],
+  "honorific": [
+    {
+      "type": "academic",
+      "content": "Dr.",
+    }
+  ],
+  "template": {
+    "lang": "en",
+    "body": [
+      {
+        "key": "surname"
+      },
+      {
+        "key": "givenName",
+        "options": [
+          "abbreviationPriority", 3
+        ]
+      },
+      {
+        "key": "surname"
+      },
+      "generational"
+    ]
+  }
+}
+----
+
+=== Example "Booth, III, Harold (NIST)"
+
+"Dr. Harold Booth, III"
+
+Name.
+
+[source,json]
+----
+{
+  "givenName": [ "Harold" ],
+  "surname": "Booth",
+  "generationalName": "III",
+  "honorific": [ "Dr." ]
+}
+----
+
+[source,json]
+----
+{
+  "affliation": {
+    "role": {
+      "name": "Computer Scientist"
+    },
+
+    "organization": [
+      {
+        "name": "Security Testing, Validation and Measurement",
+        "abbrevName": "STVM"
+      },
+      {
+        "name": "Computer Security Division",
+        "abbrevName": "CSD"
+      },
+      {
+        "name": "Information Technology Laboratory",
+        "abbrevName": "ITL"
+      },
+      {
+        "name": "National Institute of Standards and Technology",
+        "abbrevName": "NIST",
+      }
+    ]
+  }
+}
+----
+
+[source,json]
+----
+/* Personal profile */
+
+{
+  "@context": "https://commonprofile.org/jsonld/profile/personalProfile",
+  "@id": "https://nist.gov/directory/harold.booth",
+  "name": "https://nist.gov/directory/harold.booth/name",
+  "affiliation": "https://nist.gov/directory/harold.booth/affiliation"
+}
+
+/* Personal name */
+
+{
+  "@context": "https://commonprofile.org/jsonld/profile/personalName",
+  "@id": "https://nist.gov/directory/harold.booth/name",
+  "givenName": [ "Harold" ],
+  "surname": "Booth",
+  "generationalName": "III",
+  "honorific": [ "Dr." ]
+}
+
+/* Affiliations */
+
+{
+  "@context": "https://commonprofile.org/jsonld/profile/affiliation",
+  "@id": "https://nist.gov/directory/harold.booth/affiliation",
+  "roles": [
+    "https://nist.gov/directory/harold.booth/affiliation/stvm"
+  ]
+}
+
+/* Affiliation role */
+
+{
+  "@context": "https://commonprofile.org/jsonld/profile/affiliationRole",
+  "@id": "https://nist.gov/directory/harold.booth/affiliation/stvm",
+  "title": "Computer Scientist",
+  "organization": "https://nist.gov/groups/stvm"
+}
+
+/* Organizations */
+
+{
+  "@context": "https://commonprofile.org/jsonld/profile/organization",
+  "@id": "https://nist.gov/groups/stvm",
+  "name": "Security Testing, Validation and Measurement",
+  "abbrevName": "STVM",
+  "parentOrganization": "https://nist.gov/divisions/csd"
+}
+
+{
+  "@context": "https://commonprofile.org/jsonld/profile/organization",
+  "@id": "https://nist.gov/divisions/csd",
+  "name": "Computer Security Division",
+  "abbrevName": "CSD",
+  "parentOrganization": "https://nist.gov/labs/itl"
+}
+
+{
+  "@context": "https://commonprofile.org/jsonld/profile/organization",
+  "@id": "https://nist.gov/labs/itl",
+  "name": "Information Technology Laboratories",
+  "abbrevName": "ITL",
+  "parentOrganization": "https://nist.gov/organization"
+}
+
+{
+  "@context": "https://commonprofile.org/jsonld/profile/organization",
+  "@id": "https://nist.gov/organization",
+  "name": "National Institute of Standards and Technology",
+  "abbrevName": "NIST",
+  "parentOrganization": "https://www.commerce.gov"
+}
+
+/* Affiliation display profiles */
+
+{
+  "@context": "https://commonprofile.org/jsonld/profile/affiliationDisplay",
+  "@id": "https://nist.gov/jsonld/showNistAffiliation",
+  "affiliation": "https://nist.gov/directory/harold.booth/affiliation",
+  "organizations": [
+    "https://nist.gov/organization"
+  ]
+}
+
+{
+  "@context": "https://commonprofile.org/jsonld/profile/affiliationDisplay",
+  "@id": "https://nist.gov/jsonld/showNistDivisionAffiliation",
+  "affiliation": "https://nist.gov/directory/harold.booth/affiliation",
+  "organizations": [
+    "https://nist.gov/divisions/csd",
+    "https://nist.gov/labs/itl"
+  ]
+}
+----
+
+
+[source,json]
+----
+{
+  "@context": {
+    "personProfile": "https://x/xxx.profile"
+    "name": "https://x/xxx.personalName",
+    "affiliation": "https://x/xxx.affiliation",
+    "organization": "https://x/xxx.organization"
+  },
+  "@id": "https://nist.gov/persons/booth",
+  "@type": "personProfile",
+
+  "name": "https://myname"{
+    "givenName": [ "Harold" ],
+    "surname": "Booth",
+    "generationalName": "III",
+    "honorific": [ "Dr." ]
+  },
+
+  "affliation": {
+    "role": {
+      "name": "Computer Scientist"
+    }
+  },
+
+  "organization": {
+    "hierarchy": [
+    {
+      "@id": "nist/csd/stvm",
+      "name": "Security Testing, Validation and Measurement",
+      "abbrevName": "STVM",
+      "parentOrganization": ""
+    },
+    {
+      "@id": "nist/csd",
+      "@type": "organization"
+      "name": "Computer Security Division",
+      "abbrevName": "CSD"
+    },
+    {
+      "name": "Information Technology Laboratory",
+      "abbrevName": "ITL"
+    },
+    {
+      "name": "National Institute of Standards and Technology",
+      "abbrevName": "NIST",
+    }
+  ]}
+
+}
+----
+
+Organization.
+
+[source,json]
+----
+{
+  "fullname": "National Institute of Standards and Technology",
+  "abbrevName": "NIST",
+}
+----
+
+Brandão, Luís T. A. N. (NIST)
+Chang, Shu-jen H. (NIST)
+Dray, Jr., James F. (NIST)
+
+Interagency International Cybersecurity Standardization Working Group (IICS WG)
+Joint Task Force Transformation Initiative
+University of Maryland, Robert H. Smith School of Business
+
+
+Barker, Elaine B. (NIST)
+Barker, William C. (Dakota Consulting)
+Bartock, Michael (NIST)
+Brewer, Tanya L.
+Carroll, Daniel (Dell/EMC)
+Corcoran, David (Identity Alliance)
+Dalton, Michael (RSA)
+Dang, Quynh H. (NIST)
+Dukes, Anthony (VMware)
+Federal Public Key Infrastructure Steering Committee
+Ferraiolo, David F. (NIST)
+Greene, Kristen K. (NIST)
+Haag, Jr., William (NIST)
+Hu, Vincent C. (NIST)
+Interagency International Cybersecurity Standardization Working Group (IICS WG)
+Joint Task Force Transformation Initiative
+Kelsey, John M. (NIST)
+Kuhn, Richard (NIST)
+Lyons-Burke, Kathy (NIST)
+Malnar, Jason (HyTrust)
+Massis, Paul (Gemalto)
+Masten, Robert (Dell/EMC)
+Mouha, Nicky (NIST)
+NIST Big Data Public Working Group (NBD-PWG)
+Perlner, Ray A. (NIST)
+Phoenix, Carlos (VMware)
+Pillitteri, Victoria Y.
+Prafullchandra, Hemma (HyTrust)
+Prisaca, Dragos (G2)
+Quinn, Stephen D. (NIST)
+Scarfone, Karen A. (NIST)
+Scarfone, Karen A. (Scarfone Cybersecurity)
+Scinta, Gina (Gemalto)
+Shea, Tim (RSA)
+Singh, Harmeet (IBM)
+Smart Grid Interoperability Panel, Smart Grid Cybersecurity Committee
+Souppaya, Murugiah P. (NIST)
+Swarts, Brenda (VMware)
+Tamborello, II, Franklin P. (Cogscent)
+Turner, Paul (Venafi)
+U.S. Department of Commerce
+U.S. Department of Homeland Security
+University of Maryland, Robert H. Smith School of Business
+Vassilev, Apostol (NIST)
+Waltermire, David A. (NIST)
+Yeluri, Raghuram (Intel)

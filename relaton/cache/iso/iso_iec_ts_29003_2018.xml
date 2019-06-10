@@ -1,5 +1,5 @@
 <bibitem type="international-standard" id="ISO/IECTS29003-2018">
-  <fetched>2019-01-30</fetched>
+  <fetched>2019-06-11</fetched>
   <title format="text/plain" language="en" script="Latn">Information technology -- Security techniques -- Identity proofing</title>
   <uri type="src">https://www.iso.org/standard/62290.html</uri>
   <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:62290:en</uri>
@@ -42,7 +42,7 @@
     </owner>
   </copyright>
   <editorialgroup>
-    <technical_committee number="1" type="TC">ISO/IEC JTC 1/SC 27IT Security techniques</technical_committee>
+    <technical_committee number="1" type="TC">ISO/IEC JTC 1/SC 27Information security, cybersecurity and privacy protection</technical_committee>
   </editorialgroup>
   <ics>
     <code>35.030</code>

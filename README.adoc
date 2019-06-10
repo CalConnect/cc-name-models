@@ -1,35 +1,23 @@
-:repo-name: iso-timescale-registry
+= CalConnect Standard: Information and documentation -- Bibliographic reference model and serialization
 
-= CalConnect/ISO Standard: Date and time -- Time scales
+This work item belongs to TC VCARD.
 
-This work item belongs to TC DATETIME.
-
-image:https://gitlab.com/calconnect/tc-datetime/iso-timescale-registry/badges/master/build.svg["Build Status", link="https://gitlab.com/calconnect/tc-datetime/iso-timescale-registry/pipelines"]
-
-////
-image:https://travis-ci.com/calconnect/iso-timescale-registry.svg?branch=master["Build Status", link="https://travis-ci.com/calconnect/iso-timescale-registry"]
+image:https://travis-ci.com/CalConnect/csd-name-models.svg?branch=master["Build Status", link="https://travis-ci.com/calconnect/csd-name-models"]
 
 This document is available in its rendered forms here:
 
-* https://calconnect.github.io/iso-timescale-registry/[CalConnect Calendar operator practices -- Guidelines to protect against calendar abuse (HTML)]
-* https://calconnect.github.io/iso-timescale-registry/iso-timescale-registry.pdf[PDF]
-* https://calconnect.github.io/iso-timescale-registry/iso-timescale-registry.xml[Metanorma XML]
-* https://calconnect.github.io/iso-timescale-registry/iso-timescale-registry.rxl[Relaton XML (Bibliographic item)]
-////
-
-
-Because of all this, there is no need to build the document on your own, but if you wish to do so, this is how it can be done:
+* https://calconnect.github.io/csd-name-models/[CC/ISO: Information and documentation -- Bibliographic reference model and serialization (HTML)]
 
 == Fetching the document
 
 [source,sh]
 ----
-git clone https://gitlab.com/calconnect/iso-timescale-registry/
+git clone https://github.com/CalConnect/csd-name-models/
 ----
 
 == Installing Build Tools
 
-See https://www.metanorma.com/overview/getting-started/
+See https://www.metanorma.com/author/topics/install/
 
 
 == Running via Docker or locally
@@ -69,5 +57,6 @@ The following outputs will be built:
 [source,sh]
 ----
 make html
-open *.html
+open cc-*.html
 ----
+
