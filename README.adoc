@@ -17,7 +17,16 @@ git clone https://github.com/CalConnect/csd-name-models/
 
 == Installing Build Tools
 
+=== Metanorma
+
 See https://www.metanorma.com/author/topics/install/
+
+=== Other dependencies
+
+yq::
+  https://github.com/mikefarah/yq
+
+NOTE: This can be confused with https://github.com/kislyuk/yq.
 
 
 == Running via Docker or locally
@@ -41,7 +50,7 @@ execute.
 
 [source,sh]
 ----
-make clean all
+make
 ----
 
 The following outputs will be built:
@@ -54,9 +63,33 @@ The following outputs will be built:
 
 == Iterating the document
 
+=== Manual approach
+
 [source,sh]
 ----
-make html
-open cc-*.html
+# ... edit source files...
+make
 ----
 
+=== Automatically watch file (experimental)
+
+Spawn a file-watching HTTP server at port 8123:
+
+[source,sh]
+----
+make watch-serve
+----
+
+Spawn a file-watching HTTP server at a specific port:
+
+[source,sh]
+----
+make watch-serve PORT=8080
+----
+
+== Getting help
+
+[source,sh]
+----
+make help
+----

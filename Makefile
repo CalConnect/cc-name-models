@@ -1,51 +1,85 @@
-#!make
 SHELL := /bin/bash
+
 # Ensure the xml2rfc cache directory exists locally
 IGNORE := $(shell mkdir -p $(HOME)/.cache/xml2rfc)
 
-SRC := $(shell yq r metanorma.yml metanorma.source.files | cut -c 3-999)
-ifeq ($(SRC),ll)
-SRC := $(filter-out README.adoc, $(wildcard sources/*.adoc))
+# Check which yq it is.
+# Use duck-typing.
+IS_YQ_CORRECT := $(shell yq --help | grep 'yq r')
+ifeq ($(IS_YQ_CORRECT),)
+	$(error The 'yq' at your PATH is not the 'yq' we use.  Use this version instead: https://github.com/mikefarah/yq )
 endif
 
+SRC := $(shell yq r metanorma.yml metanorma.source.files | cut -c 3-999)
+ifeq ($(SRC),ll)
+	SRC := $(filter-out README.adoc, $(wildcard sources/*.adoc))
+endif
+
+# The list $(FORMAT_MARKER) found in source files will determine the output
+# formats used by this Makefile.
 FORMAT_MARKER := mn-output-
-FORMATS := $(shell grep "$(FORMAT_MARKER)" $(SRC) | cut -f 2 -d ' ' | tr ',' '\n' | sort | uniq | tr '\n' ' ')
+FORMATS       := $(shell grep "$(FORMAT_MARKER)" $(SRC) | cut -f 2 -d ' ' | tr ',' '\n' | sort | uniq | tr '\n' ' ')
 
-XML  := $(patsubst sources/%,documents/%,$(patsubst %.adoc,%.xml,$(SRC)))
+# List out all potential input-to-output formats here.
+XML     := $(patsubst sources/%,documents/%,$(patsubst %.adoc,%.xml,$(SRC)))
+XMLRFC3 := $(patsubst %.xml,%.v3.xml,$(XML))
+HTML    := $(patsubst %.xml,%.html,$(XML))
+DOC     := $(patsubst %.xml,%.doc,$(XML))
+PDF     := $(patsubst %.xml,%.pdf,$(XML))
+TXT     := $(patsubst %.xml,%.txt,$(XML))
+NITS    := $(patsubst %.adoc,%.nits,$(wildcard sources/draft-*.adoc))
+WSD     := $(wildcard sources/models/*.wsd)
+XMI     := $(patsubst sources/models/%,sources/xmi/%,$(patsubst %.wsd,%.xmi,$(WSD)))
+PNG     := $(patsubst sources/models/%,sources/images/%,$(patsubst %.wsd,%.png,$(WSD)))
 
-XMLRFC3  := $(patsubst %.xml,%.v3.xml,$(OUTPUT_XML))
-HTML := $(patsubst %.xml,%.html,$(OUTPUT_XML))
-DOC  := $(patsubst %.xml,%.doc,$(OUTPUT_XML))
-PDF  := $(patsubst %.xml,%.pdf,$(OUTPUT_XML))
-TXT  := $(patsubst %.xml,%.txt,$(OUTPUT_XML))
-NITS := $(patsubst %.adoc,%.nits,$(wildcard sources/draft-*.adoc))
-WSD  := $(wildcard sources/models/*.wsd)
-XMI	 := $(patsubst sources/models/%,sources/xmi/%,$(patsubst %.wsd,%.xmi,$(WSD)))
-PNG	 := $(patsubst sources/models/%,sources/images/%,$(patsubst %.wsd,%.png,$(WSD)))
+# Only use `npm -g` if npm global prefix is writable
+NPM_IS_GLOBAL := $(shell test -w $$(npm -g prefix) && echo 1)
+NPM_OPTS      := $(if $(NPM_IS_GLOBAL),-g)
+NPM           ?= npm
+NPM_COMMAND   := $(NPM) $(NPM_OPTS)
+NPM_BIN       := `$(NPM_COMMAND) bin`
+
+NODE_BINS          := onchange live-serve run-p
+NODE_BIN_DIR       := node_modules/.bin
+NODE_PACKAGE_PATHS := $(foreach PACKAGE_NAME,$(NODE_BINS),$(NODE_BIN_DIR)/$(PACKAGE_NAME))
+
+PLANTUML ?= plantuml
 
 COMPILE_CMD_LOCAL := bundle exec metanorma $$FILENAME
 COMPILE_CMD_DOCKER := docker run -v "$$(pwd)":/metanorma/ ribose/metanorma "metanorma $$FILENAME"
 
 ifdef METANORMA_DOCKER
-  COMPILE_CMD := echo "Compiling via docker..."; $(COMPILE_CMD_DOCKER)
+	COMPILE_CMD := echo "Compiling via docker..."; $(COMPILE_CMD_DOCKER)
 else
-  COMPILE_CMD := echo "Compiling locally..."; $(COMPILE_CMD_LOCAL)
+	COMPILE_CMD := echo "Compiling locally..."; $(COMPILE_CMD_LOCAL)
 endif
 
+# $(OUT_FILES) is only used for cleaning up.
 _OUT_FILES := $(foreach FORMAT,$(FORMATS),$(shell echo $(FORMAT) | tr '[:lower:]' '[:upper:]'))
 OUT_FILES  := $(foreach F,$(_OUT_FILES),$($F))
 
-all: documents.html
+.PHONY: all
+all: prep documents.html ## Compile everything
+
+.PHONY: help
+help: ## Print help for targets with comments
+	@cat $(MAKEFILE_LIST) | grep -E '^[.a-zA-Z_-]+:.*?## .*$$' | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
+
+.PHONY: prep
+prep: Gemfile Gemfile.lock node_modules package.json package-lock.json $(NPM_DECKTAPE_DEPS) ## Install build dependencies "if needed"
+	@for gem in \
+		metanorma \
+		relaton \
+		; do bundle exec "$$gem" --version 2>/dev/null 1>&2 || { echo "$${gem} not found. Running 'make bundle'." ; make bundle ; } ; done
 
 documents:
 	mkdir -p $@
 
 documents/%.xml: documents sources/images sources/%.xml
 	export GLOBIGNORE=sources/$*.adoc; \
-	mv sources/$(addsuffix .*,$*) documents; \
-	unset GLOBIGNORE
+	mv sources/$(addsuffix .*,$*) documents
 
-%.xml %.html:	%.adoc | bundle
+%.xml %.html: %.adoc
 	FILENAME=$^; \
 	${COMPILE_CMD}
 
@@ -78,20 +112,22 @@ nits: $(NITS)
 sources/images: $(PNG)
 
 sources/images/%.png: sources/models/%.wsd
-	plantuml -tpng -o ../images/ $<
+	$(PLANTUML) -tpng -o ../images/ $<
 
 sources/xmi: $(XMI)
 
 sources/xmi/%.xmi: sources/models/%.wsd
-	plantuml -xmi:star -o ../xmi/ $<
+	$(PLANTUML) -xmi:star -o ../xmi/ $<
 
 define FORMAT_TASKS
 OUT_FILES-$(FORMAT) := $($(shell echo $(FORMAT) | tr '[:lower:]' '[:upper:]'))
 
-open-$(FORMAT):
+.PHONY: open-$(FORMAT)
+open-$(FORMAT): ## Open(1) the compiled $(FORMAT) file(s)
 	open $$(OUT_FILES-$(FORMAT))
 
-clean-$(FORMAT):
+.PHONY: clean-$(FORMAT)
+clean-$(FORMAT): ## Remove the compiled $(FORMAT) file(s)
 	rm -f $$(OUT_FILES-$(FORMAT))
 
 $(FORMAT): clean-$(FORMAT) $$(OUT_FILES-$(FORMAT))
@@ -102,44 +138,43 @@ endef
 
 $(foreach FORMAT,$(FORMATS),$(eval $(FORMAT_TASKS)))
 
-open: open-html
+.PHONY: open
+open: open-html ## Open(1) the compiled file(s)
 
-clean:
+.PHONY: clean
+clean: ## Remove all generated files
 	rm -rf documents documents.html documents.rxl published *_images $(OUT_FILES)
 
-bundle:
-	if [ "x" == "${METANORMA_DOCKER}x" ]; then bundle; fi
+.PHONY: bundle
+bundle: Gemfile Gemfile.lock ## Run `bundle` to install bundled Ruby gem dependencies
+	[[ -n "${METANORMA_DOCKER}" ]] || bundle
 
-.PHONY: bundle all open clean
 
 #
 # Watch-related jobs
 #
 
-.PHONY: watch serve watch-serve
-
-NODE_BINS          := onchange live-serve run-p
-NODE_BIN_DIR       := node_modules/.bin
-NODE_PACKAGE_PATHS := $(foreach PACKAGE_NAME,$(NODE_BINS),$(NODE_BIN_DIR)/$(PACKAGE_NAME))
-
 $(NODE_PACKAGE_PATHS): package.json
-	npm i
+	[[ -x $@ ]] || $(NPM_COMMAND) install
+	# $(NPM_COMMAND) install
 
+.PHONY: watch
 watch: $(NODE_BIN_DIR)/onchange
 	make all
 	$< $(ALL_SRC) -- make all
 
 define WATCH_TASKS
+.PHONY: watch-$(FORMAT)
 watch-$(FORMAT): $(NODE_BIN_DIR)/onchange
 	make $(FORMAT)
 	$$< $$(SRC_$(FORMAT)) -- make $(FORMAT)
 
-.PHONY: watch-$(FORMAT)
 endef
 
 $(foreach FORMAT,$(FORMATS),$(eval $(WATCH_TASKS)))
 
-serve: $(NODE_BIN_DIR)/live-server revealjs-css reveal.js sources/images
+.PHONY: serve
+serve: $(NODE_BIN_DIR)/live-server sources/images ## Run an HTTP server on PORT (default 8123)
 	export PORT=$${PORT:-8123} ; \
 	port=$${PORT} ; \
 	for html in $(HTML); do \
@@ -147,17 +182,19 @@ serve: $(NODE_BIN_DIR)/live-server revealjs-css reveal.js sources/images
 		port=$$(( port++ )) ;\
 	done
 
-watch-serve: $(NODE_BIN_DIR)/run-p
+.PHONY: watch-serve
+watch-serve: $(NODE_BIN_DIR)/run-p ## Run an HTTP server on PORT (default 8123) that compiles afresh on file changes
 	$< watch serve
 
 #
 # Deploy jobs
 #
 
+.PHONY: publish
 publish: published
 
 published: documents.html
 	mkdir -p $@ && \
 	cp -a documents $@/ && \
 	cp $< $@/index.html; \
-	if [ -d "sources/images" ]; then cp -a sources/images $@/; fi
+	[[ -d "sources/images" ]] && cp -a sources/images $@/
