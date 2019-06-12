@@ -83,7 +83,7 @@ documents.rxl: $(XML)
 
 documents/%.xml: documents sources/images sources/%.xml
 	export GLOBIGNORE=sources/$*.adoc; \
-	mv sources/$(addsuffix .*,$*) documents
+	cp sources/$(addsuffix .*,$*) documents
 
 documents:
 	mkdir -p $@
