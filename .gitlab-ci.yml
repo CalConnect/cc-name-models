@@ -5,10 +5,14 @@ image:
 cache:
   paths:
 
+before_script:
+  - apt-get install software-properties-common
+  - apt-get update
+  - apt-get install yq
+
 build:
   stage: build
   script:
-    - bundle
     - make clean all
     - mkdir -p public && mv *.doc *.xml *.html public/
   artifacts:
