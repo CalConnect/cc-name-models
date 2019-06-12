@@ -6,7 +6,9 @@ cache:
   paths:
 
 before_script:
+  - apt-get update
   - apt-get install software-properties-common
+  - add-apt-repository ppa:rmescandon/yq
   - apt-get update
   - apt-get install yq
 
