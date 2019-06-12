@@ -72,16 +72,8 @@ prep: Gemfile Gemfile.lock node_modules package.json package-lock.json $(NPM_DEC
 		relaton \
 		; do bundle exec "$$gem" --version 2>/dev/null 1>&2 || { echo "$${gem} not found. Running 'make bundle'." ; make bundle ; } ; done
 
-documents:
-	mkdir -p $@
-
-documents/%.xml: documents sources/images sources/%.xml
-	export GLOBIGNORE=sources/$*.adoc; \
-	mv sources/$(addsuffix .*,$*) documents
-
-%.xml %.html: %.adoc
-	FILENAME=$^; \
-	${COMPILE_CMD}
+documents.html: documents.rxl
+	bundle exec relaton xml2html documents.rxl
 
 documents.rxl: $(XML)
 	bundle exec relaton concatenate \
@@ -89,8 +81,16 @@ documents.rxl: $(XML)
 		-g "$(shell yq r metanorma.yml relaton.collection.organization)" \
 		documents $@
 
-documents.html: documents.rxl
-	bundle exec relaton xml2html documents.rxl
+documents/%.xml: documents sources/images sources/%.xml
+	export GLOBIGNORE=sources/$*.adoc; \
+	mv sources/$(addsuffix .*,$*) documents
+
+documents:
+	mkdir -p $@
+
+%.xml %.html: %.adoc
+	FILENAME=$^; \
+	${COMPILE_CMD}
 
 # %.v3.xml %.xml %.html %.doc %.pdf %.txt: sources/images %.adoc | bundle
 # 	FILENAME=$^; \
