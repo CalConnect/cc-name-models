@@ -66,7 +66,7 @@ help: ## Print help for targets with comments
 	@cat $(MAKEFILE_LIST) | grep -E '^[.a-zA-Z_-]+:.*?## .*$$' | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
 
 .PHONY: prep
-prep: Gemfile Gemfile.lock node_modules package.json package-lock.json $(NPM_DECKTAPE_DEPS) ## Install build dependencies "if needed"
+prep: Gemfile Gemfile.lock package.json package-lock.json $(NPM_DECKTAPE_DEPS) ## Install build dependencies "if needed"
 	@for gem in \
 		metanorma \
 		relaton \
