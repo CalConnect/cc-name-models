@@ -15,8 +15,7 @@ before_script:
 build:
   stage: build
   script:
-    - make clean all
-    - mkdir -p public && mv *.doc *.xml *.html public/
+    - make clean all publish PUBLISHING_DIRECTORY=public
   artifacts:
     paths:
       - public

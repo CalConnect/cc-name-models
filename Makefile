@@ -190,11 +190,11 @@ watch-serve: $(NODE_BIN_DIR)/run-p ## Run an HTTP server on PORT (default 8123) 
 # Deploy jobs
 #
 
-.PHONY: publish
-publish: published
+PUBLISHING_DIRECTORY ?= published
 
-published: documents.html
-	mkdir -p $@ && \
-	cp -a documents $@/ && \
-	cp $< $@/index.html; \
-	[[ -d "sources/images" ]] && cp -a sources/images $@/
+.PHONY: publish
+publish: documents.html
+	mkdir -p $(PUBLISHING_DIRECTORY) && \
+	cp -a documents $(PUBLISHING_DIRECTORY)/ && \
+	cp $< $(PUBLISHING_DIRECTORY)/index.html; \
+	[[ -d "sources/images" ]] && cp -a sources/images $(PUBLISHING_DIRECTORY)/
