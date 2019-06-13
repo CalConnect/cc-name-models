@@ -143,7 +143,7 @@ open: open-html ## Open(1) the compiled file(s)
 
 .PHONY: clean
 clean: ## Remove all generated files
-	rm -rf documents documents.html documents.rxl $(PUBLISHING_DIRECTORY) *_images $(OUT_FILES) sources/*.{doc,html,rxl,xml}
+	rm -rf .tmp.xml documents documents.html documents.rxl $(PUBLISHING_DIRECTORY) *_images $(OUT_FILES) sources/*.{doc,html,rxl,xml}
 
 .PHONY: bundle
 bundle: Gemfile Gemfile.lock ## Run `bundle` to install bundled Ruby gem dependencies
