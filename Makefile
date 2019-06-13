@@ -10,6 +10,8 @@ ifeq ($(IS_YQ_CORRECT),)
 	$(error The 'yq' at your PATH is not the 'yq' we use.  Use this version instead: https://github.com/mikefarah/yq )
 endif
 
+PUBLISHING_DIRECTORY ?= published
+
 SRC := $(shell yq r metanorma.yml metanorma.source.files | cut -c 3-999)
 ifeq ($(SRC),ll)
 	SRC := $(filter-out README.adoc, $(wildcard sources/*.adoc))
@@ -81,14 +83,10 @@ documents.rxl: $(XML)
 		-g "$(shell yq r metanorma.yml relaton.collection.organization)" \
 		documents $@
 
-documents/%.xml: documents sources/images sources/%.xml
-	export GLOBIGNORE=sources/$*.adoc; \
-	cp sources/$(addsuffix .*,$*) documents
-
 documents:
 	mkdir -p $@
 
-%.xml %.html: %.adoc
+%.xml %.html %.doc %.txt %.v3.xml %.pdf: %.adoc
 	FILENAME=$^; \
 	${COMPILE_CMD}
 
@@ -103,9 +101,9 @@ documents:
 # 	cp $@ $${VERSIONED_NAME}.nits && \
 # 	cat $${VERSIONED_NAME}.nits
 
-%.nits:
+# %.nits:
 
-%.adoc:
+# %.adoc:
 
 nits: $(NITS)
 
@@ -122,6 +120,10 @@ sources/xmi/%.xmi: sources/models/%.wsd
 define FORMAT_TASKS
 OUT_FILES-$(FORMAT) := $($(shell echo $(FORMAT) | tr '[:lower:]' '[:upper:]'))
 
+documents/%.$(FORMAT): documents sources/images sources/%.$(FORMAT)
+	export GLOBIGNORE=sources/$$*.adoc; \
+		cp sources/$$(addsuffix .*,$$*) documents
+
 .PHONY: open-$(FORMAT)
 open-$(FORMAT): ## Open(1) the compiled $(FORMAT) file(s)
 	open $$(OUT_FILES-$(FORMAT))
@@ -132,8 +134,6 @@ clean-$(FORMAT): ## Remove the compiled $(FORMAT) file(s)
 
 $(FORMAT): clean-$(FORMAT) $$(OUT_FILES-$(FORMAT))
 
-.PHONY: clean-$(FORMAT)
-
 endef
 
 $(foreach FORMAT,$(FORMATS),$(eval $(FORMAT_TASKS)))
@@ -143,7 +143,7 @@ open: open-html ## Open(1) the compiled file(s)
 
 .PHONY: clean
 clean: ## Remove all generated files
-	rm -rf documents documents.html documents.rxl published *_images $(OUT_FILES)
+	rm -rf documents documents.html documents.rxl $(PUBLISHING_DIRECTORY) *_images $(OUT_FILES)
 
 .PHONY: bundle
 bundle: Gemfile Gemfile.lock ## Run `bundle` to install bundled Ruby gem dependencies
@@ -190,11 +190,18 @@ watch-serve: $(NODE_BIN_DIR)/run-p ## Run an HTTP server on PORT (default 8123) 
 # Deploy jobs
 #
 
-PUBLISHING_DIRECTORY ?= published
+$(PUBLISHING_DIRECTORY):
+	mkdir -p $(PUBLISHING_DIRECTORY)
+
+$(PUBLISHING_DIRECTORY)/documents: $(OUT_FILES)
+	cp -a documents $(PUBLISHING_DIRECTORY)/
+	# cp -a $< $(PUBLISHING_DIRECTORY)/
+
+$(PUBLISHING_DIRECTORY)/index.html: documents.html
+	cp $< $@
+
+$(PUBLISHING_DIRECTORY)/sources/images: sources/images
+	cp -a $< $(PUBLISHING_DIRECTORY)/
 
 .PHONY: publish
-publish: documents.html
-	mkdir -p $(PUBLISHING_DIRECTORY) && \
-	cp -a documents $(PUBLISHING_DIRECTORY)/ && \
-	cp $< $(PUBLISHING_DIRECTORY)/index.html; \
-	[[ -d "sources/images" ]] && cp -a sources/images $(PUBLISHING_DIRECTORY)/
+publish: $(PUBLISHING_DIRECTORY) $(PUBLISHING_DIRECTORY)/documents $(PUBLISHING_DIRECTORY)/index.html $(PUBLISHING_DIRECTORY)/sources/images
