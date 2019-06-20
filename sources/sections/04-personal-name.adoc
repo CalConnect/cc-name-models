@@ -6,9 +6,124 @@ A personal name is represented by the following model.
 
 image::personal-name.png[]
 
+Person/name:: The name of a person.
+
+Person/name/forename:: A forename of the person.
+
+Person/name/initials:: The initials of the person (initials of forenames and middle names).
+
+Person/name/surname:: A surname of the person.
+
+Person/name/addition:: A suffixed addition to the name of the person.
+
+Person/name/prefix:: A prefixed addition to the name of the person.
+
+Person/name/completeName:: The preformatted version of the name of the person, not broken down into its component parts.
+
+Person/name/note:: An additional note about the name of the person
+
+Person/name/variant:: A variant name
+Person/name/variant/type:: The type of variant of the name
+
+Person/uri:: A URI with information about the person.
+
+Person/affiliation:: The affiliation of the person within an organization.
+
+Person/affiliation/name:: The name of the affiliation of the person.
+
+Person/affiliation/description:: A more detailed description of the affiliation of the person.
+
+Person/affiliation/organization:: The organization with which the person is affiliated.
+
+Person/identifier/value:: An identifier of the person according to an international identifier scheme.
+
+Person/identifier/type:: The international identifier scheme for the identifier of the person.
+
+Person/contact:: Contact information for the person, including address, phone number, and email.
+
+Organization/name:: The name of the organization.
+Organization/name/primary:: The name of the organization (if it has variants).
+Organization/name/variant/type:: The type of variant name of the organization.
+Organization/name/variant/primary:: The variant name of the organization.
+
+Organization/subdivision:: The subdivision of the organization directly involved with the production of the bibliographic item.
+Organization/subdivision/primary:: The name of the subdivision (if it has variants).
+Organization/subdivision/variant/type:: The type of variant name of the subdivision.
+Organization/subdivision/variant/primary:: The variant name of the subdivision.
+
+Organization/uri:: A URI with information about the organization.
+
+Organization/name/identifier/value:: An identifier of the organization according to an international identifier scheme.
+
+Organization/name/identifier/type:: The international identifier scheme for the identifier of the organization.
+
+Organization/name/contact:: Contact information for the organization, including address, phone number, and email.
+
+Organization/abbreviation:: Abbreviation under which the organization is known.
+
 === Data types
 
 These are the basic data types used in this document.
 
 image::data-types.png[]
+
+Uri:: Container for URIs, as defined by <<rfc3986>>.
+
+Iso639Code:: Code for language or language family, as specified in <<iso639>>.
+The specification is open as to whether the two-letter code or the three-letter
+code for languages is used.
+
+Iso15924Code:: Code for scripts (writing scripts), as specified in <<iso15924>>.
+
+TypedUri:: URI associated with a type. The types of URI are open-ended, but include
+the IANA link relations specified in <<rfc8288>>.
+
+FormattedString:: String which is formatted according to conventions specified 
+in a named MIME type (<<rfc2046>>).
+
+LocalizedString:: FormattedString which optionally specifies its language and/or script.
+
+=== Identifiers
+
+The namespace of an identifier is indicated through its type attribute.
+The type of the identifier does not have an associated controlled
+vocabulary, and one is unlikely to be derived. Identifier type should
+follow established practice in the domain; most well-known identifiers
+have a widely used short name or abbreviation.
+
+Identifiers can be expressed as HTTP URIs may be so expressed, without
+changing the identifier type. A DOI for example may be expressed as either
+the DOI proper, or as a doi.org URI.
+
+=== Modelling
+
+Names may be modelled either broken up into their constituent components
+(prefix, forename, initials, surname, addition), or as a complete name string.
+The latter is useful if
+language-specific conventions for ordering of name components are to be
+observed; e.g. "James CLARK, John COWAN, MURATA Makoto".
+
+The `initials` component is used if all forenames are replaced by initials.
+If only the middle name is replaced by an initial, it is still treated as a
+forename.
+
+=== Pseudonyms and Variant Names
+
+Variant names, and assumed names, can both be modelled
+as notes on names. However, for greater clarity, and for modelling
+of the internal structure of the variant or assumed name,
+a variant name can be modelled, with the same level of detail
+as default names. The type of variant, or relation between the name
+and variant, needs to be made explicit in that case.
+
+Variant names can be applied to personal names,
+organization names, and organization subdivision names.
+
+=== Anonymous and Varii
+
+Descriptors of individuals, such as "Anon" or
+"Various Authors", should be given as completeName
+elements. The model does not standardise such designations of
+authors. As with pseudonyms, the real name of the creator if known can be
+modelled as a note, or as a name variant.
 
