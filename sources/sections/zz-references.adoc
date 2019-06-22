@@ -27,7 +27,7 @@ _
 
 * [[[iso639,ISO 639]]], _Codes for the representation of names of languages_
 
-* [[[ISO639-3,ISO/IEC 639-3:2007]]], _Codes for the representation of names of languages -- Part 3: Alpha-3 code for comprehensive coverage of languages_
+* [[[ISO639-3,ISO 639-3]]], _Codes for the representation of names of languages -- Part 3: Alpha-3 code for comprehensive coverage of languages_
 
 * [[[ISO15961,ISO/IEC 15961:2004]]], _Information technology -- Radio frequency identification (RFID) for item management -- Data protocol: application interface_
 

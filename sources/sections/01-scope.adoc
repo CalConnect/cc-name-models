@@ -4,15 +4,16 @@
 
 //TODO
 
-This document specifies the "`personal name`" data model,
-suitable for the machine encoding of personal names, for
-digital storage and transmission of the following data elements:
+This document specifies a reference model for "`personal names`",
+suitable for machine encoding, for digital storage and transmission.
 
-* personal name components,
+The reference model is composed of the following data elements:
 
-* cultural name profiles for personal name patterns,
+* personal name components;
 
-* template for displaying personal names.
+* cultural name profiles for personal name patterns; and
+
+* template definitions for the display and input of personal names.
 
 
 This document does not handle the linkage of a personal name to an identity.
@@ -24,15 +25,6 @@ The personal name model is used to encode a person's personal names for:
 
 The cultural name profile model is used to guide rendering of a name model instance as a string
 as appropriate to the applied cultural name profile.
-
-The usage of this personal name model also applies to the following business cases:
-
-* bibliographic management
-* business cards (such as vCard)
-* personal identification documents
-* electronic messaging, e-commerce
-* travel industry
-* postal
 
 ////
 TODO:

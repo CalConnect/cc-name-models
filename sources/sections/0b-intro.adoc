@@ -4,9 +4,20 @@
 == Introduction
 
 Personal names are among the most commonly exchanged information on the
-Internet.
+Internet. The structure of personal names often
 
 This International Standard facilitates the interchange and interaction
 of names between humans and applications without loss of fidelity.
 
 // TODO
+
+The usage of this personal name model applies to the following business cases:
+
+* bibliographic management
+* business cards (such as vCard)
+* personal identification documents
+* electronic messaging, e-commerce
+* travel industry
+* postal
+
+

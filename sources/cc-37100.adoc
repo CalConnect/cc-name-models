@@ -30,12 +30,21 @@ include::sections-cc/00-foreword.adoc[]
 include::sections/0b-intro.adoc[]
 
 include::sections/01-scope.adoc[]
+
 include::sections/02-norm-refs.adoc[]
+
 include::sections/03-termsdef.adoc[]
-include::sections/04-personal-name.adoc[]
-include::sections/05-name-component.adoc[]
-include::sections/06-name-pattern.adoc[]
-include::sections/07-name-profile.adoc[]
+
+include::sections/04-data-types.adoc[]
+
+include::sections/05-personal-name.adoc[]
+
+include::sections/06-name-component.adoc[]
+
+include::sections/07-name-pattern.adoc[]
+
+include::sections/08-name-profile.adoc[]
+
 
 include::sections/a1-annex.adoc[]
 include::sections/a2-cultures.adoc[]
