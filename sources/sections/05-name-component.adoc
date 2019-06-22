@@ -49,9 +49,12 @@ Bill Gates
 
 Sometimes people don't want to be known.
 
+
 === Unknown
 
-Sometimes people are simply not known. (TODO: treat it as Anonymous?)
+Sometimes people are simply not known.
+
+// (TODO: treat it as Anonymous?)
 
 === Pseudonym
 
@@ -101,6 +104,7 @@ A patronymic surname is a surname originated from the given name of the father o
 [example]
 Mongolian: Otryadyn Gündegmaa, O. Gündegmaa, Otryadyn is the patronymic surname
 
+
 ==== Maiden name
 
 
@@ -115,10 +119,12 @@ Some people have no surname.
 However, in some areas of the world, many people are known by a single
 name, and so are said to be mononymous. Still other cultures lack the
 concept of specific, fixed names designating people, either
-individually or collectively. Certain isolated tribes, such as the
-Machiguenga of the Amazon, do not use personal names.
+individually or collectively.
 
 NOTE: Mononymic name is considered as a given name without a surname.
+
+NOTE: Certain isolated tribes, such as the Machiguenga of the Amazon, do not use personal names.
+
 
 === Given name
 

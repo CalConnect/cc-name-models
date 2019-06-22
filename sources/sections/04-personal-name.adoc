@@ -25,6 +25,7 @@ Person/name/note:: An additional note about the name of the person
 Person/name/variant:: A variant name
 Person/name/variant/type:: The type of variant of the name
 
+////
 Person/uri:: A URI with information about the person.
 
 Person/affiliation:: The affiliation of the person within an organization.
@@ -60,6 +61,7 @@ Organization/name/identifier/type:: The international identifier scheme for the 
 Organization/name/contact:: Contact information for the organization, including address, phone number, and email.
 
 Organization/abbreviation:: Abbreviation under which the organization is known.
+////
 
 === Data types
 
@@ -75,14 +77,16 @@ code for languages is used.
 
 Iso15924Code:: Code for scripts (writing scripts), as specified in <<iso15924>>.
 
+////
 TypedUri:: URI associated with a type. The types of URI are open-ended, but include
 the IANA link relations specified in <<rfc8288>>.
-
-FormattedString:: String which is formatted according to conventions specified 
+FormattedString:: String which is formatted according to conventions specified
 in a named MIME type (<<rfc2046>>).
+////
 
-LocalizedString:: FormattedString which optionally specifies its language and/or script.
+LocalizedString:: String which optionally specifies its language and/or script.
 
+////
 === Identifiers
 
 The namespace of an identifier is indicated through its type attribute.
@@ -94,20 +98,24 @@ have a widely used short name or abbreviation.
 Identifiers can be expressed as HTTP URIs may be so expressed, without
 changing the identifier type. A DOI for example may be expressed as either
 the DOI proper, or as a doi.org URI.
+////
 
 === Modelling
 
 Names may be modelled either broken up into their constituent components
 (prefix, forename, initials, surname, addition), or as a complete name string.
+
+////
 The latter is useful if
 language-specific conventions for ordering of name components are to be
 observed; e.g. "James CLARK, John COWAN, MURATA Makoto".
+////
 
 The `initials` component is used if all forenames are replaced by initials.
 If only the middle name is replaced by an initial, it is still treated as a
 forename.
 
-=== Pseudonyms and Variant Names
+=== Pseudonyms and variant names
 
 Variant names, and assumed names, can both be modelled
 as notes on names. However, for greater clarity, and for modelling
@@ -116,8 +124,6 @@ a variant name can be modelled, with the same level of detail
 as default names. The type of variant, or relation between the name
 and variant, needs to be made explicit in that case.
 
-Variant names can be applied to personal names,
-organization names, and organization subdivision names.
 
 === Anonymous and Varii
 
