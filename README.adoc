@@ -2,7 +2,15 @@
 
 This work item belongs to TC VCARD.
 
-image:https://travis-ci.com/CalConnect/csd-name-models.svg?branch=master["Build Status", link="https://travis-ci.com/calconnect/csd-name-models"]
+ifdef::env-github[]
+image:https://img.shields.io/travis/com/CalConnect/csd-name-models/master.svg[
+	Build Status, link="https://travis-ci.com/CalConnect/csd-name-models/branches"]
+endif::[]
+
+ifdef::env-gitlab[]
+image:https://img.shields.io/gitlab/pipeline/ribose/csd-name-models.svg[
+  GitLab pipeline, link="https://gitlab.com/ribose/csd-name-models/pipelines"]
+endif::[]
 
 This document is available in its rendered forms here:
 
