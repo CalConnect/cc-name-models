@@ -1,8 +1,8 @@
 
 [[terms]]
-== Terms and Definitions
+== Terms and definitions
 
-TODO: define terms "`language`" and "`culture`"
+//TODO: define terms "`language`" and "`culture`"
 
 [[term-name]]
 === name
@@ -132,8 +132,7 @@ pattern of beliefs and expectations shared by the organization's members
 [.source]
 <<ISO14105,clause 2.1>>
 
-TODO: Culture should refer to something larger than an "organization".
-
+//TODO: Culture should refer to something larger than an "organization".
 
 
 [[term-language-id]]
