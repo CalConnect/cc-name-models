@@ -1,0 +1,22 @@
+
+=== French
+
+given name(s) (+ optional family name)
+
+French people have one, two or more given names (first names). One of them
+is used in daily life.
+
+[example]
+"`Jacques Chirac`" instead of officially of Jacques René Chirac.
+
+[example]
+"`Philippe Pétain`" instead of officially of Henri Philippe Pétain,
+because Philippe was the given name that he used in daily
+life.
+
+Middle names in the English sense do not exist, and middle initials are
+never used for second or further given names.
+
+[example]
+Claude Allègre may be cited as "`Claude J. Allègre`" in English-speaking scientific publications, but not in French ones.
+

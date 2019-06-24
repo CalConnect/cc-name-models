@@ -1,30 +1,34 @@
 == Name pattern
 
-TODO: wording
+=== General
 
-=== Name order
+Personal name order depends on the cultural profile of the name.
 
-The order given name - family name, commonly known as the Western order, is
-used throughout most European countries and in countries that have cultures
-predominantly influenced by European culture, including North and South
-America; North, East, Central and West India; Australia, New Zealand, and the
-Philippines.
+[example]
+The name order of "`[given name(s)] [family name]`" is commonly used
+throughout most European countries.
 
-The order family name - given name, commonly known as the Eastern order, is
-primarily used in East Asia (for example in China, Japan, Korea, Malaysian
+[example]
+The name order of "`[family name] [given name(s)]`" is commonly used
+in East Asia (for example in China, Japan, Korea, Malaysian
 Chinese, Singapore, and Vietnam, among others), as well as in Southern and
-North-Eastern parts of India, and in Hungary. This order is common also in
+North-Eastern parts of India, and in Hungary.
+
+////
+This order is common also in
 Austria and Bavaria, and in France, Belgium, Greece and Italy, possibly because
 of the influence of bureaucracy, which commonly puts the family name before the
 given name. In China and Korea, part of the given name may be shared among all
 members of a given generation within a family and extended family or families,
 in order to differentiate those generations from other generations.
+////
 
-The order given name - father's family name - mother's family name is
-commonly used in Spanish-speaking countries to acknowledge the families of both
-parents. Today the order can also be changed legally in Spain and Uruguay using
-given name - mother's family name - father's family name.
+[example]
+The name order of "`[given name(s)] [father's family name] [mother's family name]`"
+is commonly used in Spanish-speaking countries such as Spain and Uruguay.
 
+
+////
 === Name order systems
 
 There is a range of personal naming systems:
@@ -43,6 +47,7 @@ given name, patronymic and one or two bynames.
 
 Different cultures have different conventions for personal names. This is a
 list of articles about particular cultures' naming conventions.
+////
 
 === Abbreviation
 

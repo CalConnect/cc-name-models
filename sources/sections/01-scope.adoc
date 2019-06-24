@@ -23,7 +23,8 @@ The personal name model is used to encode a person's personal names for:
 * as a static data element
 * as an interoperable data structure used with databases
 
-The cultural name profile model is used to guide rendering of a name model instance as a string
+The cultural name profile model is used to guide rendering of a
+name model instance as a string
 as appropriate to the applied cultural name profile.
 
 ////

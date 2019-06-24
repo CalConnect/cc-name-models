@@ -4,20 +4,23 @@
 == Introduction
 
 Personal names are among the most commonly exchanged information on the
-Internet. The structure of personal names often
+Internet. However, the detail of personal names during interchange
+often recedes to the lowest common denominator understood by
+both sides, which is a plain string.
+
+Such exchange invariably entails the loss of most semantic
+structure of a personal name, causing a range off issues from
+inappropriate greetings at hotels to failure of name verification at
+national borders.
 
 This International Standard facilitates the interchange and interaction
 of names between humans and applications without loss of fidelity.
 
 // TODO
 
-The usage of this personal name model applies to the following business cases:
+This standard addresses the structure of personal names
+in ISO standards covering topics such as bibliographic management,
+personal identification documents, electronic messaging,
+e-commerce to postal applications.
 
-* bibliographic management
-* business cards (such as vCard)
-* personal identification documents
-* electronic messaging, e-commerce
-* travel industry
-* postal
-
-
+// vcard, travel industry

@@ -4,12 +4,17 @@
 
 class NameComponent {
   +componentId: Uri
-  +description: LocalizedString
-  +examples: LocalizedString[0..*]
+  +body: NameString
+  +examples: NameString[0..*]
+  +abbreviation: NameString[0..*]
+  +initials: NameString[0..*]
+  +script: Iso15924Code
+  +transcription: Iso24229Code
+  +language: Iso639Code
 }
 
-class Surname {
-  +type: SurnameType[0..*]
+class FamilyName {
+  +type: FamilyNameType[0..*]
 }
 class GivenName {
   +type: GivenNameType[0..*]
@@ -26,20 +31,29 @@ class AdditionalName {
 class GenerationalName {
   +type: GenerationalNameType[0..*]
 }
+class ReligiousName {
+  +type: ReligiousNameType[0..*]
+}
+class Pseudonym {
+  +type: PseudonymType[0..*]
+}
 
-NameComponent <|-- Surname
+NameComponent <|-- FamilyName
 NameComponent <|-- GivenName
 NameComponent <|-- Honorific
 NameComponent <|-- RoleName
 NameComponent <|-- AdditionalName
 NameComponent <|-- GenerationalName
+NameComponent <|-- ReligiousName
+NameComponent <|-- Pseudonym
 
-Surname          -- SurnameType
+FamilyName       -- FamilyNameType
 GivenName        -- GivenNameType
 Honorific        -- HonorificType
 RoleName         -- RoleNameType
 AdditionalName   -- AdditionalNameType
 GenerationalName -- GenerationalNameType
+Pseudonym  -- PseudonymType
 
 enum RoleNameType <<enumeration>> {
   office
@@ -50,7 +64,7 @@ enum HonorificType <<enumeration>> {
   academic
 }
 
-enum SurnameType <<enumeration>> {
+enum FamilyNameType <<enumeration>> {
   patronymic
   matronymic
 }
@@ -64,6 +78,18 @@ enum AdditionalNameType <<enumeration>> {
 enum GenerationalNameType <<enumeration>> {
   NaturalNumber
   String
+}
+
+enum PseudonymType <<enumeration>> {
+  assumed
+  stage
+  art
+  pen
+  nickname
+  username
+  alias
+  codename
+  regnal
 }
 
 @enduml

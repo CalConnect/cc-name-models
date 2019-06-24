@@ -1,0 +1,16 @@
+
+=== Mongolian
+
+given name (+ optional clan name or family name)
+
+or
+
+genonymic + given name
+
+Mongolian names traditionally consists of only one personal name.
+
+[example]
+Отрядын Гүндэгмаа ("`Otryadyn Gündegmaa`"), a Mongolian shooter, has "Otryadyn" as a patronym, "Gündegmaa" as given name.
+
+[example]
+Халтмаагийн Баттулга ("`Khaltmaagiin Battulga`"), President of Mongolia.

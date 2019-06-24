@@ -191,10 +191,10 @@ Name.
 ----
 {
   "@context": {
-    "personProfile": "https://x/xxx.profile"
-    "name": "https://x/xxx.personalName",
-    "affiliation": "https://x/xxx.affiliation",
-    "organization": "https://x/xxx.organization"
+    "personProfile": "https://commonprofile.org/jsonld/profile"
+    "name": "https://commonprofile.org/jsonld/personalName",
+    "affiliation": "https://commonprofile.org/jsonld/affiliation",
+    "organization": "https://commonprofile.org/jsonld/organization"
   },
   "@id": "https://nist.gov/persons/booth",
   "@type": "personProfile",
@@ -249,6 +249,7 @@ Organization.
 }
 ----
 
+////
 Brandão, Luís T. A. N. (NIST)
 Chang, Shu-jen H. (NIST)
 Dray, Jr., James F. (NIST)
@@ -256,51 +257,4 @@ Dray, Jr., James F. (NIST)
 Interagency International Cybersecurity Standardization Working Group (IICS WG)
 Joint Task Force Transformation Initiative
 University of Maryland, Robert H. Smith School of Business
-
-
-Barker, Elaine B. (NIST)
-Barker, William C. (Dakota Consulting)
-Bartock, Michael (NIST)
-Brewer, Tanya L.
-Carroll, Daniel (Dell/EMC)
-Corcoran, David (Identity Alliance)
-Dalton, Michael (RSA)
-Dang, Quynh H. (NIST)
-Dukes, Anthony (VMware)
-Federal Public Key Infrastructure Steering Committee
-Ferraiolo, David F. (NIST)
-Greene, Kristen K. (NIST)
-Haag, Jr., William (NIST)
-Hu, Vincent C. (NIST)
-Interagency International Cybersecurity Standardization Working Group (IICS WG)
-Joint Task Force Transformation Initiative
-Kelsey, John M. (NIST)
-Kuhn, Richard (NIST)
-Lyons-Burke, Kathy (NIST)
-Malnar, Jason (HyTrust)
-Massis, Paul (Gemalto)
-Masten, Robert (Dell/EMC)
-Mouha, Nicky (NIST)
-NIST Big Data Public Working Group (NBD-PWG)
-Perlner, Ray A. (NIST)
-Phoenix, Carlos (VMware)
-Pillitteri, Victoria Y.
-Prafullchandra, Hemma (HyTrust)
-Prisaca, Dragos (G2)
-Quinn, Stephen D. (NIST)
-Scarfone, Karen A. (NIST)
-Scarfone, Karen A. (Scarfone Cybersecurity)
-Scinta, Gina (Gemalto)
-Shea, Tim (RSA)
-Singh, Harmeet (IBM)
-Smart Grid Interoperability Panel, Smart Grid Cybersecurity Committee
-Souppaya, Murugiah P. (NIST)
-Swarts, Brenda (VMware)
-Tamborello, II, Franklin P. (Cogscent)
-Turner, Paul (Venafi)
-U.S. Department of Commerce
-U.S. Department of Homeland Security
-University of Maryland, Robert H. Smith School of Business
-Vassilev, Apostol (NIST)
-Waltermire, David A. (NIST)
-Yeluri, Raghuram (Intel)
+////

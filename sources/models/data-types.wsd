@@ -16,12 +16,11 @@ primitiveType(NaturalNumber)
 primitiveType(String)
 dataType(Iso639Code)
 dataType(Iso15924Code)
+dataType(Iso24229Code)
 dataType(Uri)
 
-class LocalizedString {
+class NameString {
   +text: String
-  +script: Iso15924Code
-  +language: Iso639Code
 }
 
 @enduml

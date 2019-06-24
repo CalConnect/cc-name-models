@@ -1,0 +1,22 @@
+
+=== German
+
+given name(s) (+ optional family name)
+
+Personal names in German-speaking Europe consist of one or several given names
+(Vorname, plural Vornamen) and a surname (Nachname, Familienname). The Vorname
+is usually gender-specific.
+
+Typical order of "given name, surname".
+
+[example]
+Otto Eduard Leopold Fürst von Bismarck.
+
+The Vorname (in English forename) is usually given to a child by the parents
+shortly after birth. It is common to give a child several Vornamen (forenames).
+
+The Rufname ("appellation name" or "call name") is the given name
+intended for everyday use, and is often underlined on official documents.
+
+[example]
+The Rufname of the mathematician Amalie Emmy Noether is "Emmy".

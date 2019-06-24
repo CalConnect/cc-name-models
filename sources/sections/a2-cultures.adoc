@@ -1,543 +1,100 @@
 
 [appendix,obligation=informative]
-== Cultural naming customs
-
-=== English
-
-English names are names used in, or originating in, England. In England as
-elsewhere in the English-speaking world, a complete name usually consists of a
-given name, commonly referred to as a first name or Christian name, and a (most
-commonly patrilineal) family name or surname, also referred to as a last name.
-There can be several given names, some of these being often referred to as a
-second name, or middle name(s).
-
-English surnames appeared in about the 11th century. The introduction of parish
-registers in 1538 contributed significantly to the stabilization of the surname
-system, but it was not until the late 17th century that fixed surnames were
-introduced throughout England.
-
-Double-barrelled names may be formed for a variety of reasons, including
-combining of spouses' surnames upon marriage or, more commonly in the past,
-adding another family's surname as a condition of inheritance.
-
-Compound surnames in English feature two words, often joined by a hyphen or
-hyphens, for example Henry Hepburne-Scott, with some families having as many as
-three or four words making up their surname, such as Charles
-Hepburn-Stuart-Forbes-Trefusis, 21st Baron Clinton and Alexander Charles Robert
-Vane-Tempest-Stewart, 9th Marquess of Londonderry. However, it is not unusual
-for compound surnames to be composed of separate words not linked by a hyphen,
-for example Iain Duncan Smith, a former leader of the Conservative Party, whose
-surname is "Duncan Smith".
-
-
-
-=== French
-
-French people have one, two or more given names (first names). One of them
-(nowadays almost always the first, in the past often the last) is used in daily
-life (but someone can also choose a usage name that was not given); the others
-are solely for official documents, such as passport, birth, death and marriage
-certificates. Thus, one always speaks of Jacques Chirac and never of Jacques
-René Chirac; and Henri Philippe Pétain is always referred to as Philippe Pétain
-(or Marshal Pétain), because Philippe was the given name that he used in daily
-life. Middle names in the English sense do not exist, and middle initials are
-never used for second or further given names. For example, although
-English-speaking scientific publications may cite Claude Allègre as Claude J.
-Allègre, this is never done in France. Typically, second and further given
-names may be somewhat old-fashioned, given in honour of the child's
-grandparents etc., though such practice has now become less common. As with
-English, however, a person may choose to use any one (or several) of their
-names, relegating the unused names to the birth certificate. Although using
-more than one name is nowadays out of fashion, using two or even three of the
-given names as a compound name was fairly common until the early 20th century.
-
-
-In France, until 1 January 2005, children were required by law to take the
-surname of their father. If the father was unknown, the child had the family
-name of the mother. Since 1 January 2005, article 311-21 of the French Civil
-code permits parents to give their children either the name of their father,
-mother, or a hyphenation of both - although no more than two names can be
-hyphenated. In cases of disagreement, both parents family names are hyphenated
-in alphabetic order with only the first of their names if they have a
-hyphenated name themselves. This brought France into line with a 1978
-declaration by the Council of Europe requiring member governments to take
-measures to adopt equality of rights in the transmission of family names, a
-measure that was echoed by the United Nations in 1979. Similar measures were
-adopted by Germany (1976), Sweden (1982), Denmark (1983), Spain (1999) and
-Austria (2013).
-
-
-=== German
-
-Personal names in German-speaking Europe consist of one or several given names
-(Vorname, plural Vornamen) and a surname (Nachname, Familienname). The Vorname
-is usually gender-specific. A name is usually cited in the "Western order" of
-"given name, surname", unless it occurs in an alphabetized list of surnames,
-e.g. "Bach, Johann Sebastian".
-
-In this, the German conventions parallel the naming conventions in most of
-Western and Central Europe, including English, Dutch, Italian, and French.
-There are some vestiges of a patronymic system as they survive in parts of
-Eastern Europe and Scandinavia, but these do not form part of the official
-name.
-
-The Vorname (in English forename) is usually given to a child by the parents
-shortly after birth. It is common to give a child several Vornamen (forenames),
-one of them intended for everyday use and known as the Rufname ("appellation
-name" or "call name"). This Rufname is often underlined on official documents,
-as it is sometimes the second or third name in the sequence of given names on
-official record, even though it is the given name in daily use from
-childhood. For example, in the resume submitted by mathematician Emmy
-Noether to Erlangen University in 1907,
-
-Surnames (family name; Nachname, Familienname) were gradually introduced in
-German-speaking Europe during the Late Middle Ages. Many of such surnames are
-derived from nicknames. They are generally classified into four groups by
-derivation: given names, job designations, bodily attributes, and toponyms
-(including references to named buildings). Also, many family names display
-characteristic features of the dialect of the region they originated in.
-
-
-
-
-
-=== Italian
-
-A name in Italian consists of a given name (nome) and a surname (cognome).
-Surnames are normally written after given names. In official documents, the
-surname may be written before given names. In speech, the use of given name
-before family name is standard in an educated style, but, due to bureaucratic
-influence, the opposite was common (but now it's deprecated).
-
-Italian names, with their fixed nome + cognome structure, have little to do
-with the ancient Roman naming conventions, which used a tripartite system of
-given name + gentile name + hereditary or personal name or names. E.g., the
-Italian nome is not analogous to the ancient Roman nomen, since the former is
-the given name (distinct between siblings), while the latter the gentile name
-(inherited, thus shared by all belonging to a gens). Female name giving
-tradition and name changing rules after adoption for both sexes also differ
-between Roman antiquity and modern Italian use. Moreover, the low number and
-steady decline of importance and variety of Roman praenomina is in stark
-contrast with the current number of Italian given names.
-
-
-Italy and Italians have the largest collection of surnames (cognomi) of any
-ethnicity in the world, with over 350,000. Men—except slaves—in ancient
-Rome always had hereditary surnames, i.e., nomen (clan name) and cognomen
-(side-clan name). However, the multi-name tradition was lost by the Middle
-Ages. Outside the aristocracy, where surnames were often patronymic or those of
-manors or fiefs, most Italians began to assume hereditary surnames around 1450.
-
-
-=== Japanese
-
-Japanese names (日本人の氏名 Nihonjin no Shimei) in modern times usually
-consist of a family name (surname), followed by a given name. More than one
-given name is not generally used. Japanese names are usually written in kanji,
-which are characters usually Chinese in origin but Japanese in pronunciation.
-The kanji for a name may have a variety of possible Japanese pronunciations,
-hence parents might use hiragana or katakana when giving a birth name to their
-newborn child. Names written in hiragana or katakana are phonetic renderings,
-and so lack the visual meaning of names expressed in the logographic kanji.
-
-Japanese family names are extremely varied: according to estimates, there are
-over 100,000 different surnames in use today in Japan. The three most common
-family names in Japan are Satō (佐藤), Suzuki (鈴木), and Takahashi (高橋).
-This diversity is in stark contrast to the situation in other nations of the
-East Asian cultural sphere, which reflects a different history: while Chinese
-surnames have been in use for millennia and were often reflective of an entire
-clan or adopted from nobles (with or without any genetic relationship) and were
-thence transferred to Korea and Vietnam via noble names, the vast majority of
-modern Japanese family names date only to the 19th century, following the Meiji
-restoration, and were chosen at will. The recent introduction of surnames has
-two additional effects: Japanese names became widespread when the country had a
-very large population (over 30 million during the early Meiji era – see
-Demographics of Imperial Japan) instead of dating to ancient times (estimated
-population at 1 CE is 300,000, for instance – see Demographics of Japan before
-Meiji Restoration), and since little time has passed, Japanese names have not
-experienced as significant a surname extinction as has occurred in the much
-longer history in China.
-
-Surnames occur with varying frequency in different regions; for example, the
-names Chinen (知念), Higa (比嘉), and Shimabukuro (島袋) are common in Okinawa
-but not in other parts of Japan; this is mainly due to differences between the
-language and culture of Yamato people and Okinawans. Many Japanese family names
-derive from features of the rural landscape; for example, Ishikawa (石川) means
-"river of the stones", Yamamoto (山本) means "the base of the mountain", and
-Inoue (井上) means "above the well".
-
-While family names follow relatively consistent rules, given names are much
-more diverse in pronunciation and character usage. While many common names can
-easily be spelled or pronounced, many parents choose names with unusual
-characters or pronunciations, and such names cannot in general be spelled or
-pronounced unless both the spelling and pronunciation are given. Unusual
-pronunciations have especially become common, with this trend having increased
-significantly since the 1990s. For example, the popular masculine name
-大翔 is traditionally pronounced "Hiroto", but in recent years alternative
-pronunciations "Haruto", "Yamato", "Taiga", "Sora", "Taito", "Daito", and
-"Masato" have all entered use.
-
-
-=== Korean
-
-A Korean name consists of a family name followed by a given name, as used by
-the Korean people in both South Korea and North Korea. In the Korean language,
-ireum or seongmyeong usually refers to the family name (seong) and given name
-(ireum in a narrow sense) together.
-
-Traditional Korean family names typically consist of only one syllable. There
-is no middle name in the English language sense. Many Koreans have their given
-names made of a generational name syllable and an individually distinct
-syllable, though this practice is declining in the younger generations. The
-generational name syllable is shared by siblings in North Korea, and by all
-members of the same generation of an extended family in South Korea. Married
-men and women usually keep their full personal names, and children inherit the
-father's family name.
-
-The family names are subdivided into bon-gwan (clans), i.e. extended families
-which originate in the lineage system used in previous historical periods. Each
-clan is identified by a specific place, and traces its origin to a common
-patrilineal ancestor.
-
-Early names based on the Korean language were recorded in the Three Kingdoms
-period (57 BCE – 668 CE), but with the growing adoption of the Chinese writing
-system, these were gradually replaced by names based on Chinese characters
-(hanja). During periods of Mongol influence, the ruling class supplemented
-their Korean names with Mongolian names.
-
-Because of the many changes in Korean romanization practices over the years,
-modern Koreans, when using languages written in Latin script, romanize their
-names in various ways, most often approximating the pronunciation in English
-orthography. Some keep the original order of names, while others reverse the
-names to match the usual Western pattern.
-
-
-
-
-
-=== Jewish
-
-The Jewish name has historically varied, encompassing throughout the centuries
-several different traditions. This article looks at the onomastics practices of
-the Jewish people, that is, the history of the origin and forms of proper
-names.
-
-Jews have historically used Hebrew patronymic names. In the Jewish patronymic
-system the first name is followed by either ben- or bat- ("son of" and
-"daughter of," respectively), and then the father's name. (Bar-, "son of" in
-Aramaic, is also seen). Permanent family surnames exist today but only gained
-popularity among Sephardic Jews in Iberia and elsewhere as early as the 10th or
-11th century and did not spread widely to the Ashkenazic Jews of Germany or
-Eastern Europe until the 18th and 19th century, where the adoption of German
-surnames was imposed in exchange for Jewish emancipation. An exception was
-members of the Cohanim (priestly caste) and Levites (descendants of Levi) who
-performed certain religious duties, who had always appended the surname Cohen
-and Levi respectively (modern spelling in English may vary) which was usually
-preceded by "ha" meaning "the" in Hebrew.
-
-Although Ashkenazi Jews now use European or modern-Hebrew surnames for everyday
-life, the Hebrew patronymic form is still used in Jewish religious and cultural
-life. It is used in synagogue and in documents in Jewish law such as the
-ketubah (marriage contract).
-
-
-=== Thai
-
-Thai names are comparable to the Western European pattern in which the family
-name follows a first or given name. In this they differ from the
-family-name-first pattern of the general East Asian tradition.
-
-Thai names (given and family) are often long, and there are a great many of
-them. The diversity of family names is because they are required to be unique
-to a family, and they are a recent introduction. Also, a number of Thai people
-change their given names relatively frequently (and their family names less
-frequently, as it requires permission of the head of a family or, in the case
-of children, father and mother). This practice is virtually unknown in most
-other countries outside of marriage and fortune-telling traditions. Besides
-standard reasons of separation and divorce, many name changes are done to get
-rid of bad luck (which, if caused by a ghost or spirit, would confuse the
-malignant entity, allowing the victim to get free from them).
-
-Last names became legally required of Thai citizens in 1913. Before then,
-most Thais used only a first or individual name. The names generally convey
-positive attributes. Under Thai law, only one family can use any given surname:
-Thus, any two people of the same surname must be related.
-
-Thai surnames are often long, particularly among Thais of Chinese descent. For
-example, the family of former Prime Minister Thaksin Shinawatra, who is of
-Chinese descent, adopted the name Shinawatra ("does good routinely") in 1938.
-According to the current law, Person Name Act, BE 2505 (1962), to create a new
-Thai surname, it must not be longer than ten Thai letters, excluding vowel
-symbols and diacritics. The same law also forbids the creation of a surname
-that duplicated any existing surnames, There are some duplicates dating to the
-time before computer databases were available to prevent this. Some
-creations added the name of their location (muban, tambon or amphoe) into
-surnames, similar to family name suffixes.
-
-As a measure of the diversity of Thai names, in a sample of 45,665 names, 81%
-of family names were unique, and 35% of given names were unique: The people
-with shared family names are related, and the diversity of given names is
-conventional.[dead link]
-
-=== Mongolian
-
-Mongolian names have gone through certain revolutions in the history of
-Mongolia. In the first, traditional Mongolian names were replaced by Tibetan
-names, while in the second, Tibetan names were replaced by new Mongolian names
-rather different from those before the first naming revolution. In modern day,
-Inner Mongolian customs are similar to Mongolia, but do display some
-differences.
-
-Mongolian names traditionally have an important symbolic character — a name
-with auspicious connotations being thought to bring good fortune to its bearer.
-The naming of children was usually done by the parents or a respected elder of
-the family or religious figures. For example, it is said that the prominent
-shaman, Teb-tengeri, saw in the stars a great future for Tolui's eldest son and
-bestowed on the child the name Möngke (meaning "eternal" in the Mongolian
-language).
-
-Nowadays most parents give Mongolian names to their children, often consisting
-of two nouns or adjectives (in Mongolian grammar, it is considered a single
-word), representing qualities such as solidity and strength for boys or
-beauty in the case of girls.
-
-Generally, the Mongols (unlike their southern neighbours, the Chinese) have
-only one personal name, which remains the same throughout their lives. While
-clan organization remained important among the Mongols into the 17th century,
-clan names were not linked with the personal name in a family name system.
-Clan name is still important among the Buryats and to a lesser extent among
-Kalmyks today. While the personal name of the living ruler was not originally
-tabooed, as in China, the names of deceased rulers were tabooed for several
-generations. In the past this prohibition was even stronger. In Mongolia and
-Inner Mongolia, the Mongols also use clan names.
-
-
-=== Icelandic
-
-Icelandic names differ from most current Western family name systems by being
-patronymic or occasionally matronymic: they indicate the father (or mother) of
-the child and not the historic family lineage. Iceland shares a common cultural
-heritage with the Scandinavian countries of Norway, Sweden and Denmark with the
-Faroe Islands. Icelanders, however, unlike other Nordics, have continued to use
-their traditional name system, which was formerly used by all Nordic countries
-except partly Finland. The Icelandic system is thus not based on family
-names (although some people do have family names and might use both systems).
-Generally, a person's second name indicates the first name of their father
-(patronymic) or in some cases mother (matronymic). According to Icelandic
-naming tradition, second names end in -son or -dóttir with few exceptions.
-
-Some family names do exist in Iceland, most commonly adaptations from last name
-patronyms Icelanders took up when living abroad, usually Denmark. Notable
-Icelanders who have an inherited family name include former prime minister Geir
-Haarde, football star Eiður Smári Guðjohnsen, entrepreneur Magnús Scheving,
-film director Baltasar Kormákur Samper, actress Anita Briem and member of
-parliament (and former news reporter) Elín Hirst. Before 1925, it was legal to
-adopt new family names; one Icelander to do so was the Nobel Prize-winning
-author Halldór Laxness, while another author, Einar Hjörleifsson and his
-brothers all chose the family name "Kvaran". Since 1925, one cannot adopt a
-family name unless one explicitly has a legal right to do so through
-inheritance. (The law was amended in 1991 and 1996.)
-
-
-A man named Jón Einarsson has a son named Ólafur. Ólafur's last name will not
-be Einarsson like his father's; it will become Jónsson, literally indicating
-that Ólafur is the son of Jón (Jóns + son). The same practice is used for
-daughters. Jón Einarsson's daughter Sigríður's last name would not be Einarsson
-but Jónsdóttir. Again, the name literally means "Jón's daughter" (Jóns +
-dóttir).
-
-In some cases, an individual's surname is derived from a parent's middle name
-instead of the first name. For example, if Jón is the son of Hjálmar Arnar
-Vilhjálmsson he may either be named Jón Hjálmarsson (Jón, son of Hjálmar) or
-Jón Arnarsson (Jón, son of Arnar). The reason for this may be that the parent
-prefers to be called by the middle name instead of the first name; this is
-fairly common. It may also be that the parent's middle name seems to fit the
-child's first name better.
-
-In cases where two people in the same social circle bear the same first name
-and the same father's name, they have traditionally been distinguished by their
-paternal grandfather's name, e.g. Jón Þórsson Bjarnarsonar (Jón, son of Þór,
-son of Bjarni) and Jón Þórsson Hallssonar (Jón, son of Þór, son of Hallur).
-This practice has now become less common (the use of middle names having
-replaced it), but features conspicuously in the Icelandic sagas.
-
-
-=== Indian
-
-Indian family names are based on a variety of systems and naming conventions,
-which vary from region to region. Names are also influenced by religion and
-caste and may come from epics. India's population speaks a wide variety of
-languages and nearly every major religion in the world has a following in
-India. This variety makes for subtle, often confusing, differences in names and
-naming styles. Due to historical Indian cultural influences, many names across
-South and Southeast Asia are influenced or adaptations of Indian names or
-words.
-
-For some Indians, their birth name is different from their official name; the
-birth name starts with a randomly selected from the person's horoscope (based
-on the nakshatra or lunar mansion corresponding to the person's birth).
-
-TODO: multiple cultural customs
-
-
-=== Indonesian
-
-Indonesians do not generally use a given or first name and a family, last or
-surname name. The majority of Indonesians do not have family names. Rather,
-their given names are geographically and culturally specific. Names beginning
-with "Su" in Indonesian spelling ("Soe" in Dutch orthography), or ending with
-an "o" are usually Javanese people. For example, people called "Suprapto" or
-"Soeprapto, Joko" are likely to be of Javanese descent. Suharto is another
-example.
-
-Balinese names are quite distinct, as they have a naming system which denotes
-birth order. Wayan means first born. Made means second born. A Balinese name
-may also indicate caste. For instance, a Kshatriya person may be named "I
-Gusti".
-
-"Sitompul" and "Rajagukguk" are clan names usually found in people with Batak
-or North Sumatran heritage.
-
-In general, Indonesian names fall into one of the following categories:
-
-A single name, such as Sukarno and Suharto Two (or more) names without a family
-name, such as Susilo Bambang Yudhoyono Two (or more) names with a family name
-such as Abdul Haris Nasution or Mahyadi Panggabean Two (or more) names with a
-patronymic, such as Megawati Sukarnoputri or Abdurrahman Wahid
-
-
-Until recently, most Indonesians did not have family names. Both men and women
-usually have a given name and then take the name of their father as a last
-name. Some, but not all, married Indonesian women take the last name of their
-husband. This name is usually added after their own "last" name. Therefore, it
-is not rare for married couples to have different last or family names.
-
-Naming also differs regionally. Some Javanese, especially those of the old
-generation have only one name. Bataks have clan names which are used as their
-surnames. Some Chinese Indonesians have Chinese-style names. In Indonesian
-telephone directories, names are listed under the first or given name and not
-under the last or family name.
-
-
-
-
-
-
-=== Eastern Slavic
-
-Eastern Slavic naming customs are the traditional ways of identifying a person
-by name in countries influenced by East Slavic languages (Russian, Ukrainian
-and Belorussian: in Russia, Belarus, Ukraine. They are also used in some
-countries using South Slavic languages, including Bulgaria, Bosnia and
-Herzegovina, Serbia and Macedonia, as well as some countries using non-Slavic
-languages (Kazakhstan, Kyrgyzstan, Uzbekistan and Turkmenistan) because of the
-expansion of Russia, with its Russification.
-
-The full name uses the following standard structure:
-
-Name	Example (Cyrillic alphabet)	Example (Anglicised form) First name (given
-name)	Илья́	Ilyá Patronymic	Алекса́ндрович	Aleksándrovich Family name (surname)
-Ежо́в	Yezhóv
-
-
-=== Manchu
-
-Manchu names are the names of the Manchu people in their own language. In
-addition to such names, most modern Manchus live in China and possess Chinese
-names.
-
-Traditionally, Manchus were called only by their given names in daily life
-although each belonged to a clan with its own clan name (Manchu: hala). Each
-clan would be divided into several sub-clans (mukūn), but these did not have
-separate names.
-
-
-Manchus given names are distinctive. Generally, there are several forms, such
-as bearing suffixes "-ngga", "-ngge" or "-nggo", meaning "having the quality
-of"; bearing the suffixes "-tai" or "-tu", meaning "having"; bearing
-the suffix, "-ju", "-boo"; numerals or animal names.
-
-Manchu given names were used solely or with titles but not with clan names. For
-example, Fiyanggū, who was from the Donggo clan, belonged to the Manchu Plain
-White Banner and distinguished himself in the campaigns against the Dzungars,
-was usually called "Fiyanggū be" (Lord Fiyanggū) since Fiyanggū (youngest) was
-a relatively major given name. Unlike Chinese and Europeans, he was not to be
-called by combination of family name and given name, i.e. Donggo Fiyanggū or
-Fiyanggū Donggo. Although we can find Aisin-Gioro Ulhicun and other figures,
-but it is a very modern practice. To specify the clan name, Manchus would have
-said something like "Donggo hala-i Fiyanggū" (Fiyanggū of the Donggo clan).
-
-The Manchus had an immense variety of given names. For most of them, it is
-difficult to find the meanings. Some scholars try to categorize them. Erich
-Haenisch classified them into sixteen categories including animals (Eje: bull,
-Yelu: boar), plants (Fodo: willow, Maca: garlic), qualities (Ayan: big, Bayan:
-rich, Niowanggiyan: green), etc. Ch'en Chieh-hsien classified Manchu personal
-names into seven main categories. But there are many names that are not
-included in either categorization.
-
-Some Manchu names seem nothing more than partial phonetic alternation of other
-ones. For example, the names of brothers of a clan were Ulušun, Hūlušun,
-Ilušun, Delušun, Fulušun and Jalušun in order of age, where only the initial
-syllables are changed. Another example is Nurhaci. His brothers were Šurgaci
-and Murhaci.
-
-Like other non-Chinese terms, Manchu names are often transcribed into Chinese
-in a chaotic pattern since they were taken from Chinese sources. It is
-difficult to reconstruct original Manchu spellings from their Chinese
-transcription. Sometimes the first syllable of a Manchu given name is
-misinterpreted as a Chinese surname. For instance, the Manchu official Tulišen,
-who wrote a famous travel record, is mistaken for a Chinese man named "Tu
-Lishen."
-
-Nikan (Han Chinese) was a common first name for Manchus. Nikan Wailan was a
-Jurchen leader who was an enemy of Nurhaci. Nikan was the name of one
-the Aisin Gioro princes and grandsons of Nurhaci who supported Prince
-Dorgon. Nurhaci's first son was Cuyen, one of whose sons was
-Nikan.
-
-During the Qing Dynasty, the Manchus gradually adopted two-character Chinese
-given names (but not family names), and used Manchu transcription of them. We
-can find a tendency to leave a space between two syllables of the name of an
-exalted personage in the Manchu script and to stick them together for common
-people. For example, the real name of the Qianlong Emperor was Hung li, which
-was derived from the Chinese name Hongli (弘曆). Certain combinations of
-Chinese sounds that never appeared at native Manchu terms make it difficult to
-determine syllable boundaries. The Manchus introduced what is called "Mongolian
-Sibe Syllable Boundary Marker" in Unicode. As the name says, it is formalized
-in the Sibe script but can also be found in Manchu literature. The marker
-represented as the grapheme of the middle form of letter A is put on a syllable
-boundary so that we can distinguish Guangying (Guwang'ing) from Guanjing
-(Guwanging), etc.
-
-
-=== Chinese
-
-Chinese personal names are names used by those from mainland China, Hong Kong,
-Macau, Taiwan, and the Chinese diaspora overseas. Due to China's historical
-dominance of East Asian culture, many names used in Korea and Vietnam are
-adaptations of Chinese names, or have historical roots in Chinese, with
-appropriate adaptation to accommodate linguistic differences.
-
-Modern Chinese names consist of a surname known as xing (姓, xìng), which comes
-first and is usually but not always monosyllabic, followed by a personal name
-called ming (名, míng), which is nearly always mono- or disyllabic. Prior to
-the 20th century, educated Chinese also utilized a "courtesy name" or "style
-name" called zi (字, zì) by which they were known among those outside their
-family and closest friends.
-
-In the first half of the 1st millennium BC, during the Zhou dynasty, members of
-the Chinese nobility could possess up to four different names—personal names
-(míng 名), clan names (xìng 姓), lineage names (shì 氏), and "style" or
-"courtesy" names (zì 字)—and up to two titles: standard titles (jué 爵), and
-posthumous titles (shì 諡 or shìhào 諡號). Commoners possessed only a
-personal name (ming), and the modern concept of a "surname" or "family name"
-did not yet exist at any level of society. The old lineage (shi) and clan
-names (xing) began to become "family names" in the modern sense and trickle
-down to commoners around 500 BC, during the late Spring and Autumn period, but
-the process took several centuries to complete, and it was not until the late
-Han dynasty (1st and 2nd centuries AD) that all Chinese commoners had
-surnames.
+== Cultural naming profiles
 
+include::cultural-profiles/afghan.adoc[]
 
+include::cultural-profiles/albanian.adoc[]
 
+include::cultural-profiles/arab-muslium.adoc[]
+
+include::cultural-profiles/bangladeshi.adoc[]
+
+include::cultural-profiles/bosnian-serbian-croats.adoc[]
+
+include::cultural-profiles/brazilian.adoc[]
+
+include::cultural-profiles/bulgarian.adoc[]
+
+include::cultural-profiles/chinese.adoc[]
+
+include::cultural-profiles/colombian.adoc[]
+
+include::cultural-profiles/czech.adoc[]
+
+include::cultural-profiles/english.adoc[]
+
+include::cultural-profiles/french.adoc[]
+
+include::cultural-profiles/german.adoc[]
+
+include::cultural-profiles/greek.adoc[]
+
+include::cultural-profiles/hindu.adoc[]
+
+include::cultural-profiles/hungarian.adoc[]
+
+include::cultural-profiles/icelandic.adoc[]
+
+include::cultural-profiles/indian.adoc[]
+
+include::cultural-profiles/indonesian.adoc[]
+
+include::cultural-profiles/iranian.adoc[]
+
+include::cultural-profiles/iraqi.adoc[]
+
+include::cultural-profiles/italian.adoc[]
+
+include::cultural-profiles/japanese.adoc[]
+
+include::cultural-profiles/jewish.adoc[]
+
+include::cultural-profiles/korean.adoc[]
+
+include::cultural-profiles/kurdish.adoc[]
+
+include::cultural-profiles/latvian.adoc[]
+
+include::cultural-profiles/lithuanian.adoc[]
+
+include::cultural-profiles/macedonian.adoc[]
+
+include::cultural-profiles/manchu.adoc[]
+
+include::cultural-profiles/mongolian.adoc[]
+
+include::cultural-profiles/nigerian.adoc[]
+
+include::cultural-profiles/paskitani.adoc[]
+
+include::cultural-profiles/polish.adoc[]
+
+include::cultural-profiles/portugese.adoc[]
+
+include::cultural-profiles/romanian.adoc[]
+
+include::cultural-profiles/russian.adoc[]
+
+include::cultural-profiles/sikh.adoc[]
+
+include::cultural-profiles/sinhalese.adoc[]
+
+include::cultural-profiles/slavic.adoc[]
+
+include::cultural-profiles/slovenian.adoc[]
+
+include::cultural-profiles/somali.adoc[]
+
+include::cultural-profiles/spanish.adoc[]
+
+include::cultural-profiles/tamil.adoc[]
+
+include::cultural-profiles/thai.adoc[]
+
+include::cultural-profiles/turkish.adoc[]
+
+include::cultural-profiles/ukranian.adoc[]
+
+include::cultural-profiles/vietnamese.adoc[]
 

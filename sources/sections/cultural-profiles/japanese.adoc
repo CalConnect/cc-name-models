@@ -1,0 +1,25 @@
+
+=== Japanese
+
+family name + given name(s)
+
+Japanese names usually consist of a family name (surname),
+followed by a given name.
+
+Japanese names are usually written in kanji,
+where characters are logographic, but each with a variety of
+possible Japanese pronunciations. Therefore
+often names cannot in general be spelled or
+pronounced unless both the spelling and pronunciation are given.
+
+[example]
+大翔 is traditionally pronounced "Hiroto", but can also be pronounced as
+"Haruto", "Yamato", "Taiga", "Sora", "Taito", "Daito", and
+"Masato".
+
+[example]
+大和 can be read as Daiwa or Yamato.
+
+//(example from W3C)
+[example]
+東海林 can be read as Tōkairin or Shōji

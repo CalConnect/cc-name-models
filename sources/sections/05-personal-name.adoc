@@ -3,13 +3,14 @@
 === General
 
 A personal name is composed of multiple components.
-Depending on the cultural origin and information provided within a personal name,
-personal names have to be modelled with that in mind.
+Personal names are modelled with the cultural origin and information provided within a personal name in mind.
 
 A personal name is represented by the following model.
 
 image::personal-name.png[]
 
+
+////
 Person/name:: The name of a person.
 
 Person/name/forename:: A forename of the person.
@@ -28,6 +29,8 @@ Person/name/note:: An additional note about the name of the person
 
 Person/name/variant:: A variant name
 Person/name/variant/type:: The type of variant of the name
+////
+
 
 ////
 Person/uri:: A URI with information about the person.
@@ -83,8 +86,8 @@ the DOI proper, or as a doi.org URI.
 
 === Modelling
 
-Names may be modelled either broken up into their constituent components
-(prefix, forename, initials, surname, addition), or as a complete name string.
+Names are modelled in constituent components
+or as a complete name string.
 
 ////
 The latter is useful if
@@ -96,21 +99,27 @@ The `initials` component is used if all forenames are replaced by initials.
 If only the middle name is replaced by an initial, it is still treated as a
 forename.
 
+
 === Pseudonyms and variant names
 
 Variant names, and assumed names, can both be modelled
-as notes on names. However, for greater clarity, and for modelling
-of the internal structure of the variant or assumed name,
-a variant name can be modelled, with the same level of detail
-as default names. The type of variant, or relation between the name
-and variant, needs to be made explicit in that case.
+as names.
 
 
-=== Anonymous and Varii
+=== Anonymous
 
-Descriptors of individuals, such as "Anon" or
-"Various Authors", should be given as completeName
-elements. The model does not standardise such designations of
-authors. As with pseudonyms, the real name of the creator if known can be
+A representation of an intentionally anonymous personal name.
+
+
+=== Unknown
+
+A representation of an unknown personal name.
+
+
+=== Varii
+
+Descriptors of individuals, such as "Various Authors", should be given as completeName
+elements.
+
+As with pseudonyms, the real name of the creator if known can be
 modelled as a note, or as a name variant.
-

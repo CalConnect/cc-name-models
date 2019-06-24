@@ -9,10 +9,21 @@ image::display-profile.png[]
 * Preference of presentation
 * Contextual presentation: formal, informal, etc.
 
+=== Name concerns
 
-Concern:
+In the rendering of a personal name, the following concerns
+are important.
 
-* abbreviation
-* priority
+* If the personal name is made to fit into a shorter string length,
+  which elements should remain.
 
-Given a fixed-width, how best to render an abbreviated name (with honorifics) that is appropriate.
+[example]
+"`Pablo Diego José Francisco de Paula Juan Nepomuceno María de los Remedios Cipriano de la Santísima Trinidad Ruiz y Picasso`" becomes "`Pablo Ruiz y Picasso`".
+
+* If a personal name is made to fit into a short length,
+how to render an appropriate, abbreviated name.
+
+[example]
+"`Avul Pakir Jainulabdeen Abdul Kalam`", former President of India, is
+abbreviated as "`A. P. J. Abdul Kalam`".
+

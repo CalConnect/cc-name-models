@@ -1,0 +1,30 @@
+
+
+=== Thai
+
+given name(s) + family name
+
+Modern Thai names are composed of given names followed by the family name.
+Prior to 1913, family names were not required.
+
+////
+[example]
+อภิสิทธิ์ เวชชาชีวะ ("`Aphisit Wetchachiwa`")
+////
+
+[example]
+ชวน หลีกภัย ("`Chuan Likphai`")
+
+
+////
+Thai surnames are often long, particularly among Thais of Chinese descent. For
+example, the family of former Prime Minister Thaksin Shinawatra, who is of
+Chinese descent, adopted the name Shinawatra ("does good routinely") in 1938.
+According to the current law, Person Name Act, BE 2505 (1962), to create a new
+Thai surname, it must not be longer than ten Thai letters, excluding vowel
+symbols and diacritics. The same law also forbids the creation of a surname
+that duplicated any existing surnames, There are some duplicates dating to the
+time before computer databases were available to prevent this. Some
+creations added the name of their location (muban, tambon or amphoe) into
+surnames, similar to family name suffixes.
+////

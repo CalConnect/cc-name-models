@@ -1,0 +1,66 @@
+
+=== Icelandic
+
+given name(s) + (patronymic or matronymic) (+ optional genonymic) (+ optional family name)
+
+// https://wsimag.com/culture/2248-the-peculiarities-of-icelandic-naming
+
+Icelandic names differ from most current Western family name systems by being
+patronymic or occasionally matronymic: they indicate the father (or mother) of
+the child and not the historic family lineage.
+
+Iceland's traditional name system was formerly used by all Nordic countries
+except partly Finland.
+
+The Icelandic system is not based on family names
+(although some people do have family names and might use both systems).
+Generally, a person's second name indicates the first name of their father
+(patronymic) or in some cases mother (matronymic). According to Icelandic
+naming tradition, second names end in -son or -dóttir with few exceptions.
+
+//Current Prime Minister
+[example]
+Jóhanna Sigurðardóttir. "Jóhanna, daughter of Sigurður".
+
+//Footballer
+[example]
+Matronymic. Heiðar Helguson, "Helguson, son of Helga".
+
+//musician Örvar Þóreyjarson Smárason
+[example]
+Örvar Þóreyjarson Smárason. (Örvar, son of Þórey, son of Smári)
+
+Some family names do exist in Iceland, most commonly adaptations from last name
+patronyms Icelanders took up when living abroad.
+
+[example]
+Geir Haarde, Eiður Smári Guðjohnsen, Anita Briem.
+
+[example]
+Nobel Prize-winning author Halldór Laxness, born as Halldór Guðjónsson.
+
+
+////
+A man named Jón Einarsson has a son named Ólafur. Ólafur's last name will not
+be Einarsson like his father's; it will become Jónsson, literally indicating
+that Ólafur is the son of Jón (Jóns + son). The same practice is used for
+daughters. Jón Einarsson's daughter Sigríður's last name would not be Einarsson
+but Jónsdóttir. Again, the name literally means "Jón's daughter" (Jóns +
+dóttir).
+
+In some cases, an individual's surname is derived from a parent's middle name
+instead of the first name. For example, if Jón is the son of Hjálmar Arnar
+Vilhjálmsson he may either be named Jón Hjálmarsson (Jón, son of Hjálmar) or
+Jón Arnarsson (Jón, son of Arnar). The reason for this may be that the parent
+prefers to be called by the middle name instead of the first name; this is
+fairly common. It may also be that the parent's middle name seems to fit the
+child's first name better.
+
+In cases where two people in the same social circle bear the same first name
+and the same father's name, they have traditionally been distinguished by their
+paternal grandfather's name, e.g. Jón Þórsson Bjarnarsonar (Jón, son of Þór,
+son of Bjarni) and Jón Þórsson Hallssonar (Jón, son of Þór, son of Hallur).
+This practice has now become less common (the use of middle names having
+replaced it), but features conspicuously in the Icelandic sagas.
+////
+

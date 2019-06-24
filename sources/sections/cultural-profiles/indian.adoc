@@ -1,0 +1,18 @@
+=== Indian
+
+////
+Indian family names are based on a variety of systems and naming conventions,
+which vary from region to region. Names are also influenced by religion and
+caste and may come from epics. India's population speaks a wide variety of
+languages and nearly every major religion in the world has a following in
+India. This variety makes for subtle, often confusing, differences in names and
+naming styles. Due to historical Indian cultural influences, many names across
+South and Southeast Asia are influenced or adaptations of Indian names or
+words.
+
+For some Indians, their birth name is different from their official name; the
+birth name starts with a randomly selected from the person's horoscope (based
+on the nakshatra or lunar mansion corresponding to the person's birth).
+////
+
+// TODO: multiple cultural customs

@@ -4,105 +4,70 @@
 
 image::name-components.png[]
 
-Common attributes:
-
-* Date active to expiry
-
-TODO: Deal with the following cases.
-
-Founding father of the Republic of China: "`Sun Yat-sen`"
-
-* Birth name: "`Man`" (文)
-* "`pet-name`": "`Tai Tseung`" (帝象)
-* "`genealogical name`": "`De Ming`" (德明)
-* Courtesy name: "`Jai Ji`" (載之)
-* Baptised name: "`Yat Sun`" (日新)
-* "`art-name`": "`Yat Sen`" (逸仙)
-* Popular name: "`孫中山`" (Sun Zhongshan)
-* Japanese name: "`中山樵`" (Nakayama Sho)
-
-"`Pablo Diego José Francisco de Paula Juan Nepomuceno María de los Remedios Cipriano de la Santísima Trinidad Ruiz y Picasso`"
-
-* Known as "`Pablo Ruiz y Picasso`"
-** Nickname? Alternative form of full name? Responsive display? Self-preference?
-* Given name: "`Pablo`"
-* Paternal family name: "`Ruiz`"
-* Maternal family name: "`Picasso`"
-
-Former President of India: "`A. P. J. Abdul Kalam`"
-
-* Full name: Avul Pakir Jainulabdeen Abdul Kalam
-* Styled title: "`His Excellency Dr. A.P.J. Abdul Kalam`"
-
-* Patronymic component: "`Avul Pakir Jainulabdeen`"
-
-
-Bill Gates
-
-* Name: William Henry Gates III KBE
-* Nickname: Bill
-* Q: How do we show "`Bill Gates`"?
-* Popular name: Bill Gates?
-
-
-=== Anonymous
-
-Sometimes people don't want to be known.
-
-
-=== Unknown
-
-Sometimes people are simply not known.
-
-// (TODO: treat it as Anonymous?)
 
 === Pseudonym
 
+A pseudonym or alias is a name that a person or group assumes for a particular
+purpose, which can differ from their given name(s).
+
+* Art name
 * Stage name
 * Nickname
+* Username
+* Pen name
+* Alias
+* Code name
+* Regnal name
 
-A pseudonym or alias is a name that a person or group assumes for a particular
-purpose, which can differ from their first or true name (orthonym).
-
+////
 Pseudonyms include stage names and user names, ring names, pen names,
 nicknames, aliases, superhero or villain identities and code names, gamer
 identifications, and regnal names of emperors, popes, and other monarchs.
-Historically, they have often taken the form of anagrams, Graecisms, and
-Latinisations, although there are many other methods of choosing a pseudonym.
+////
 
+=== Family name
 
+==== General
 
+The family name is the portion of a personal name that indicates a person's family
+(or tribe or community, depending on the culture).
 
-=== Surname
+Depending on the culture, all members of a family unit may have identical family names or there may be variations based on the cultural rules.
 
-TODO: change wording
+NOTE: Not all cultures provide a family name in a personal name.
 
-A surname, family name, or last name is the portion (in some cultures) of a personal name that indicates a person's family (or tribe or community, depending on the culture). Depending on the culture, all members of a family unit may have identical surnames or there may be variations based on the cultural rules.
+==== Compound family name
 
-==== Compound surname
+A compound family name is one based on merged family names.
 
-==== Icelandic name (TODO: reword)
+==== Icelandic name
 
-==== Patrilineal surname
+==== Patrilineal family name
 
-==== Matrilineal surname
+A patrilineal family name is a name originated from the family name of the father.
+
+==== Matrilineal family name
+
+A matrilineal family name is a name originated from the family name of the mother.
 
 ==== Matronymic
 
 [source,xml]
 ----
-<surname>
+<family-name>
   <type>matronymic</type>
   <value>Helguson</value>
-</surname>
+</family-name>
 ----
 
 ==== Patronymic
 
-A patronymic surname is a surname originated from the given name of the father or a patrilineal ancestor. Different cultures have different ways of producing patronymic surnames.
+A patronymic name is a name originated from the given name of the father or a patrilineal ancestor.
+
+Different cultures have different ways of producing patronymic family names.
 
 [example]
-Mongolian: Otryadyn Gündegmaa, O. Gündegmaa, Otryadyn is the patronymic surname
+Mongolian: Otryadyn Gündegmaa, O. Gündegmaa, Otryadyn is the patronymic family name
 
 
 ==== Maiden name
@@ -110,61 +75,43 @@ Mongolian: Otryadyn Gündegmaa, O. Gündegmaa, Otryadyn is the patronymic surnam
 
 ==== Others
 
-TODO: wording
+
 
 ==== Mononymous
 
-Some people have no surname.
+Some personal names are known and addressed by a single
+given name.
 
-However, in some areas of the world, many people are known by a single
-name, and so are said to be mononymous. Still other cultures lack the
-concept of specific, fixed names designating people, either
-individually or collectively.
+In some areas of the world, many people are known by a single
+name, and so are said to be mononymous.
 
-NOTE: Mononymic name is considered as a given name without a surname.
+NOTE: Mononymic name is considered as a given name without a family name.
 
-NOTE: Certain isolated tribes, such as the Machiguenga of the Amazon, do not use personal names.
+[example]
+Thant, third Secretary-General of the United Nations.
+
+// NOTE: Certain tribes, such as the Machiguenga of the Amazon, do not use personal names.
+
 
 
 === Given name
 
-TODO: change wording
 
 Diagram of naming conventions, using John Fitzgerald Kennedy as an example.
-First names can also be called given names, and last names (surnames) can also
-be called family names. This shows a structure typical for English-speaking
-cultures (and some others). Other cultures use other structures for full names.
 
 The sarcophagus of Queen Desideria at Riddarholm Church in Sweden. The name was
 given to Desideria Clary not at birth but when she was created Crown
 Princess of Sweden in 1810.
 
-A given name (also known as a first name, forename or Christian name) is a part
-of a person's personal name. It identifies a specific person, and
-differentiates that person from the other members of a group (typically a
-family or clan) who have a common surname. The term given name refers to the
-fact that the name usually is bestowed upon a person, normally to a child by
-his or her parents at or close to the time of birth. A Christian name, a first
-name which historically was given at baptism, is now also typically given by
-the parents at birth.
+A given name is usually is given to a person, normally to a child by
+his or her parents at or close to the time of birth.
 
-In informal situations, given names are often used in a familiar and friendly
-manner. In more formal situations, a person's surname is more commonly
-used a distinction needs to be made between people with the same
-surname. The idioms "on a first-name basis" and "being on first-name terms"
-refer to the familiarity inherent in addressing someone by their given name.
-
-By contrast, a surname (also known as a family name, last name, or gentile
+By contrast, a family name (also known as a family name, last name, or gentile
 name), which is normally inherited, is typically shared with other members of
 one's immediate family. Regnal names and religious or monastic names are
 special given names bestowed upon someone receiving a crown or entering a
 religious order. Such a person then typically becomes known chiefly by that
 name.
-
-In many Western cultures, people often have more than one given name. One of
-those which is not the first in succession might be used exclusively as the
-name which that person goes by, such as in the cases of John Edgar Hoover and
-Mary Barbara Hamilton Cartland.
 
 
 ==== Arabic name
@@ -174,17 +121,33 @@ Arabs did not have given/middle/family names, but a full chain of
 names. This system was mainly in use throughout the Arab world.
 
 * Ism, given name, first name or personal name
-* Laqab, surname, nickname, title, honorific
+* Laqab, family name, nickname, title, honorific
 * Nasab, patronymic series
-* Nisbah, surname
+* Nisbah, family name
 * Kunya, teknonym (name of first son or daughter) or nickname
 
 
 ==== Religious name
 
+
 ===== Christian name, baptismal name, confirmation name
 
+[example]
+The baptised name of "Sun Yat Sun", the father of modern China, is "`Yat Sun`" (日新).
+
+
 ===== Papal name
+
+A papal name or pontificial name is the regnal name taken by a pope.
+
+Both the head of the Catholic Church, usually known as the Pope, and the Pope of the Coptic Orthodox Church of Alexandria (Coptic Pope) choose papal names.
+
+[example]
+John Paul II.
+
+[example]
+Tawadros II
+
 
 ==== Generational name
 
@@ -194,7 +157,17 @@ Jose Maria Rodrigues Jr.
 [example]
 King George VI
 
+////
 ==== Posthumous name
+////
+
+=== Nicknames
+
+[example]
+The given name "`José`" in Spanish often goes by the nickname "`Pepe`".
+
+[example]
+The given name "`William`" in English often goes by the nickname "`Bill`".
 
 
 
@@ -203,53 +176,48 @@ King George VI
 ==== General
 
 
-NOTE: Bibliographic entries often encounter this problem of separation of name and honorifics
 
-Categories of honorifics
+A style of office or honorific is an official or legally recognized
+title.
 
-* Social
-* Professional
-* Royal
-* Honors
-* Academic
+An honorific is a title that conveys esteem or respect for position or rank
+when used in addressing or referring to a person.
+
+Different types of honorific:
+
+//* Name: Elizabeth Angela Marguerite Bowes-Lyon
+//* An address: Her Majesty Queen Elizabeth The Queen Mother
 
 [example]
 "`Mr.`", "`Ms.`"
 
-A style of office or honorific is an official or legally recognized
-title. A style, by tradition or law, precedes a reference to a person who
-holds a post or political office, and is sometimes used to refer to the office
-itself. An honorific can also be awarded to an individual in a personal
-capacity. Such styles are particularly associated with monarchies, where they
-may be used by a wife of an office holder or of a prince of the blood, for the
-duration of their marriage. They are also almost universally used for
-presidents in republics and in many countries for members of legislative
-bodies, higher-ranking judges and senior constitutional office holders. Leading
-religious figures also have styles.
+NOTE: Bibliographic entries often encounter this problem of separation of name and honorifics.
 
-An honorific is a title that conveys esteem or respect for position or rank
-when used in addressing or referring to a person. Sometimes, the term
-"honorific" is used in a more specific sense to refer to an honorary academic
-title. It is also often conflated with systems of honorific speech in
-linguistics, which are grammatical or morphological ways of encoding the
-relative social status of speakers.
+==== Social
 
-Typically, honorifics are used as a style in the grammatical third person, and
-as a form of address in the second person. Use in the first person, by the
-honored dignitary, is uncommon or considered very rude and egotistical. Some
-languages have anti-honorific (despective or humilific) first person forms
-(expressions such as "your most humble servant" or "this unworthy person")
-whose effect is to enhance the relative honor accorded to the person addressed.
+[example]
 
-Different types of honorific:
 
-* Name: Elizabeth Angela Marguerite Bowes-Lyon
-* An address: Her Majesty Queen Elizabeth The Queen Mother
+==== Professional
+
+[example]
+Doctor, Dr.
+
+
+==== Honors
+
+
+
+==== Academic
+
+
+
+==== Royal
 
 * Her Majesty: style
 * Queen: title
 * Elizabeth: given name
-* The Queen Mother: nick name?
+* The Queen Mother: nick name
 
 Titles and styles
 
@@ -262,9 +230,11 @@ Titles and styles
 
 
 [example]
+--
 * Duchess: rank
 * of: rank association word
 * York: rank association place name
+--
 
 [example]
 ====
@@ -296,32 +266,48 @@ Duchess
 
 ==== Style of office
 
-TODO: wording
+A style of office is an official or legally recognized
+title.
 
-A style of office or honorific is an official or legally recognized
-title. A style, by tradition or law, precedes a reference to a person
-who holds a post or political office, and is sometimes used to refer to
-the office itself. An honorific can also be awarded to an individual in
-a personal capacity. Such styles are particularly associated with
-monarchies, where they may be used by a wife of an office holder or of
-a prince of the blood, for the duration of their marriage. They are
-also almost universally used for presidents in republics and in many
-countries for members of legislative bodies, higher-ranking judges and
-senior constitutional office holders. Leading religious figures also
-have styles.
+Such styles are associated with
+monarchies, presidents, members of legislative bodies, judges,
+office holders and religious figures.
 
+////
+Common attributes:
+
+* Date active to expiry
+////
+
+[example]
+"`Avul Pakir Jainulabdeen Abdul Kalam`", former President of India, styled as "`His Excellency Dr. A.P.J. Abdul Kalam`".
+
+////
 Concerns:
 
 * a person who's a judge in both US and in UK: need both encoded, since their displays would be different
+////
 
 [example]
+"`The Honorable Ruth Bader Ginsburg`" in the United States.
+
+[example]
+"`His Honour Judge Michael Wong`" in Hong Kong.
+
+////
+[example]
+"`His/Her Honour Judge`" X (abbreviation HHJ X, oral address Your Honour) – Circuit judges in England and Wales
+////
+
+////
+[example]
 ====
-* His/Her Honour Judge X (abbreviation HHJ X, oral address Your Honour) – Circuit judges in England and Wales
 * The Honourable Mr./Ms. Justice X (abbreviation X J, referential His Lordship/Her Ladyship; oral address My Lord/Lady or Your Lordship/Your Ladyship) – Judges of the High Court of Justice of England and Wales
 * The Right Honourable Lord/Lady Justice X (abbreviated to X LJ) – Judge of the Court of Appeal of England and Wales
 * (The) Lord/Lady/The Baroness X (abbreviated to Lord/Baroness X, referred to as His Lordship/Her Ladyship, addressed orally as My Lord/My Lady) – Judges in the High Court of Justiciary and the Court of Session in Scotland, and the Supreme Court of the United Kingdom
 * The Honorable (abbreviation The Hon. (Full Name), oral address Your Honor) – Judges and Justices in the United States
 ====
+////
 
 
 ==== Rank
@@ -330,6 +316,8 @@ Concerns:
 Esquire as a social rank in UK (lawyer in US)
 
 ==== Position
+
+
 
 ==== Qualification
 
@@ -358,21 +346,19 @@ Esquire as a social rank in UK (lawyer in US)
 [example]
 Ex-President
 
+
 ==== Honors
 
-* OBE
-* JP
-* CBE
-* ...
-
-=== Localization
-
-[quote,Japanese saying]
-You don't know my name until you know me.
+Orders of chivalry confer titles to its holders.
 
 [example]
-大和 can be read as Daiwa or Yamato
+The Most Excellent Order of the British Empire is a British order of chivalry, conferring appointments to classes including: "`Knight Grand Cross or Dame Grand Cross of the Most Excellent Order of the British Empire (GBE)`",
+"`Knight Commander or Dame Commander of the Most Excellent Order of the British Empire (KBE or DBE)`",
+"`Commander of the Most Excellent Order of the British Empire (CBE)`",
+"`Officer of the Most Excellent Order of the British Empire (OBE)`" and
+"`Member of the Most Excellent Order of the British Empire (MBE)`".
+
 
 [example]
-東海林 can be read as Tōkairin or Shōji (example from W3C)
+"`Sir Hugh Beach, GBE KCB MC`".
 

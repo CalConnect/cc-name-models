@@ -4,7 +4,9 @@
 
 interface TemplateFragment {
   +toString(): String
+  +component: NameComponent[1..*]
 }
+note left of TemplateFragment: name components
 
 TemplateFragment -- NameTemplate
 
@@ -15,16 +17,16 @@ class NameTemplate {
 class DisplayCriterion {
   +predicate: Predicate
 }
-note left of DisplayCriterion
-  predicate - needs more thoughts
-  E.g., screen estate, formality
-end note
+'note left of DisplayCriterion
+'  predicate - needs more thoughts
+'  E.g., screen estate, formality
+'end note
 
 class NameDisplayProfile {
   +displayTemplate: NameTemplate
   +displayCriteria: DisplayCriterion[1..*]
 }
-note bottom: displayCriteria - conjunction or dysjunction?
+'note bottom: displayCriteria - conjunction or dysjunction?
 
 DisplayCriterion -- NameDisplayProfile
 NameTemplate -- NameDisplayProfile

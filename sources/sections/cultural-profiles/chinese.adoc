@@ -1,0 +1,28 @@
+
+=== Chinese
+
+family name + given name(s)
+
+Chinese personal names are names used by those from mainland China, Hong Kong,
+Macau, Taiwan, and the Chinese diaspora overseas.
+
+Chinese names consist of a family name (姓, xìng), followed by
+a given name (名, míng).
+
+Some people also utilize a "courtesy name" or "style name" (字, zì),
+by which they were known among those outside their
+family and closest friends.
+
+////
+In the first half of the 1st millennium BC, during the Zhou dynasty, members of
+the Chinese nobility could possess up to four different names—personal names
+(míng 名), clan names (xìng 姓), lineage names (shì 氏), and "style" or
+"courtesy" names (zì 字).
+////
+
+////
+Titles:
+
+* standard title (jué 爵)
+* posthumous title (shì 諡 or shìhào 諡號).
+////
