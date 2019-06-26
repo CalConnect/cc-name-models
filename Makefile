@@ -204,4 +204,7 @@ $(PUBLISHING_DIRECTORY)/sources/images: sources/images
 	cp -a $< $(PUBLISHING_DIRECTORY)/
 
 .PHONY: publish
-publish: $(PUBLISHING_DIRECTORY) $(PUBLISHING_DIRECTORY)/documents $(PUBLISHING_DIRECTORY)/index.html $(PUBLISHING_DIRECTORY)/sources/images ## Copy compiled HTML files to the specified PUBLISHING_DIRECTORY folder (default: published/)
+
+## Copy compiled HTML files to the specified
+## PUBLISHING_DIRECTORY folder (default: published/)
+publish: $(PUBLISHING_DIRECTORY) $(PUBLISHING_DIRECTORY)/documents $(PUBLISHING_DIRECTORY)/index.html $(PUBLISHING_DIRECTORY)/sources/images
