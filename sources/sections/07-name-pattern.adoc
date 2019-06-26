@@ -54,3 +54,13 @@ list of articles about particular cultures' naming conventions.
 [example]
 "`Pablo Diego José Francisco de Paula Juan Nepomuceno María de los Remedios Cipriano de la Santísima Trinidad Ruiz y Picasso`" becomes "`Pablo Ruiz y Picasso`".
 
+
+////
+== Contractions
+
+Ll. George" for (British prime minister) David Lloyd George.
+
+Names ("FW de Klerk", "GB Whiteley", "Park JS"). A notable exception is The Economist which writes "Mr F. W. de Klerk".
+
+TODO: Addresses to add abbreviations/contractions
+////
