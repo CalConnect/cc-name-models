@@ -61,14 +61,70 @@ _OUT_FILES := $(foreach FORMAT,$(FORMATS),$(shell echo $(FORMAT) | tr '[:lower:]
 OUT_FILES  := $(foreach F,$(_OUT_FILES),$($F))
 
 .PHONY: all
-all: prep documents.html ## Compile everything
+## Compile everything
+all: prep documents.html
 
+# https://gist.github.com/klmr/575726c7e05d8780505a
+# Inspired by
+# <http://marmelab.com/blog/2016/02/29/auto-documented-makefile.html>
+# sed script explained:
+# /^##/:
+# 	* save line in hold space
+# 	* purge line
+# 	* Loop:
+# 		* append newline + line to hold space
+# 		* go to next line
+# 		* if line starts with doc comment, strip comment character off and loop
+# 	* remove target prerequisites
+# 	* append hold space (+ newline) to line
+# 	* replace newline plus comments by
+# 	* print line
+# Separate expressions are necessary because labels cannot be delimited by
+# semicolon; see <http://stackoverflow.com/a/11799865/1968>
 .PHONY: help
-help: ## Print help for targets with comments
-	@cat $(MAKEFILE_LIST) | grep -E '^[.a-zA-Z_-]+:.*?## .*$$' | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
+## Print help for targets with comments
+help:
+	@echo "$$(tput bold)Available rules:$$(tput sgr0)"
+	@echo
+	@sed -n -e "/^## / { \
+		h; \
+		s/.*//; \
+		:doc" \
+		-e "H; \
+		n; \
+		s/^## //; \
+		t doc" \
+		-e "s/:.*//; \
+		G; \
+		s/\\n## /---/; \
+		s/\\n/ /g; \
+		p; \
+	}" ${MAKEFILE_LIST} \
+	| LC_ALL='C' sort --ignore-case \
+	| awk -F '---' \
+		-v ncol=$$(tput cols) \
+		-v indent=19 \
+		-v col_on="$$(tput setaf 6)" \
+		-v col_off="$$(tput sgr0)" \
+	'{ \
+		printf "%s%*s%s ", col_on, -indent, $$1, col_off; \
+		n = split($$2, words, " "); \
+		line_length = ncol - indent; \
+		for (i = 1; i <= n; i++) { \
+			line_length -= length(words[i]) + 1; \
+			if (line_length <= 0) { \
+				line_length = ncol - indent - length(words[i]) - 1; \
+				printf "\n%*s ", -indent, " "; \
+			} \
+			printf "%s ", words[i]; \
+		} \
+		printf "\n"; \
+	}' \
+	| more $(shell test $(shell uname) == Darwin && echo '--no-init --raw-control-chars')
 
 .PHONY: prep
-prep: Gemfile Gemfile.lock package.json package-lock.json $(NPM_DECKTAPE_DEPS) ## Install build dependencies "if needed"
+## Install build dependencies "if needed"
+prep: Gemfile Gemfile.lock package.json package-lock.json $(NPM_DECKTAPE_DEPS)
 	@for gem in \
 		metanorma \
 		relaton \
@@ -125,11 +181,13 @@ documents/%.$(FORMAT): documents sources/images sources/%.$(FORMAT)
 		cp sources/$$(addsuffix .*,$$*) documents
 
 .PHONY: open-$(FORMAT)
-open-$(FORMAT): ## Open(1) the compiled $(FORMAT) file(s)
+## Open(1) the compiled $(FORMAT) file(s)
+open-$(FORMAT):
 	open $$(OUT_FILES-$(FORMAT))
 
 .PHONY: clean-$(FORMAT)
-clean-$(FORMAT): ## Remove the compiled $(FORMAT) file(s)
+## Remove the compiled $(FORMAT) file(s)
+clean-$(FORMAT):
 	rm -f $$(OUT_FILES-$(FORMAT))
 
 $(FORMAT): clean-$(FORMAT) $$(OUT_FILES-$(FORMAT))
@@ -139,14 +197,17 @@ endef
 $(foreach FORMAT,$(FORMATS),$(eval $(FORMAT_TASKS)))
 
 .PHONY: open
-open: open-html ## Open(1) the compiled file(s)
+## Open(1) the compiled file(s)
+open: open-html
 
 .PHONY: clean
-clean: ## Remove all generated files
+## Remove all generated files
+clean:
 	rm -rf .tmp.xml documents documents.html documents.rxl $(PUBLISHING_DIRECTORY) *_images $(OUT_FILES) sources/*.{doc,html,rxl,xml}
 
 .PHONY: bundle
-bundle: Gemfile Gemfile.lock ## Run `bundle` to install bundled Ruby gem dependencies
+## Run `bundle` to install bundled Ruby gem dependencies
+bundle: Gemfile Gemfile.lock
 	[[ -n "${METANORMA_DOCKER}" ]] || bundle
 
 
@@ -174,7 +235,8 @@ endef
 $(foreach FORMAT,$(FORMATS),$(eval $(WATCH_TASKS)))
 
 .PHONY: serve
-serve: $(NODE_BIN_DIR)/live-server sources/images ## Run an HTTP server on PORT (default 8123)
+## Run an HTTP server on PORT (default 8123)
+serve: $(NODE_BIN_DIR)/live-server sources/images
 	export PORT=$${PORT:-8123} ; \
 	port=$${PORT} ; \
 	for html in $(HTML); do \
@@ -183,7 +245,8 @@ serve: $(NODE_BIN_DIR)/live-server sources/images ## Run an HTTP server on PORT 
 	done
 
 .PHONY: watch-serve
-watch-serve: $(NODE_BIN_DIR)/run-p ## Run an HTTP server on PORT (default 8123) that compiles afresh on file changes
+## Run an HTTP server on PORT (default 8123) that compiles afresh on file changes
+watch-serve: $(NODE_BIN_DIR)/run-p
 	$< watch serve
 
 #
