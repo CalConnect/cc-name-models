@@ -14,7 +14,8 @@ before_script:
 
 build:
   stage: build
-  except: gh-pages
+  except:
+    - gh-pages
   script:
     - make clean all publish PUBLISHING_DIRECTORY=public
   artifacts:
