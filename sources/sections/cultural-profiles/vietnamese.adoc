@@ -1,2 +1,43 @@
 
 === Vietnamese
+
+Full::
+family name (+ optional additional name(s)) + given name
+
+Abbreviated::
+given name
+
+
+Vietnamese personal names are names used by those from Vietnam and the Vietnamese diaspora overseas.
+
+Vietnamese names consist of a family name (Tên, 𠸛),
+followed by a given name (Họ, /𢩜).
+Between the family name and given name,
+one or more additional names may be present.
+
+Vietnamese additional names can be a
+middle name (tên đệm),
+generational name,
+or clan distinguisher name. The middle name, for identification purposes, can be omitted.
+
+Courtesy names are also allowed, separate from the given name.
+
+[example]
+"`Nguyễn Sinh Cung`"; where "`Nguyễn`" is the family name, "`Sinh Cung`" the given name. The birth name of "`Hồ Chí Minh`".
+
+[example]
+"`Hồ Chí Minh`"; where "`Hồ`" is the family name, "`Chí Minh`" the given name.
+
+[example]
+"`Nguyễn Tất Thành`" is another name of "`Hồ Chí Minh`", where "`Nguyễn`" is the family name, "`Tất Thành`" the given name.
+
+[example]
+"`Nguyễn Ái Quốc`" ("`Nguyễn the Patriot`") is a pseudonym of "`Hồ Chí Minh`", where "`Nguyễn`" is the family name, "`Ái Quốc`" the given name.
+
+[example]
+"`Nguyễn Văn Huệ`"; where "`Nguyễn`" is the family name, "`Văn`" the middle name, "`Huệ`" the given name. "`Nguyễn Văn Huệ`" is also called "`Nguyễn Huệ`".
+
+
+[example]
+"`Lê Tư Thành`", where "`Lê`" is the family name, "`Tư Thành`" the given name. "`Lê Tư Thành`" also has a courtesy name "`Lê Hạo`", where "`Lê`" is the family name, "`Hạo`" the courtesy name.
+

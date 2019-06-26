@@ -3,16 +3,20 @@
 
 given name(s) (+ optional family name)
 
+or
+
+(optional family name +) given name(s)
+
 Manchus are called only by their given names.
 Manchu clan names ("`hala`") are not used with their personal names,
 but occasionally a family name is used.
 
 [example]
-Tulišen
+"`Tulišen`"
 
 [example]
-Hiowan Ye (玄烨)
+"`Hiowan Ye`" (玄烨)
 
 [example]
-Aisin-Gioro Ulhicun, linguist. The family name is "Aisin-Gioro".
+"`Aisin-Gioro Ulhicun`", linguist. The family name is "`Aisin-Gioro`".
 

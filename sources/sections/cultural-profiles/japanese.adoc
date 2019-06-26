@@ -23,3 +23,8 @@ pronounced unless both the spelling and pronunciation are given.
 //(example from W3C)
 [example]
 東海林 can be read as Tōkairin or Shōji
+
+[example]
+"`中山樵`" (Nakayama Sho), the Japanese pseudonym of
+"`Sun Yat Sen`", where "`中山`" is the family name, "`樵`" the given name.
+
