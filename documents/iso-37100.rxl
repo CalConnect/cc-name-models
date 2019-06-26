@@ -1,12 +1,10 @@
 <bibdata type="standard">
   <title language="en" format="text/plain" type="main">Computer applications in terminology — Naming — Structure of personal names</title>
   <title language="en" format="text/plain" type="title-intro">Computer applications in terminology</title>
-  <title language="en" format="text/plain" type="title-main">Naming</title>
-  <title language="en" format="text/plain" type="title-part">Structure of personal names</title>
+  <title language="en" format="text/plain" type="title-main">Naming — Structure of personal names</title>
   <title language="fr" format="text/plain" type="main">Applications informatiques en terminologie — Nommage — Structure des noms de personnes</title>
   <title language="fr" format="text/plain" type="title-intro">Applications informatiques en terminologie</title>
-  <title language="fr" format="text/plain" type="title-main">Nommage</title>
-  <title language="fr" format="text/plain" type="title-part">Structure des noms de personnes</title>
+  <title language="fr" format="text/plain" type="title-main">Nommage — Structure des noms de personnes</title>
   <docidentifier type="iso">ISO/NWIP 37100</docidentifier>
   <docnumber>37100</docnumber>
   <contributor>
