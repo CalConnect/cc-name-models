@@ -6,11 +6,9 @@
 :copyright-year: 2019
 :language: en
 :title-intro-en: Computer applications in terminology
-:title-main-en: Naming
-:title-part-en: Structure of personal names
+:title-main-en: Naming -- Structure of personal names
 :title-intro-fr: Applications informatiques en terminologie
-:title-main-fr: Nommage
-:title-part-fr: Structure des noms de personnes
+:title-main-fr: Nommage -- Structure des noms de personnes
 :doctype: international-standard
 :docstage: 10
 :docsubstage: 92
