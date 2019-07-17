@@ -26,6 +26,6 @@ deploy:
   skip_cleanup: true
   provider: script
   # script: bash -c "curl -L https://raw.githubusercontent.com/metanorma/metanorma-build-scripts/master/deploy-to-gh-pages.sh | bash"
-  script: bash -c "curl -L https://raw.githubusercontent.com/metanorma/metanorma-build-scripts/af68b510899e8e2161e3c505fa4de8354ee584fc/deploy-to-gh-pages.sh | bash"
+  script: bash -c "curl -L https://raw.githubusercontent.com/metanorma/metanorma-build-scripts/51470713440560f7b685a39a5c07f0de2b6864e1/deploy-to-gh-pages.sh | bash"
   on:
     branch: master
