@@ -12,6 +12,8 @@ possible Japanese pronunciations. Therefore
 often names cannot in general be spelled or
 pronounced unless both the spelling and pronunciation are given.
 
+TODO: transliteration differences: belongs in here?
+
 [example]
 大翔 is traditionally pronounced "Hiroto", but can also be pronounced as
 "Haruto", "Yamato", "Taiga", "Sora", "Taito", "Daito", and
@@ -28,3 +30,26 @@ pronounced unless both the spelling and pronunciation are given.
 "`中山樵`" (Nakayama Sho), the Japanese pseudonym of
 "`Sun Yat Sen`", where "`中山`" is the family name, "`樵`" the given name.
 
+==== Japanese immigrants in Brazil
+
+[example]
+|===
+|Akemi
+|Denise
+|Sameshima
+
+|given name
+|given name
+|family name
+|===
+
+[example]
+|===
+|Yuri
+|Vanessa
+|Ohara
+
+|given name
+|given name
+|family name
+|===

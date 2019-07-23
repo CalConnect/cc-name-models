@@ -1,8 +1,6 @@
 
 === Chinese
 
-family name + given name(s)
-
 Chinese personal names are names used by those from mainland China, Hong Kong,
 Macau, Taiwan, and the Chinese diaspora overseas.
 
@@ -10,35 +8,154 @@ Chinese names consist of a
 family name (姓, xìng), followed by
 a given name (名, míng).
 
+name components:
+
+- family name
+- given name
+
 Some people also utilize a "courtesy name" or "style name" (字, zì),
 by which they were known among those outside their
 family and closest friends.
 
+==== Typical name representations
+
 [example]
 "`孫文`" (Sun Man), the birth name of the founding father
-of the Republic of China "`Sun Yat-sen`", where "`孫`" is the family name, "`文`" the given name.
+of the Republic of China "`Sun Yat-sen`":
+
+|===
+|孫
+|文
+
+|family name
+|given name
+|===
 
 [example]
-"`孫德明`" (Sun De Ming), the genealogical name (譜名) of "`Sun Yat-sen`", where "`孫`" is the family name, "`德明`" the given name.
+"`孫德明`" (Sun De Ming), the genealogical name (譜名):
+
+|===
+|孫
+|德明
+
+|family name
+|given name
+|===
 
 [example]
-"`孫帝象`" (Sun Tai Tseung), the pet-name (乳名) of "`Sun Yat-sen`", where "`孫`" is the family name, "`帝象`" the given name.
+"`孫帝象`" (Sun Tai Tseung), the pet-name (乳名):
+
+|===
+|孫
+|帝象
+
+|family name
+|given name
+|===
 
 [example]
-"`孫載之`" (Sun Jai Ji), the courtesy name ("`字`") of "`Sun Yat-sen`", where "`孫`" is the family name, "`載之`" the given name.
+"`孫載之`" (Sun Jai Ji), the courtesy name ("`字`"):
+
+|===
+|孫
+|載之
+
+|family name
+|given name
+|===
 
 [example]
-"`孫日新`" (Sun Yat Sun), the baptised name of "`Sun Yat-sen`", where "`孫`" is the family name, "`日新`" the given name.
+"`孫日新`" (Sun Yat Sun), the baptised name:
+
+|===
+|孫
+|日新
+
+|family name
+|given name
+|===
 
 [example]
-"`孫逸仙`" (Sun Yat Sen), the art-name ("`號`") of "`Sun Man`", where "`孫`" is the family name, "`逸仙`" the given name.
+"`孫逸仙`" (Sun Yat-sen), the art-name ("`號`") of "`Sun Man`":
+
+|===
+|孫
+|逸仙
+
+|family name
+|given name
+|===
 
 [example]
-"`孫中山`" (Sun Zhongshan), a popular name of "`Sun Yat-sen`", where "`孫`" is the family name, "`中山`" the given name.
+"`孫中山`" (Sun Zhongshan), a popular name:
 
+|===
+|孫
+|中山
+
+|family name
+|given name
+|===
 
 [example]
-"`宋文初`" is a Chinese pseudonym of "`Hồ Chí Minh`" he used in Hong Kong, where "`宋`" is the family name, "`文初`" the given name.
+"`宋文初`" is a Chinese pseudonym of "`Hồ Chí Minh`" he used in Hong Kong:
+
+|===
+|宋
+|文初
+
+|family name
+|given name
+|===
+
+[example]
+"`李白`" Li Bai (701–762), a Chinese poet, was known as the following:
+
+|===
+|李
+|白
+
+|family name
+|given name
+|===
+
+|===
+|李
+|太白
+
+|family name
+|style name / courtesy name
+|===
+
+|===
+|青蓮居士
+
+|pseudonym
+|===
+
+|===
+|詩仙
+
+|nickname
+|===
+
+|===
+|酒仙
+
+|nickname
+|===
+
+|===
+|謫仙人
+
+|nickname
+|===
+
+|===
+|詩俠
+
+|nickname
+|===
 
 ////
 [example]
