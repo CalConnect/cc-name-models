@@ -14,8 +14,7 @@
 
 * [[[ISO14198,ISO/TS 14198:2012]]], _Road vehicles -- Ergonomic aspects of transport information and control systems -- Calibration tasks for methods which assess driver demand due to the use of in-vehicle systems_
 
-* [[[ISO29003,ISO/IEC TS 29003:2018]]], _Information technology -- Security techniques -- Identity proofing
-_
+* [[[ISO29003,ISO/IEC TS 29003:2018]]], _Information technology -- Security techniques -- Identity proofing_
 
 * [[[ISO14105,ISO/TR 14105:2011]]], _Document management -- Change management for successful electronic document management system (EDMS) implementation_
 
@@ -31,7 +30,6 @@ _
 
 * [[[ISO15961,ISO/IEC 15961:2004]]], _Information technology -- Radio frequency identification (RFID) for item management -- Data protocol: application interface_
 
-
 * [[[iso15924,ISO 15924:2004]]], _Information and documentation -- Codes for the representation of names of scripts_
 
 * [[[rfc2046,IETF RFC 2046]]], Freedm N., Borenstein, N.
@@ -42,4 +40,3 @@ _Uniform Resource Identifier (URI): Generic Syntax_. January 2005.  https://tool
 
 * [[[rfc8288,IETF RFC 8288]]], Nottingham, M.
 _Web Linking_. October 2017.  https://tools.ietf.org/html/rfc8288
-
