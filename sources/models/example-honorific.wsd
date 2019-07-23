@@ -1,0 +1,27 @@
+@startuml
+
+!include style.uml.inc
+
+object York
+object duchessOfYork {
+  "Duchess of York"
+}
+
+' country code is a bad idea here.  They don't account for historical regimes.
+object Duchess {
+  regime = "GBR"
+}
+
+class Style {
+  regime
+}
+
+NameComponent <|-- Honorific
+Place         <..  York          : <<instanceOf>>
+HonorificType <|-- Style
+Style         <..  Duchess       : <<instanceOf>>
+Duchess       --   duchessOfYork
+York          --   duchessOfYork
+Honorific     <..  duchessOfYork : <<instanceOf>>
+
+@enduml

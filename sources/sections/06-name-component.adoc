@@ -55,12 +55,12 @@ A matrilineal family name is a name originated from the family name of the mothe
 
 ==== Matronymic
 
+.An example TEI representation of a personal name with a matronymic family name
 [source,xml]
 ----
-<family-name>
-  <type>matronymic</type>
-  <value>Helguson</value>
-</family-name>
+<persName>
+  <surname type="matronymic">FitzEmpress</surname>, <forename>Henry</forename>
+</persName>
 ----
 
 A matronymic name is a name originated from one of the name components of the
@@ -283,33 +283,8 @@ Titles and styles
 * York: rank association place name
 --
 
-[example]
-====
-
-[source,xml]
-----
-<style>urn:iso:name:style:uk:hrh</style>
-<honorific>
-  <rank>
-    <type>urn:iso:name:honorific:rank:duchess</type>
-    <place>York</place>
-  </rank>
-</honorific>
-----
-
-[source,xml]
-----
-<urn:rank>
-Duchess
-  <urn:rank:place>
-    <urn:rank:place:association>
-    of
-    </urn:rank:place:association>
-  York
-  </urn:rank:place>
-</urn:rank>
-----
-====
+.An example of names with honorific presented in terms of class instantiations.
+image::example-honorific.png[]
 
 ==== Style of office
 
