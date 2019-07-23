@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="701.5625px" preserveAspectRatio="none" style="width:1160px;height:701px;" version="1.1" viewBox="0 0 1160 701" width="1160.9375px" zoomAndPan="magnify"><defs><filter height="300%" id="fq6l3c2k5q5xs" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="3.125"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="6.25" dy="6.25" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--class TemplateFragment--><rect fill="#FFFFFF" filter="url(#fq6l3c2k5q5xs)" height="102.4658" id="TemplateFragment" style="stroke: #000000; stroke-width: 2.34375;" width="342.1875" x="286.7188" y="12.5"/><text fill="#000000" font-family="Helvetica" font-size="18.75" font-style="italic" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="209.375" x="353.125" y="37.7167">TemplateFragment</text><line style="stroke: #000000; stroke-width: 2.34375;" x1="288.2813" x2="627.3438" y1="49.9512" y2="49.9512"/><text fill="#000000" font-family="Helvetica" font-size="17.1875" lengthAdjust="spacingAndGlyphs" textLength="323.4375" x="296.0938" y="72.155">+component: NameComponent[1..*]</text><line style="stroke: #000000; stroke-width: 2.34375;" x1="288.2813" x2="627.3438" y1="82.4585" y2="82.4585"/><text fill="#000000" font-family="Helvetica" font-size="17.1875" lengthAdjust="spacingAndGlyphs" textLength="162.5" x="296.0938" y="104.6623">+toString(): String</text><path d="M9.375,44.5313 L9.375,83.8013 A0,0 0 0 0 9.375,83.8013 L231.25,83.8013 A0,0 0 0 0 231.25,83.8013 L231.25,72.6563 L286.2859,64.0625 L231.25,60.1563 L231.25,60.1563 L215.625,44.5313 L9.375,44.5313 A0,0 0 0 0 9.375,44.5313 " fill="#FBFB77" filter="url(#fq6l3c2k5q5xs)" style="stroke: #A80036; stroke-width: 1.5625;"/><path d="M215.625,44.5313 L215.625,60.1563 L231.25,60.1563 L215.625,44.5313 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.5625;"/><text fill="#000000" font-family="Helvetica" font-size="20.3125" lengthAdjust="spacingAndGlyphs" textLength="189.0625" x="18.75" y="71.1983">name components</text><!--class NameTemplate--><rect fill="#FFFFFF" filter="url(#fq6l3c2k5q5xs)" height="82.4585" id="NameTemplate" style="stroke: #000000; stroke-width: 2.34375;" width="350" x="282.8125" y="209.375"/><text fill="#000000" font-family="Helvetica" font-size="18.75" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="165.625" x="375" y="234.5917">NameTemplate</text><line style="stroke: #000000; stroke-width: 2.34375;" x1="284.375" x2="631.25" y1="246.8262" y2="246.8262"/><text fill="#000000" font-family="Helvetica" font-size="17.1875" lengthAdjust="spacingAndGlyphs" textLength="331.25" x="292.1875" y="269.03">+fragments: TemplateFragment[1..*]</text><line style="stroke: #000000; stroke-width: 2.34375;" x1="284.375" x2="631.25" y1="279.3335" y2="279.3335"/><!--class DisplayCriterion--><rect fill="#FFFFFF" filter="url(#fq6l3c2k5q5xs)" height="82.4585" id="DisplayCriterion" style="stroke: #000000; stroke-width: 2.34375;" width="210.9375" x="688.2813" y="209.375"/><text fill="#000000" font-family="Helvetica" font-size="18.75" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="178.125" x="704.6875" y="234.5917">DisplayCriterion</text><line style="stroke: #000000; stroke-width: 2.34375;" x1="689.8438" x2="897.6563" y1="246.8262" y2="246.8262"/><text fill="#000000" font-family="Helvetica" font-size="17.1875" lengthAdjust="spacingAndGlyphs" textLength="192.1875" x="697.6563" y="269.03">+predicate: Predicate</text><line style="stroke: #000000; stroke-width: 2.34375;" x1="689.8438" x2="897.6563" y1="279.3335" y2="279.3335"/><!--class NameDisplayProfile--><rect fill="#FFFFFF" filter="url(#fq6l3c2k5q5xs)" height="102.4658" id="NameDisplayProfile" style="stroke: #000000; stroke-width: 2.34375;" width="359.375" x="445.3125" y="385.9375"/><text fill="#000000" font-family="Helvetica" font-size="18.75" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="215.625" x="517.1875" y="411.1542">NameDisplayProfile</text><line style="stroke: #000000; stroke-width: 2.34375;" x1="446.875" x2="803.125" y1="423.3887" y2="423.3887"/><text fill="#000000" font-family="Helvetica" font-size="17.1875" lengthAdjust="spacingAndGlyphs" textLength="306.25" x="454.6875" y="445.5925">+displayTemplate: NameTemplate</text><text fill="#000000" font-family="Helvetica" font-size="17.1875" lengthAdjust="spacingAndGlyphs" textLength="340.625" x="454.6875" y="465.5998">+displayCriteria: DisplayCriterion[1..*]</text><line style="stroke: #000000; stroke-width: 2.34375;" x1="446.875" x2="803.125" y1="475.9033" y2="475.9033"/><!--class DisplayProfilePreference--><rect fill="#FFFFFF" filter="url(#fq6l3c2k5q5xs)" height="82.4585" id="DisplayProfilePreference" style="stroke: #000000; stroke-width: 2.34375;" width="284.375" x="859.375" y="396.0938"/><text fill="#000000" font-family="Helvetica" font-size="18.75" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="275" x="864.0625" y="421.3104">DisplayProfilePreference</text><line style="stroke: #000000; stroke-width: 2.34375;" x1="860.9375" x2="1142.1875" y1="433.5449" y2="433.5449"/><text fill="#000000" font-family="Helvetica" font-size="17.1875" lengthAdjust="spacingAndGlyphs" textLength="229.6875" x="868.75" y="455.7487">+culturalProfiles: Uri[0..*]</text><line style="stroke: #000000; stroke-width: 2.34375;" x1="860.9375" x2="1142.1875" y1="466.0522" y2="466.0522"/><!--class CulturalProfile--><rect fill="#FFFFFF" filter="url(#fq6l3c2k5q5xs)" height="102.4658" id="CulturalProfile" style="stroke: #000000; stroke-width: 2.34375;" width="392.1875" x="449.2188" y="582.8125"/><text fill="#000000" font-family="Helvetica" font-size="18.75" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="159.375" x="565.625" y="608.0292">CulturalProfile</text><line style="stroke: #000000; stroke-width: 2.34375;" x1="450.7813" x2="839.8438" y1="620.2637" y2="620.2637"/><text fill="#000000" font-family="Helvetica" font-size="17.1875" lengthAdjust="spacingAndGlyphs" textLength="123.4375" x="458.5938" y="642.4675">+profileId: Uri</text><text fill="#000000" font-family="Helvetica" font-size="17.1875" lengthAdjust="spacingAndGlyphs" textLength="373.4375" x="458.5938" y="662.4748">+displayProfiles: NameDisplayProfile[1..*]</text><line style="stroke: #000000; stroke-width: 2.34375;" x1="450.7813" x2="839.8438" y1="672.7783" y2="672.7783"/><!--class PersonalName--><rect fill="#FFFFFF" filter="url(#fq6l3c2k5q5xs)" height="62.4512" id="PersonalName" style="stroke: #000000; stroke-width: 2.34375;" width="170.3125" x="916.4063" y="603.125"/><text fill="#000000" font-family="Helvetica" font-size="18.75" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="160.9375" x="921.0938" y="628.3417">PersonalName</text><line style="stroke: #000000; stroke-width: 2.34375;" x1="917.9688" x2="1085.1563" y1="640.5762" y2="640.5762"/><line style="stroke: #000000; stroke-width: 2.34375;" x1="917.9688" x2="1085.1563" y1="653.0762" y2="653.0762"/><!--link TemplateFragment to NameTemplate--><path d="M457.8125,116.0734 C457.8125,145.425 457.8125,181.6078 457.8125,209.0813 " fill="none" id="TemplateFragment-NameTemplate" style="stroke: #000000; stroke-width: 1.5625;"/><!--link DisplayCriterion to NameDisplayProfile--><path d="M746.4844,292.2203 C746.4844,319.725 746.4844,356.0453 746.4844,385.4891 " fill="none" id="DisplayCriterion-NameDisplayProfile" style="stroke: #000000; stroke-width: 1.5625;"/><!--link NameTemplate to NameDisplayProfile--><path d="M539.0625,292.2203 C539.0625,319.725 539.0625,356.0453 539.0625,385.4891 " fill="none" id="NameTemplate-NameDisplayProfile" style="stroke: #000000; stroke-width: 1.5625;"/><!--link DisplayProfilePreference to PersonalName--><path d="M1001.5625,479.2516 C1001.5625,516.275 1001.5625,569.5244 1001.5625,603.0164 " fill="none" id="DisplayProfilePreference-PersonalName" style="stroke: #000000; stroke-width: 1.5625;"/><!--link DisplayProfilePreference to CulturalProfile--><path d="M887.8906,478.9625 C887.8906,525.2516 887.8906,593.75 887.8906,593.75 C887.8906,593.75 868.9672,593.75 841.6922,593.75 " fill="none" id="DisplayProfilePreference-CulturalProfile" style="stroke: #000000; stroke-width: 1.5625;"/><!--link NameDisplayProfile to CulturalProfile--><path d="M626.9531,489.2266 C626.9531,517.9359 626.9531,553.5467 626.9531,582.3103 " fill="none" id="NameDisplayProfile-CulturalProfile" style="stroke: #000000; stroke-width: 1.5625;"/><!--
+@startuml
+
+
+skinparam Dpi 150
+skinparam Monochrome false
+skinparam LineType ortho
+hide circle
+skinparam Default {
+  TextAlignment center
+  FontName Helvetica
+}
+skinparam Class {
+  AttributeIconSize 0
+  BackgroundColor White
+  ArrowColor Black
+  BorderColor Black
+  FontStyle bold
+  StereotypeFontSize 10
+}
+skinparam Rectangle {
+  BackgroundColor White
+  ArrowColor Black
+  BorderColor Black
+  FontStyle bold
+  FontSize 11
+  StereotypeFontSize 10
+}
+skinparam Object {
+  BackgroundColor White
+  ArrowColor Black
+  BorderColor Black
+  FontStyle bold
+  FontSize 11
+  StereotypeFontSize 10
+}
+
+skinparam Entity {
+  StereotypeFontSize 10
+}
+
+
+
+interface TemplateFragment {
+  +toString(): String
+  +component: NameComponent[1..*]
+}
+note left of TemplateFragment: name components
+
+TemplateFragment - - NameTemplate
+
+class NameTemplate {
+  +fragments: TemplateFragment[1..*]
+}
+
+class DisplayCriterion {
+  +predicate: Predicate
+}
+
+class NameDisplayProfile {
+  +displayTemplate: NameTemplate
+  +displayCriteria: DisplayCriterion[1..*]
+}
+
+DisplayCriterion - - NameDisplayProfile
+NameTemplate - - NameDisplayProfile
+
+class DisplayProfilePreference {
+  +culturalProfiles: Uri[0..*]
+}
+
+class CulturalProfile {
+  +profileId: Uri
+  +displayProfiles: NameDisplayProfile[1..*]
+}
+
+DisplayProfilePreference - - PersonalName
+DisplayProfilePreference - - CulturalProfile
+NameDisplayProfile - - CulturalProfile
+
+@enduml
+
+PlantUML version 1.2019.08(Sat Jul 13 19:25:14 UTC 2019)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.2+9
+Operating System: Linux
+OS Version: 4.15.0-1028-gcp
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
