@@ -36,6 +36,9 @@ Depending on the culture, all members of a family unit may have identical family
 
 NOTE: Not all cultures provide a family name in a personal name.
 
+[alt]#surname#
+[alt]#last name#
+
 ==== Compound family name
 
 A compound family name is one based on merged family names.
@@ -60,27 +63,56 @@ A matrilineal family name is a name originated from the family name of the mothe
 </family-name>
 ----
 
+A matronymic name is a name originated from one of the name components of the
+mother or a matrilineal ancestor.
+
+Different cultures have different ways of producing matronymic family names.
+
 ==== Patronymic
 
-A patronymic name is a name originated from the given name of the father or a patrilineal ancestor.
+A patronymic name is a name originated from one of the name components of the
+father or a patrilineal ancestor.
 
 Different cultures have different ways of producing patronymic family names.
 
 [example]
 Mongolian: Otryadyn Gündegmaa, O. Gündegmaa, Otryadyn is the patronymic family name
 
+=== Genonymic
+
+A genonymic name is a name derived from one of the name components of an ancestor.
+
+NOTE: the genonymic could come from a parent, grandparent or an earlier ancestor.
+
+=== Avonymic
+
+An avonymic name is a name derived from one of the name components of a grandfather.
+
+=== Paedonymic
+
+An paedonymic name is a name derived from one of the name components of a child.
+
+
+=== Religious name
+
+A religious name is a name or title given to, or used by, a person according to
+the tradition of the person's religion.
+
+=== Title
+
+A title is a name that describes a position or job.
+
 
 ==== Maiden name
 
-
-==== Others
+A maiden name is a family name that a married woman used prior to its being
+changed at marriage.
 
 
 
 ==== Mononymous
 
-Some personal names are known and addressed by a single
-given name.
+Some personal names are known and addressed by a single given name.
 
 In some areas of the world, many people are known by a single
 name, and so are said to be mononymous.
@@ -113,6 +145,17 @@ special given names bestowed upon someone receiving a crown or entering a
 religious order. Such a person then typically becomes known chiefly by that
 name.
 
+NOTE: There could be more than one given name in a personal name.
+
+[alt]#first name#
+[alt]#forename#
+
+==== middle name
+
+A middle name is a given name in some cultures that is not a first name or a
+family name.
+
+==== Others
 
 ==== Arabic name
 
@@ -161,7 +204,13 @@ King George VI
 ==== Posthumous name
 ////
 
-=== Nicknames
+=== Nickname
+
+A nickname is a familiar name given to a person instead of or as well as the
+real personal name.
+
+[example]
+The given name "`Mikhail`" in Russion often goes by the nickname "`Misha`".
 
 [example]
 The given name "`José`" in Spanish often goes by the nickname "`Pepe`".
@@ -174,8 +223,6 @@ The given name "`William`" in English often goes by the nickname "`Bill`".
 === Honorific
 
 ==== General
-
-
 
 A style of office or honorific is an official or legally recognized
 title.
@@ -361,4 +408,3 @@ The Most Excellent Order of the British Empire is a British order of chivalry, c
 
 [example]
 "`Sir Hugh Beach, GBE KCB MC`".
-
