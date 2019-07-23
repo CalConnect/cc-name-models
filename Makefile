@@ -33,6 +33,7 @@ NITS    := $(patsubst %.adoc,%.nits,$(wildcard sources/draft-*.adoc))
 WSD     := $(wildcard sources/models/*.wsd)
 XMI     := $(patsubst sources/models/%,sources/xmi/%,$(patsubst %.wsd,%.xmi,$(WSD)))
 PNG     := $(patsubst sources/models/%,sources/images/%,$(patsubst %.wsd,%.png,$(WSD)))
+SVG     := $(patsubst sources/models/%,sources/images/%,$(patsubst %.wsd,%.svg,$(WSD)))
 
 # Only use `npm -g` if npm global prefix is writable
 NPM_IS_GLOBAL := $(shell test -w $$(npm -g prefix) && echo 1)
@@ -142,8 +143,9 @@ documents.rxl: $(XML)
 documents:
 	mkdir -p $@
 
-%.xml %.html %.doc %.txt %.v3.xml %.pdf: %.adoc
-	FILENAME=$^; \
+%.xml %.html %.doc %.txt %.v3.xml %.pdf: %.adoc | $(PNG) $(SVG)
+# %.xml %.html %.doc %.txt %.v3.xml %.pdf: %.adoc | $(SVG)
+	FILENAME=$<; \
 	${COMPILE_CMD}
 
 # %.v3.xml %.xml %.html %.doc %.pdf %.txt: sources/images %.adoc | bundle
@@ -163,10 +165,14 @@ documents:
 
 nits: $(NITS)
 
-sources/images: $(PNG)
+sources/images: $(PNG) $(SVG)
+# sources/images: $(SVG)
 
 sources/images/%.png: sources/models/%.wsd
 	$(PLANTUML) -tpng -o ../images/ $<
+
+sources/images/%.svg: sources/models/%.wsd
+	$(PLANTUML) -tsvg -o ../images/ $<
 
 sources/xmi: $(XMI)
 
