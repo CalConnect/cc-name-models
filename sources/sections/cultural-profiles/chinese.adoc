@@ -24,137 +24,145 @@ family and closest friends.
 of the Republic of China "`Sun Yat-sen`":
 
 |===
-|孫
-|文
-
-|family name
-|given name
+|孫|文
+|family name |given name
 |===
 
 [example]
 "`孫德明`" (Sun De Ming), the genealogical name (譜名):
 
 |===
-|孫
-|德明
-
-|family name
-|given name
+|孫|德明
+|family name |given name
 |===
 
 [example]
 "`孫帝象`" (Sun Tai Tseung), the pet-name (乳名):
 
 |===
-|孫
-|帝象
-
-|family name
-|given name
+|孫|帝象
+|family name |given name
 |===
 
 [example]
 "`孫載之`" (Sun Jai Ji), the courtesy name ("`字`"):
 
 |===
-|孫
-|載之
-
-|family name
-|given name
+|孫|載之
+|family name |given name
 |===
 
 [example]
 "`孫日新`" (Sun Yat Sun), the baptised name:
 
 |===
-|孫
-|日新
-
-|family name
-|given name
+|孫|日新
+|family name |given name
 |===
 
 [example]
-"`孫逸仙`" (Sun Yat-sen), the art-name ("`號`") of "`Sun Man`":
+"`孫逸仙`" (Sun Yat-sen), the art-name ("`號`"):
 
 |===
-|孫
-|逸仙
-
-|family name
-|given name
+|孫|逸仙
+|family name |given name
 |===
 
 [example]
 "`孫中山`" (Sun Zhongshan), a popular name:
 
 |===
-|孫
-|中山
-
-|family name
-|given name
+|孫|中山
+|family name |given name
 |===
 
 [example]
 "`宋文初`" is a Chinese pseudonym of "`Hồ Chí Minh`" he used in Hong Kong:
 
 |===
-|宋
-|文初
-
-|family name
-|given name
+|宋|文初
+|family name |given name
 |===
 
 [example]
 "`李白`" Li Bai (701–762), a Chinese poet, was known as the following:
 
 |===
-|李
-|白
-
-|family name
-|given name
+|李|白
+|family name |given name
 |===
 
 |===
-|李
-|太白
-
-|family name
-|style name / courtesy name
+|李|太白
+|family name |style name / courtesy name
 |===
 
 |===
 |青蓮居士
-
 |pseudonym
 |===
 
 |===
 |詩仙
-
 |nickname
 |===
 
 |===
 |酒仙
-
 |nickname
 |===
 
 |===
 |謫仙人
-
 |nickname
 |===
 
 |===
 |詩俠
-
 |nickname
+|===
+
+
+When addressing people, the following are typically used:
+
+|===
+|趙|生
+|family name |title
+|===
+
+|===
+|錢|先生
+|family name |title
+|===
+
+|===
+|孫|太
+|family name |title
+|===
+
+|===
+|李|太太
+|family name |title
+|===
+
+|===
+|周|小姐
+|family name |title
+|===
+
+|===
+|吳|女士
+|family name |title
+|===
+
+|===
+|鄭|醫生
+|family name |title
+|===
+
+|===
+|阿|王
+| |family name
 |===
 
 ////
