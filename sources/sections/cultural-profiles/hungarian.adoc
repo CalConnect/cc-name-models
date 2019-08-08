@@ -2,31 +2,37 @@
 // from 2006 Naming guide
 === Hungarian
 
-family name(s) + given name(s)
+name components:
+
+- given name
+- family name
+
+==== Typical name patterns
+
+|===
+|family name|given name
+|===
+
+==== Examples
 
 [example]
-KOVÁCS János
+Kovács János
 
+[example]
+====
 If there is more than one given name, they come in order of importance
 after the family name:
 
+- Kovács János Aladár
+====
+
 [example]
-KOVÁCS János Aladár.
-
-
+====
 There can be more than one family name, which can be written fully or abbreviated
 into initials:
 
-[example]
-SEGESDY KOVÁCS János
-
-[example]
-SEGESDY-KOVÁCS János
-
-[example]
-S.KOVÁCS János
-
-[example]
-SEGESDY K. János
-
-
+- Segesdy Kovács János
+- Segesdy-Kovács János
+- S.Kovács János
+- Segesdy K. János
+====

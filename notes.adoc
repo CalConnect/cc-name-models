@@ -135,10 +135,50 @@ Nov Dec: can circulate to friends.
 
 Jan: real ballot.
 
-== more steps
+=== more steps
 
 define constraints...
 
-=== operational matters
+==== operational matters
 
 registry for data cats.  Annex: initial set.
+== Lunch meeting 20190625
+
+=== LR
+
+- General balance of the document:
+  Often, the same concept is introduced twice - a lot in the T and D and
+  components in models.
+  - e.g. firstname, lastname : not part of T and D.  Keep it out of T and D!
+  - Instead, describe each component in the diagrams only.  Would simplify the
+    document.
+    It puts information where it should be.
+
+- There are references to 639 (lang codes), and also locale concepts.  Would be
+  nice to refer to BCP 47. E.g., for regional difference.
+
+- Initials.  2 aspects:
+  - as a way of presentation
+  - as a characterization of data in the DB (got no choice but to present it as
+    is)
+  - Make clear in document, when you address these two aspects.
+
+- Keep DisplayCriterion generic.  Can be a separate part when we have more
+  experience.
+
+- Serialization.
+  - Don't put XML in the document!
+  - There are two places where there are XML.
+  - e.g. 6.3.6 Matronymic
+  - better, use pseudo-formal representation.
+    - like, UML diagrams.  Instantiate class.
+
+- For each culture, show:
+  - The information stored in the database
+  - How names are typically presented. Typical patterns. Could be several
+    patterns.
+
+- LR to speak with Annette to know how to proceed.
+
+- Prepare Form 4.
+- Make update to document.

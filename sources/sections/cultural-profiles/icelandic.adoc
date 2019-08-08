@@ -1,7 +1,13 @@
 
 === Icelandic
 
-given name(s) + (patronymic or matronymic) (+ optional genonymic) (+ optional family name)
+name components:
+
+- given name
+- patronymic name
+- matronymic name
+- genonymic name
+- family name
 
 // https://wsimag.com/culture/2248-the-peculiarities-of-icelandic-naming
 
@@ -17,6 +23,25 @@ The Icelandic system is not based on family names
 Generally, a person's second name indicates the first name of their father
 (patronymic) or in some cases mother (matronymic). According to Icelandic
 naming tradition, second names end in -son or -dóttir with few exceptions.
+
+
+==== Typical name patterns
+
+// given name(s) + (patronymic or matronymic) (+ optional genonymic) (+ optional family name)
+
+|===
+|given name|patronymic or matronymic name
+|===
+
+|===
+|given name|patronymic or matronymic name|genonymic name
+|===
+
+|===
+|given name|patronymic or matronymic name|(genonymic name)|family name
+|===
+
+==== Examples
 
 //Current Prime Minister
 [example]
@@ -63,4 +88,3 @@ son of Bjarni) and Jón Þórsson Hallssonar (Jón, son of Þór, son of Hallur)
 This practice has now become less common (the use of middle names having
 replaced it), but features conspicuously in the Icelandic sagas.
 ////
-

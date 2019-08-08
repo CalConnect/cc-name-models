@@ -22,22 +22,68 @@ or clan distinguisher name. The middle name, for identification purposes, can be
 
 Courtesy names are also allowed, separate from the given name.
 
-[example]
-"`Nguyễn Sinh Cung`"; where "`Nguyễn`" is the family name, "`Sinh Cung`" the given name. The birth name of "`Hồ Chí Minh`".
+==== Examples
 
 [example]
-"`Hồ Chí Minh`"; where "`Hồ`" is the family name, "`Chí Minh`" the given name.
+====
+Birth name of "`Hồ Chí Minh`":
 
-[example]
-"`Nguyễn Tất Thành`" is another name of "`Hồ Chí Minh`", where "`Nguyễn`" is the family name, "`Tất Thành`" the given name.
-
-[example]
-"`Nguyễn Ái Quốc`" ("`Nguyễn the Patriot`") is a pseudonym of "`Hồ Chí Minh`", where "`Nguyễn`" is the family name, "`Ái Quốc`" the given name.
-
-[example]
-"`Nguyễn Văn Huệ`"; where "`Nguyễn`" is the family name, "`Văn`" the middle name, "`Huệ`" the given name. "`Nguyễn Văn Huệ`" is also called "`Nguyễn Huệ`".
+|===
+|Nguyễn|Sinh Cung
+|family name|given name
+|===
+====
 
 
 [example]
-"`Lê Tư Thành`", where "`Lê`" is the family name, "`Tư Thành`" the given name. "`Lê Tư Thành`" also has a courtesy name "`Lê Hạo`", where "`Lê`" is the family name, "`Hạo`" the courtesy name.
+|===
+|Hồ|Chí Minh
+|family name|given name
+|===
 
+[example]
+====
+Another name of "`Hồ Chí Minh`":
+
+|===
+|Nguyễn|Tất Thành
+|family name|given name
+|===
+====
+
+[example]
+====
+A pseudonym of "`Hồ Chí Minh`" ("`Nguyễn the Patriot`"):
+
+|===
+|Nguyễn|Ái Quốc
+|family name|given name
+|===
+====
+
+[example]
+====
+Another name of "`Hồ Chí Minh`" ("`Nguyễn the Patriot`"):
+
+|===
+|Nguyễn|Văn|Huệ
+|family name|middle name|given name
+|===
+
+|===
+|Nguyễn|Huệ
+|family name|given name
+|===
+====
+
+[example]
+|===
+|Lê|Tư Thành
+|family name|given name
+|===
+
+[example]
+|===
+|Lê|Hạo
+|family name|courtesy name
+|===

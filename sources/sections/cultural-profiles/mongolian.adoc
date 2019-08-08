@@ -1,13 +1,33 @@
 
 === Mongolian
 
-given name (+ optional clan name or family name)
+name components:
 
-or
-
-genonymic + given name
+- given name
+- clan name
+- family name
+- genonymic name
 
 Mongolian names traditionally consists of only one personal name.
+
+==== Typical name patterns
+
+|===
+|given name|clan name
+|===
+
+
+|===
+|given name|family name
+|===
+
+
+|===
+|genonymic name|given name
+|===
+
+
+==== Examples
 
 [example]
 Отрядын Гүндэгмаа ("`Otryadyn Gündegmaa`"), a Mongolian shooter, has "Otryadyn" as a patronym, "Gündegmaa" as given name.
