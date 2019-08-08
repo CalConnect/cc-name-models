@@ -55,6 +55,8 @@ A matrilineal family name is a name originated from the family name of the mothe
 
 ==== Matronymic
 
+[example]
+====
 .An example TEI representation of a personal name with a matronymic family name
 [source,xml]
 ----
@@ -62,6 +64,7 @@ A matrilineal family name is a name originated from the family name of the mothe
   <surname type="matronymic">FitzEmpress</surname>, <forename>Henry</forename>
 </persName>
 ----
+====
 
 A matronymic name is a name originated from one of the name components of the
 mother or a matrilineal ancestor.
