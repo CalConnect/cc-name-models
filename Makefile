@@ -17,6 +17,9 @@ ifeq ($(SRC),ll)
 	SRC := $(filter-out README.adoc, $(wildcard sources/*.adoc))
 endif
 
+# All .adoc files
+SRC_SECTIONS := $(shell find sources -name '*.adoc')
+
 # The list $(FORMAT_MARKER) found in source files will determine the output
 # formats used by this Makefile.
 FORMAT_MARKER := mn-output-
@@ -143,7 +146,7 @@ documents.rxl: $(XML)
 documents:
 	mkdir -p $@
 
-%.xml %.html %.doc %.txt %.v3.xml %.pdf: %.adoc | $(PNG) $(SVG)
+%.xml %.html %.doc %.txt %.v3.xml %.pdf: %.adoc $(SRC_SECTIONS) | $(PNG) $(SVG)
 # %.xml %.html %.doc %.txt %.v3.xml %.pdf: %.adoc | $(SVG)
 	FILENAME=$<; \
 	${COMPILE_CMD}
