@@ -4,6 +4,9 @@
 
 * [[[ISO639-1,ISO 639-1]]], _Codes for the representation of names of languages -- Part 1: Alpha-2 code_
 
+* [[[bcp47,IETF BCP 47]]], Phillips, A., Davis, M., _Tags for Identifying
+  Languages_.  September 2009.  https://tools.ietf.org/html/bcp47
+
 * [[[ISO15924,ISO 15924]]], _Information and documentation -- Codes for the representation of names of scripts_
 
 * [[[ISO24229,ISO 24229]]], _Information and documentation -- Codes for script conversion systems_

@@ -8,6 +8,10 @@ image::data-types.png[]
 
 Uri:: Container for URIs, as defined by <<rfc3986>>.
 
+Bcp47Code:: Tags used to help identify languages, whether spoken, written,
+signed, or otherwise signaled, for the purpose of communication, as specified in
+<<bcp47>>.
+
 Iso639Code:: Code for language or language family, as specified in <<iso639>>.
 The specification is open as to whether the two-letter code or the three-letter
 code for languages is used.
