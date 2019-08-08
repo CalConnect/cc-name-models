@@ -1,11 +1,22 @@
 
 === Jewish
 
-given name(s) + family names
+name components:
 
-or
-
-given name(s) + patronymic name
-
+- family name
+- given name
+- patronymic name
 
 Modern Jewish names include Hebrew patronymic names as well as family names.
+
+==== Typical name patterns
+
+|===
+|given name|patronymic name
+|===
+
+|===
+|given name|family name
+|===
+
+==== Examples

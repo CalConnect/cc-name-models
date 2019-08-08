@@ -1,10 +1,13 @@
 
 === Japanese
 
-family name + given name(s)
-
 Japanese names usually consist of a family name (surname),
 followed by a given name.
+
+name components:
+
+- family name
+- given name
 
 Japanese names are usually written in kanji,
 where characters are logographic, but each with a variety of
@@ -13,6 +16,14 @@ often names cannot in general be spelled or
 pronounced unless both the spelling and pronunciation are given.
 
 TODO: transliteration differences: belongs in here?
+
+==== Typical name patterns
+
+|===
+|family name|given name
+|===
+
+==== Examples
 
 [example]
 大翔 is traditionally pronounced "Hiroto", but can also be pronounced as
@@ -27,6 +38,7 @@ TODO: transliteration differences: belongs in here?
 東海林 can be read as Tōkairin or Shōji
 
 [example]
+====
 "`中山樵`" (Nakayama Sho), the Japanese pseudonym of
 "`Sun Yat-sen`":
 
@@ -34,19 +46,22 @@ TODO: transliteration differences: belongs in here?
 |中山|樵
 |family name |given name
 |===
+====
 
 ==== Japanese immigrants in Brazil
 
 [example]
-
+====
 |===
 |Akemi |Denise |Sameshima
 |given name |given name |family name
 |===
+====
 
 [example]
-
+====
 |===
 |Yuri |Vanessa |Ohara
 |given name |given name |family name
 |===
+====

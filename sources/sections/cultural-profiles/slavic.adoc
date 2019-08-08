@@ -1,11 +1,23 @@
 
 === Slavic
 
-given name + patronymic name + family name
+name components:
+
+- family name
+- given name
+- patronymic name
 
 Slavic naming applies to Russian, Ukrainian, Belorussian,
 Bulgaria, Bosnia and Herzegovina, Serbia and Macedonia,
 as well as some populations of Kazakhstan, Kyrgyzstan, Uzbekistan and Turkmenistan.
+
+==== Typical name patterns
+
+|===
+|given name|patronymic name|given name
+|===
+
+==== Examples
 
 [example]
 Ива́н Константи́нович Айвазо́вский ("`Ivan Konstantinovich Aivazovsky`"). Ivan is the given name, Konstantinovich the patronymic name, Aivazovsky the family name.

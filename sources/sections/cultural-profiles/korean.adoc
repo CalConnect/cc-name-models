@@ -1,7 +1,11 @@
 
 === Korean
 
-family name + given name(s)
+name components:
+
+- family name
+- given name
+
 
 A Korean name consists of a family name followed by a given name, as used by
 the Korean people in both South Korea and North Korea.
@@ -10,3 +14,11 @@ In the Korean language,
 ireum or seongmyeong usually refers to the family name (seong) and given name
 (myeong) together.
 
+
+==== Typical name patterns
+
+|===
+|family name|given name
+|===
+
+==== Examples

@@ -20,6 +20,7 @@ family and closest friends.
 ==== Typical name representations
 
 [example]
+====
 "`孫文`" (Sun Man), the birth name of the founding father
 of the Republic of China "`Sun Yat-sen`":
 
@@ -27,64 +28,80 @@ of the Republic of China "`Sun Yat-sen`":
 |孫|文
 |family name |given name
 |===
+====
 
 [example]
+====
 "`孫德明`" (Sun De Ming), the genealogical name (譜名):
 
 |===
 |孫|德明
 |family name |given name
 |===
+====
 
 [example]
+====
 "`孫帝象`" (Sun Tai Tseung), the pet-name (乳名):
 
 |===
 |孫|帝象
 |family name |given name
 |===
+====
 
 [example]
+====
 "`孫載之`" (Sun Jai Ji), the courtesy name ("`字`"):
 
 |===
 |孫|載之
 |family name |given name
 |===
+====
 
 [example]
+====
 "`孫日新`" (Sun Yat Sun), the baptised name:
 
 |===
 |孫|日新
 |family name |given name
 |===
+====
 
 [example]
+====
 "`孫逸仙`" (Sun Yat-sen), the art-name ("`號`"):
 
 |===
 |孫|逸仙
 |family name |given name
 |===
+====
 
 [example]
+====
 "`孫中山`" (Sun Zhongshan), a popular name:
 
 |===
 |孫|中山
 |family name |given name
 |===
+====
 
 [example]
+====
 "`宋文初`" is a Chinese pseudonym of "`Hồ Chí Minh`" he used in Hong Kong:
 
 |===
 |宋|文初
 |family name |given name
 |===
+====
 
 [example]
+====
 "`李白`" Li Bai (701–762), a Chinese poet, was known as the following:
 
 |===
@@ -121,8 +138,11 @@ of the Republic of China "`Sun Yat-sen`":
 |詩俠
 |nickname
 |===
+====
 
 
+[example]
+====
 When addressing people, the following are typically used:
 
 |===
@@ -164,6 +184,7 @@ When addressing people, the following are typically used:
 |阿|王
 | |family name
 |===
+====
 
 ////
 [example]

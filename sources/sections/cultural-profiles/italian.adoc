@@ -1,7 +1,10 @@
 
 === Italian
 
-given name(s) + family name
-
 A name in Italian consists of a given name (nome) and a surname (cognome).
 Surnames are normally written after given names.
+
+name components:
+
+- family name
+- given name

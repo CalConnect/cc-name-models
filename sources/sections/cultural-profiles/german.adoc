@@ -1,13 +1,22 @@
 
 === German
 
-given name(s) (+ optional family name)
+name components:
+
+- family name
+- given name
 
 Personal names in German-speaking Europe consist of one or several given names
 (Vorname, plural Vornamen) and a surname (Nachname, Familienname). The Vorname
 is usually gender-specific.
 
-Typical order of "given name, surname".
+==== Typical name patterns
+
+|===
+|given name|family name
+|===
+
+==== Examples
 
 [example]
 Otto Eduard Leopold Fürst von Bismarck.

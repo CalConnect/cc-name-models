@@ -1,8 +1,19 @@
 
 === Spanish
 
-given name(s) + father's patronymic name(s) + mother's patronymic name(s)
+name components:
+
+- given name
+- father's patronymic name
+- mother's patronymic name
+
+==== Typical name patterns
+
+|===
+|given name|father's patronymic name|mother's patronymic name
+|===
+
+==== Examples
 
 [example]
 Salvador de Madariaga y Rojo, Spanish diplomat, writer, historian and pacifist. Child of Darío José de Madariaga​ and María Ascensión Rojo.
-

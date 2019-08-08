@@ -1,15 +1,30 @@
 
 === Manchu
 
-given name(s) (+ optional family name)
+name components:
 
-or
-
-(optional family name +) given name(s)
+- family name
+- given name
 
 Manchus are called only by their given names.
 Manchu clan names ("`hala`") are not used with their personal names,
 but occasionally a family name is used.
+
+==== Typical name patterns
+
+|===
+|given name
+|===
+
+|===
+|given name|family name
+|===
+
+|===
+|family name|given name
+|===
+
+==== Examples
 
 [example]
 "`Tulišen`"
@@ -19,4 +34,3 @@ but occasionally a family name is used.
 
 [example]
 "`Aisin-Gioro Ulhicun`", linguist. The family name is "`Aisin-Gioro`".
-

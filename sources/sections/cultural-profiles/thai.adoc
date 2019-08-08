@@ -2,10 +2,25 @@
 
 === Thai
 
-given name(s) + family name
+name components:
+
+- family name
+- given name
 
 Modern Thai names are composed of given names followed by the family name.
 Prior to 1913, family names were not required.
+
+==== Typical name patterns
+
+|===
+|given name
+|===
+
+|===
+|given name|family name
+|===
+
+==== Examples
 
 ////
 [example]

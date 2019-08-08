@@ -1,7 +1,10 @@
 
 === English
 
-given name(s) (+ optional family name)
+name components:
+
+- given name
+- family name
 
 English names are names used in, or originating in, England. In England as
 elsewhere in the English-speaking world, a complete name usually consists of a
@@ -14,18 +17,32 @@ second name, or middle name(s).
 Double-barrelled names, compound surnames in English feature two words,
 are often joined by a hyphen or hyphens.
 
+==== Typical name patterns
+
+|===
+|given name|family name
+|===
+
+==== Examples
+
 [example]
 Henry Hepburne-Scott
 
+[example]
+====
 Some families having as many as
 three or four words making up their surname.
 
-[example]
 Charles Hepburn-Stuart-Forbes-Trefusis, 21st Baron Clinton.
+====
 
-
+[example]
+====
 It is not unusual for compound surnames to be composed of separate words
 not linked by a hyphen.
 
-[example]
-Iain Duncan Smith has a surname of "Duncan Smith".
+|===
+|Iain|Duncan Smith
+|given name|family name
+|===
+====

@@ -1,10 +1,25 @@
 
 === French
 
-given name(s) (+ optional family name)
+name components:
+
+- family name
+- given name
 
 French people have one, two or more given names (first names). One of them
 is used in daily life.
+
+==== Typical name patterns
+
+|===
+|given name
+|===
+
+|===
+|given name|family name
+|===
+
+==== Examples
 
 [example]
 "`Jacques Chirac`" instead of officially of Jacques René Chirac.
@@ -18,5 +33,5 @@ Middle names in the English sense do not exist, and middle initials are
 never used for second or further given names.
 
 [example]
-Claude Allègre may be cited as "`Claude J. Allègre`" in English-speaking scientific publications, but not in French ones.
-
+Claude Allègre may be cited as "`Claude J. Allègre`" in English-speaking
+scientific publications, but not in French ones.
