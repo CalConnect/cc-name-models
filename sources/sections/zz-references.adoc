@@ -32,10 +32,7 @@
 
 * [[[iso15924,ISO 15924:2004]]], _Information and documentation -- Codes for the representation of names of scripts_
 
-* [[[bcp47,IETF BCP 47]]], Phillips, A., Davis, M., _Tags for Identifying
-  Languages_.  September 2009.  https://tools.ietf.org/html/bcp47
-
-* [[[rfc2046,IETF RFC 2046]]], Freed, N., Borenstein, N.
+* [[[rfc2046,IETF RFC 2046]]], Freedm N., Borenstein, N.
 _Multipurpose Internet Mail Extensions (MIME) Part Two: Media Types_. November 1996. https://tools.ietf.org/html/rfc2046
 
 * [[[rfc3986,IETF RFC 3986]]], Berners-Lee, T., Fielding, R., Masinter, L.
