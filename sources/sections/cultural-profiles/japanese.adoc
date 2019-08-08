@@ -28,28 +28,25 @@ TODO: transliteration differences: belongs in here?
 
 [example]
 "`中山樵`" (Nakayama Sho), the Japanese pseudonym of
-"`Sun Yat Sen`", where "`中山`" is the family name, "`樵`" the given name.
+"`Sun Yat-sen`":
+
+|===
+|中山|樵
+|family name |given name
+|===
 
 ==== Japanese immigrants in Brazil
 
 [example]
-|===
-|Akemi
-|Denise
-|Sameshima
 
-|given name
-|given name
-|family name
+|===
+|Akemi |Denise |Sameshima
+|given name |given name |family name
 |===
 
 [example]
-|===
-|Yuri
-|Vanessa
-|Ohara
 
-|given name
-|given name
-|family name
+|===
+|Yuri |Vanessa |Ohara
+|given name |given name |family name
 |===
