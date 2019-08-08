@@ -1,14 +1,15 @@
 
 === Vietnamese
 
-Full::
-family name (+ optional additional name(s)) + given name
+name components:
 
-Abbreviated::
-given name
+- given name
+- additional name
+- family name
 
 
-Vietnamese personal names are names used by those from Vietnam and the Vietnamese diaspora overseas.
+Vietnamese personal names are names used by those from Vietnam and the
+Vietnamese diaspora overseas.
 
 Vietnamese names consist of a family name (Tên, 𠸛),
 followed by a given name (Họ, /𢩜).
@@ -21,6 +22,21 @@ generational name,
 or clan distinguisher name. The middle name, for identification purposes, can be omitted.
 
 Courtesy names are also allowed, separate from the given name.
+
+==== Typical name patterns
+
+|===
+|given name
+|===
+
+|===
+|family name|given name
+|===
+
+|===
+|family name|additonal name|given name
+|===
+
 
 ==== Examples
 
@@ -36,10 +52,12 @@ Birth name of "`Hồ Chí Minh`":
 
 
 [example]
+====
 |===
 |Hồ|Chí Minh
 |family name|given name
 |===
+====
 
 [example]
 ====
@@ -77,13 +95,17 @@ Another name of "`Hồ Chí Minh`" ("`Nguyễn the Patriot`"):
 ====
 
 [example]
+====
 |===
 |Lê|Tư Thành
 |family name|given name
 |===
+====
 
 [example]
+====
 |===
 |Lê|Hạo
 |family name|courtesy name
 |===
+====

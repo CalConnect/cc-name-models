@@ -1,12 +1,26 @@
 
 === Portuguese
 
-given name(s) + mother's patronymic name(s) + father's patronymic name(s)
+name components:
+
+- given name
+- matronymic name
+- patronymic name
 
 Portuguese often have two personal names, although the first may at times be used on its own.
 
-[example]
-George Agostinho Baptista da Silva.
+==== Typical name patterns
+
+|===
+|given name|mother's patronymic name|father's patronymic name
+|===
+
+==== Examples
 
 [example]
-António Caetano de Abreu Freire Egas Moniz, Nobel prize winner. He was the child of Fernando de Pina Rezende Abreu and Maria do Rosario de Almeida e Sousa.
+George Agostinho Baptista da Silva
+
+[example]
+"`António Caetano de Abreu Freire Egas Moniz`", Nobel prize winner. He was the
+child of "`Fernando de Pina Rezende Abreu`" and "`Maria do Rosario de Almeida e
+Sousa`".
