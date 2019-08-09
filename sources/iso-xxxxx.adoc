@@ -30,7 +30,7 @@
 :imagesdir: images
 :docfile: iso-xxxxx.adoc
 :mn-document-class: iso
-:mn-output-extensions: xml,html,doc,html_alt,rxl
+:mn-output-extensions: pdf,xml,html,doc,html_alt,rxl
 :local-cache-only:
 :data-uri-image:
 
