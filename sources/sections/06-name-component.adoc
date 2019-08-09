@@ -150,8 +150,10 @@ name.
 
 NOTE: There could be more than one given name in a personal name.
 
+////
 [alt]#first name#
 [alt]#forename#
+////
 
 ==== middle name
 
