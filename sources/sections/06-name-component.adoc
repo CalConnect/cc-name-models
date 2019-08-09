@@ -155,7 +155,7 @@ NOTE: There could be more than one given name in a personal name.
 [alt]#forename#
 ////
 
-==== middle name
+==== Middle name
 
 A middle name is a given name in some cultures that is not a first name or a
 family name.
