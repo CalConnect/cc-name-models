@@ -11,11 +11,11 @@ name components:
 
 Japanese names are usually written in kanji,
 where characters are logographic, but each with a variety of
-possible Japanese pronunciations. Therefore
-often names cannot in general be spelled or
-pronounced unless both the spelling and pronunciation are given.
+possible Japanese pronunciations.
+Therefore, names often cannot be spelled or pronounced
+unless both the spelling and pronunciation are given.
 
-TODO: transliteration differences: belongs in here?
+// TODO: transliteration differences: belongs in here?
 
 ==== Typical name patterns
 

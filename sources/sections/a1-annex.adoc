@@ -2,7 +2,7 @@
 [appendix,subtype=informative]
 == Enumeration of name components
 
-TODO
+// TODO
 
 === Introduction
 
@@ -18,7 +18,7 @@ TODO
 
 === Types of given name
 
-TODO.
+// TODO.
 
 === Honorific types
 
@@ -30,7 +30,7 @@ English
 * urn:iso:name:honorific:general:ms
 * urn:iso:name:honorific:general:ms
 
-TODO: disambiguate
+//  TODO: disambiguate
 
 * urn:iso:name:honorific:rank:emperor
 * urn:iso:name:honorific:rank:empress
