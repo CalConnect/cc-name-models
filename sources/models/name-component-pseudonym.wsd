@@ -1,0 +1,27 @@
+@startuml
+
+!include style.uml.inc
+
+class NameComponent {
+}
+
+class Pseudonym {
+  +type: PseudonymType[0..*]
+}
+
+NameComponent <|-- Pseudonym
+Pseudonym       -- PseudonymType
+
+enum PseudonymType <<enumeration>> {
+  assumed
+  stage
+  art
+  pen
+  nickname
+  username
+  alias
+  codename
+  regnal
+}
+
+@enduml

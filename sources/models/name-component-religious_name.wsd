@@ -1,0 +1,18 @@
+@startuml
+
+!include style.uml.inc
+
+class NameComponent {
+}
+
+class ReligiousName {
+  +type: ReligiousNameType[0..*]
+}
+
+NameComponent <|-- ReligiousName
+ReligiousName   -- ReligiousNameType
+
+enum ReligiousNameType <<enumeration>> {
+}
+
+@enduml

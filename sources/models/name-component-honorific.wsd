@@ -1,0 +1,19 @@
+@startuml
+
+!include style.uml.inc
+
+class NameComponent {
+}
+
+class Honorific {
+  +type: HonorificType[0..*]
+}
+
+NameComponent <|-- Honorific
+Honorific       -- HonorificType
+
+enum HonorificType <<enumeration>> {
+  academic
+}
+
+@enduml

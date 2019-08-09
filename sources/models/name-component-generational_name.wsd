@@ -1,0 +1,20 @@
+@startuml
+
+!include style.uml.inc
+
+class NameComponent {
+}
+
+class GenerationalName {
+  +type: GenerationalNameType[0..*]
+}
+
+NameComponent    <|-- GenerationalName
+GenerationalName   -- GenerationalNameType
+
+enum GenerationalNameType <<enumeration>> {
+  NaturalNumber
+  String
+}
+
+@enduml

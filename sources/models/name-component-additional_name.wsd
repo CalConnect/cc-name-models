@@ -1,0 +1,18 @@
+@startuml
+
+!include style.uml.inc
+
+class NameComponent {
+}
+
+class AdditionalName {
+  +type: AdditionalNameType[0..*]
+}
+
+NameComponent <|-- AdditionalName
+AdditionalName  -- AdditionalNameType
+
+enum AdditionalNameType <<enumeration>> {
+}
+
+@enduml

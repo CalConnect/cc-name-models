@@ -1,0 +1,20 @@
+@startuml
+
+!include style.uml.inc
+
+class NameComponent {
+}
+
+class FamilyName {
+  +type: FamilyNameType[0..*]
+}
+
+NameComponent <|-- FamilyName
+FamilyName      -- FamilyNameType
+
+enum FamilyNameType <<enumeration>> {
+  patronymic
+  matronymic
+}
+
+@enduml

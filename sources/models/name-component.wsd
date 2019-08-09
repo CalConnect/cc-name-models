@@ -1,0 +1,16 @@
+@startuml
+
+!include style.uml.inc
+
+class NameComponent {
+  +componentId: Uri
+  +body: NameString
+  +examples: NameString[0..*]
+  +abbreviation: NameString[0..*]
+  +initials: NameString[0..*]
+  +script: Iso15924Code
+  +transcription: Iso24229Code
+  +language: Iso639Code
+}
+
+@enduml

@@ -2,7 +2,14 @@
 
 === General
 
-image::name-components.png[]
+image::name-component.png[]
+image::name-component-family_name.png[]
+image::name-component-given_name.png[]
+image::name-component-honorific.png[]
+image::name-component-additional_name.png[]
+image::name-component-generational_name.png[]
+image::name-component-religious_name.png[]
+image::name-component-pseudonym.png[]
 
 
 === Pseudonym
