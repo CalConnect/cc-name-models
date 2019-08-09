@@ -1,8 +1,8 @@
 = Computer applications in terminology -- Naming -- Structure of personal names
-:docnumber: 37100
+:docnumber: XXXXX
 :tc-document-number: 9999
 :edition: 1
-:ref-docnumber: ISO 37100:2018(E)
+:ref-docnumber: ISO XXXXX:2018(E)
 :copyright-year: 2019
 :language: en
 :title-intro-en: Computer applications in terminology

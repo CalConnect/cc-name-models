@@ -1,5 +1,5 @@
 = Computer applications in terminology -- Naming -- Structure of personal names
-:docnumber: 37100
+:docnumber: XXXXX
 :copyright-year: 2019
 :language: en
 :doctype: standard
