@@ -6,7 +6,7 @@ interface TemplateFragment {
   +toString(): String
   +component: NameComponent[1..*]
 }
-note left of TemplateFragment: name components
+' note left of TemplateFragment: name components
 
 TemplateFragment -- NameTemplate
 
