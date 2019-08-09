@@ -6,4 +6,4 @@
 
 * [[[ISO15924,ISO 15924]]], _Information and documentation -- Codes for the representation of names of scripts_
 
-* [[[ISO24229,ISO/WD 24229:----]]], _Information and documentation -- Codes for script conversion systems_ footnote:[Under development]
+* [[[ISO24229,ISO 24229:----]]], _Information and documentation -- Codes for script conversion systems_ footnote:[Under development]
