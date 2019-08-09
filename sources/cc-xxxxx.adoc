@@ -20,7 +20,7 @@
 :stem:
 :xrefstyle: short
 :imagesdir: images
-:docfile: cc-37100.adoc
+:docfile: cc-xxxxx.adoc
 :mn-document-class: csd
 :mn-output-extensions: xml,html,pdf,rxl
 :local-cache-only:

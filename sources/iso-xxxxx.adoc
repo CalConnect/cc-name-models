@@ -2,7 +2,7 @@
 :docnumber: XXXXX
 :tc-document-number: 9999
 :edition: 1
-:ref-docnumber: ISO XXXXX:2018(E)
+:ref-docnumber: ISO XXXXX:XXXX(E)
 :copyright-year: 2019
 :language: en
 :title-intro-en: Computer applications in terminology
@@ -28,7 +28,7 @@
 :stem:
 :xrefstyle: short
 :imagesdir: images
-:docfile: iso-37100.adoc
+:docfile: iso-xxxxx.adoc
 :mn-document-class: iso
 :mn-output-extensions: xml,html,doc,html_alt,rxl
 :local-cache-only:
