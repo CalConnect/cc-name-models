@@ -1,9 +1,14 @@
-<bibitem type="international-standard" id="ISO/TS14198-2012">
-  <fetched>2019-06-11</fetched>
-  <title format="text/plain" language="en" script="Latn">Road vehicles -- Ergonomic aspects of transport information and control systems -- Calibration tasks for methods which assess driver demand due to the use of in-vehicle systems</title>
-  <title format="text/plain" language="fr" script="Latn">Véhicules routiers -- Aspects ergonomiques des systèmes d'information et de contrôle du transport -- Tâches de calibration pour méthodes qui évaluent la distraction du conducteur due à l'utilisation des systèmes embarqués</title>
+<bibdata type="standard">
+  <fetched>2019-08-09</fetched>
+  <title type="title-intro" format="text/plain" language="en" script="Latn">Road vehicles</title>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Ergonomic aspects of transport information and control systems</title>
+  <title type="title-part" format="text/plain" language="en" script="Latn">Calibration tasks for methods which assess driver demand due to the use of in-vehicle systems</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Road vehicles - Ergonomic aspects of transport information and control systems - Calibration tasks for methods which assess driver demand due to the use of in-vehicle systems</title>
+  <title type="title-intro" format="text/plain" language="fr" script="Latn">Véhicules routiers</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Aspects ergonomiques des systèmes d'information et de contrôle du transport</title>
+  <title type="title-part" format="text/plain" language="fr" script="Latn">Tâches de calibration pour méthodes qui évaluent la distraction du conducteur due à l'utilisation des systèmes embarqués</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Véhicules routiers - Aspects ergonomiques des systèmes d'information et de contrôle du transport - Tâches de calibration pour méthodes qui évaluent la distraction du conducteur due à l'utilisation des systèmes embarqués</title>
   <uri type="src">https://www.iso.org/standard/54496.html</uri>
-  <uri type="obp"/>
   <uri type="rss">https://www.iso.org/contents/data/standard/05/44/54496.detail.rss</uri>
   <docidentifier type="ISO">ISO/TS 14198:2012</docidentifier>
   <date type="published">
@@ -20,15 +25,16 @@
   <contributor>
     <role type="publisher"/>
     <organization>
-      <name/>
+      <name>International Organization for Standardization</name>
       <abbreviation>TS</abbreviation>
+      <uri>www.iso.org</uri>
     </organization>
   </contributor>
   <edition>1</edition>
   <language>en</language>
   <language>fr</language>
   <script>Latn</script>
-  <abstract format="plain" language="en" script="Latn">ISO/TS 14198:2012 provides procedures that can be used as a secondary task in a dual task setting to determine whether that evaluation setting is standardized and valid for purposes of assessing driver attentional demand due to the use of an in-vehicle system. It does not define calibration procedures for other evaluation activities that a laboratory might undertake.ISO/TS 14198:2012 provides advice on the selection of an appropriate candidate calibration task, given an attentional demand evaluation procedure that uses primary driving-like task settings and procedures which are defined outside of ISO/TS 14198:2012.</abstract>
+  <abstract format="text/plain" language="en" script="Latn">ISO/TS 14198:2012 provides procedures that can be used as a secondary task in a dual task setting to determine whether that evaluation setting is standardized and valid for purposes of assessing driver attentional demand due to the use of an in-vehicle system. It does not define calibration procedures for other evaluation activities that a laboratory might undertake.ISO/TS 14198:2012 provides advice on the selection of an appropriate candidate calibration task, given an attentional demand evaluation procedure that uses primary driving-like task settings and procedures which are defined outside of ISO/TS 14198:2012.</abstract>
   <status>
     <stage>95</stage>
     <substage>99</substage>
@@ -42,19 +48,25 @@
     </owner>
   </copyright>
   <relation type="updates">
-    <bibitem>
-      <formattedref>ISO/TS 14198:2019</formattedref>
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/TS 14198:2019</formattedref>
     </bibitem>
   </relation>
-  <editorialgroup>
-    <technical_committee number="22" type="TC">ISO/TC 22/SC 39Ergonomics</technical_committee>
-  </editorialgroup>
-  <ics>
-    <code>13.180</code>
-    <text>Ergonomics</text>
-  </ics>
-  <ics>
-    <code>43.040.15</code>
-    <text>Car informatics. On board computer systems</text>
-  </ics>
-</bibitem>
+  <ext>
+    <doctype>technical-specification</doctype>
+    <editorialgroup>
+      <technical_committee number="22" type="TC">ISO/TC 22/SC 39Ergonomics</technical_committee>
+    </editorialgroup>
+    <ics>
+      <code>13.180</code>
+      <text>Ergonomics</text>
+    </ics>
+    <ics>
+      <code>43.040.15</code>
+      <text>Car informatics. On board computer systems</text>
+    </ics>
+    <structuredidentifier type="ISO">
+      <project-number>ISO/TS 14198</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata>

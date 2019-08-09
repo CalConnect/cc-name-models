@@ -1,6 +1,9 @@
-<bibitem type="international-standard" id="ISO/IECTS29003-2018">
-  <fetched>2019-06-11</fetched>
-  <title format="text/plain" language="en" script="Latn">Information technology -- Security techniques -- Identity proofing</title>
+<bibdata type="standard">
+  <fetched>2019-08-09</fetched>
+  <title type="title-intro" format="text/plain" language="en" script="Latn">Information technology</title>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Security techniques</title>
+  <title type="title-part" format="text/plain" language="en" script="Latn">Identity proofing</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Information technology - Security techniques - Identity proofing</title>
   <uri type="src">https://www.iso.org/standard/62290.html</uri>
   <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:62290:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/06/22/62290.detail.rss</uri>
@@ -28,7 +31,7 @@
   <language>en</language>
   <language>fr</language>
   <script>Latn</script>
-  <abstract format="plain" language="en" script="Latn">ISO/IEC TS 29003:2018:?   gives guidelines for the identity proofing of a person;?   specifies levels of identity proofing, and requirements to achieve these levels.ISO/IEC TS 29003:2018 is applicable to identity management systems.</abstract>
+  <abstract format="text/plain" language="en" script="Latn">ISO/IEC TS 29003:2018:?   gives guidelines for the identity proofing of a person;?   specifies levels of identity proofing, and requirements to achieve these levels.ISO/IEC TS 29003:2018 is applicable to identity management systems.</abstract>
   <status>
     <stage>60</stage>
     <substage>60</substage>
@@ -41,11 +44,17 @@
       </organization>
     </owner>
   </copyright>
-  <editorialgroup>
-    <technical_committee number="1" type="TC">ISO/IEC JTC 1/SC 27Information security, cybersecurity and privacy protection</technical_committee>
-  </editorialgroup>
-  <ics>
-    <code>35.030</code>
-    <text>IT Security</text>
-  </ics>
-</bibitem>
+  <ext>
+    <doctype>technical-specification</doctype>
+    <editorialgroup>
+      <technical_committee number="1" type="TC">ISO/IEC JTC 1/SC 27Information security, cybersecurity and privacy protection</technical_committee>
+    </editorialgroup>
+    <ics>
+      <code>35.030</code>
+      <text>IT Security</text>
+    </ics>
+    <structuredidentifier type="ISO">
+      <project-number>ISO/IEC TS 29003</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata>

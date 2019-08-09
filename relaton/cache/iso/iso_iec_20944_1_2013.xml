@@ -1,6 +1,9 @@
-<bibitem type="international-standard" id="ISO/IEC20944-1-2013">
-  <fetched>2019-06-11</fetched>
-  <title format="text/plain" language="en" script="Latn">Information technology -- Metadata Registries Interoperability and Bindings (MDR-IB) -- Part 1: Framework, common vocabulary, and common provisions for conformance</title>
+<bibdata type="standard">
+  <fetched>2019-08-09</fetched>
+  <title type="title-intro" format="text/plain" language="en" script="Latn">Information technology</title>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Metadata Registries Interoperability and Bindings (MDR-IB)</title>
+  <title type="title-part" format="text/plain" language="en" script="Latn">Part 1: Framework, common vocabulary, and common provisions for conformance</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Information technology - Metadata Registries Interoperability and Bindings (MDR-IB) - Part 1: Framework, common vocabulary, and common provisions for conformance</title>
   <uri type="src">https://www.iso.org/standard/51914.html</uri>
   <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:51914:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/05/19/51914.detail.rss</uri>
@@ -28,10 +31,10 @@
   <language>en</language>
   <language>fr</language>
   <script>Latn</script>
-  <abstract format="plain" language="en" script="Latn">The ISO/IEC 20944 series of International Standards provides the bindings and their interoperability for metadata registries, such as those specified in the ISO/IEC 11179 series of International Standards.  ISO/IEC 20944-1:2013 contains an overview, framework, common vocabulary, and common provisions for conformance for the ISO/IEC 20944 series of International Standards.</abstract>
+  <abstract format="text/plain" language="en" script="Latn">The ISO/IEC 20944 series of International Standards provides the bindings and their interoperability for metadata registries, such as those specified in the ISO/IEC 11179 series of International Standards.  ISO/IEC 20944-1:2013 contains an overview, framework, common vocabulary, and common provisions for conformance for the ISO/IEC 20944 series of International Standards.</abstract>
   <status>
     <stage>90</stage>
-    <substage>92</substage>
+    <substage>93</substage>
   </status>
   <copyright>
     <from>2013</from>
@@ -41,16 +44,17 @@
       </organization>
     </owner>
   </copyright>
-  <relation type="obsoletes">
-    <bibitem>
-      <formattedref>ISO/IEC NP 20944-1</formattedref>
-    </bibitem>
-  </relation>
-  <editorialgroup>
-    <technical_committee number="1" type="TC">ISO/IEC JTC 1/SC 32Data management and interchange</technical_committee>
-  </editorialgroup>
-  <ics>
-    <code>35.040.50</code>
-    <text>Automatic identification and data capture techniques</text>
-  </ics>
-</bibitem>
+  <ext>
+    <doctype>international-standard</doctype>
+    <editorialgroup>
+      <technical_committee number="1" type="TC">ISO/IEC JTC 1/SC 32Data management and interchange</technical_committee>
+    </editorialgroup>
+    <ics>
+      <code>35.040.50</code>
+      <text>Automatic identification and data capture techniques</text>
+    </ics>
+    <structuredidentifier type="ISO">
+      <project-number>ISO/IEC 20944</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata>

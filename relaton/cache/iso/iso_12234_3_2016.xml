@@ -1,6 +1,9 @@
-<bibitem type="international-standard" id="ISO12234-3-2016">
-  <fetched>2019-06-11</fetched>
-  <title format="text/plain" language="en" script="Latn">Electronic still picture imaging -- Removable memory -- Part 3: XMP for digital photography</title>
+<bibdata type="standard">
+  <fetched>2019-08-09</fetched>
+  <title type="title-intro" format="text/plain" language="en" script="Latn">Electronic still picture imaging</title>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Removable memory</title>
+  <title type="title-part" format="text/plain" language="en" script="Latn">Part 3: XMP for digital photography</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Electronic still picture imaging - Removable memory - Part 3: XMP for digital photography</title>
   <uri type="src">https://www.iso.org/standard/57732.html</uri>
   <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:57732:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/05/77/57732.detail.rss</uri>
@@ -20,7 +23,7 @@
   <language>en</language>
   <language>fr</language>
   <script>Latn</script>
-  <abstract format="plain" language="en" script="Latn">ISO 12234-3:2016 defines an XMP namespace for the metadata used in digital photography applications that is formatted for exchange using the syntax of the XML and provides standard definitions of this metadata.</abstract>
+  <abstract format="text/plain" language="en" script="Latn">ISO 12234-3:2016 defines an XMP namespace for the metadata used in digital photography applications that is formatted for exchange using the syntax of the XML and provides standard definitions of this metadata.</abstract>
   <status>
     <stage>60</stage>
     <substage>60</substage>
@@ -33,11 +36,17 @@
       </organization>
     </owner>
   </copyright>
-  <editorialgroup>
-    <technical_committee number="42" type="TC">ISO/TC 42Photography</technical_committee>
-  </editorialgroup>
-  <ics>
-    <code>37.040.99</code>
-    <text>Other standards related to photography</text>
-  </ics>
-</bibitem>
+  <ext>
+    <doctype>international-standard</doctype>
+    <editorialgroup>
+      <technical_committee number="42" type="TC">ISO/TC 42Photography</technical_committee>
+    </editorialgroup>
+    <ics>
+      <code>37.040.99</code>
+      <text>Other standards related to photography</text>
+    </ics>
+    <structuredidentifier type="ISO">
+      <project-number>ISO 12234</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata>

@@ -1,6 +1,8 @@
-<bibitem type="international-standard" id="ISO/TR14105-2011">
-  <fetched>2019-06-11</fetched>
-  <title format="text/plain" language="en" script="Latn">Document management -- Change management for successful electronic document management system (EDMS) implementation</title>
+<bibdata type="standard">
+  <fetched>2019-08-09</fetched>
+  <title type="title-intro" format="text/plain" language="en" script="Latn">Document management</title>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Change management for successful electronic document management system (EDMS) implementation</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Document management - Change management for successful electronic document management system (EDMS) implementation</title>
   <uri type="src">https://www.iso.org/standard/52072.html</uri>
   <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:52072:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/05/20/52072.detail.rss</uri>
@@ -19,15 +21,16 @@
   <contributor>
     <role type="publisher"/>
     <organization>
-      <name/>
+      <name>International Organization for Standardization</name>
       <abbreviation>TR</abbreviation>
+      <uri>www.iso.org</uri>
     </organization>
   </contributor>
   <edition>2</edition>
   <language>en</language>
   <language>fr</language>
   <script>Latn</script>
-  <abstract format="plain" language="en" script="Latn">ISO/TR 14105:2011 defines the cognitive, physical, organizational, and human factors as they apply to usability criteria for electronic document management systems (EDMS) development, selection and implementation. ISO/TR 14105:2011 provides a framework for understanding the basic issues and concepts of organizational and human factors associated with implementing EDMS technologies. It describes the principles of human factors and ergonomics in their application to usability criteria for the planning and implementation of EDMS technologies, to environmental and implementation issues, and to training for long-term productivity benefits.</abstract>
+  <abstract format="text/plain" language="en" script="Latn">ISO/TR 14105:2011 defines the cognitive, physical, organizational, and human factors as they apply to usability criteria for electronic document management systems (EDMS) development, selection and implementation. ISO/TR 14105:2011 provides a framework for understanding the basic issues and concepts of organizational and human factors associated with implementing EDMS technologies. It describes the principles of human factors and ergonomics in their application to usability criteria for the planning and implementation of EDMS technologies, to environmental and implementation issues, and to training for long-term productivity benefits.</abstract>
   <status>
     <stage>60</stage>
     <substage>60</substage>
@@ -41,15 +44,21 @@
     </owner>
   </copyright>
   <relation type="obsoletes">
-    <bibitem>
-      <formattedref>ISO/TR 14105:2001</formattedref>
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/TR 14105:2001</formattedref>
     </bibitem>
   </relation>
-  <editorialgroup>
-    <technical_committee number="171" type="TC">ISO/TC 171/SC 2Document file formats, EDMS systems and authenticity of information</technical_committee>
-  </editorialgroup>
-  <ics>
-    <code>35.240.30</code>
-    <text>IT applications in information, documentation and publishing</text>
-  </ics>
-</bibitem>
+  <ext>
+    <doctype>technical-report</doctype>
+    <editorialgroup>
+      <technical_committee number="171" type="TC">ISO/TC 171/SC 2Document file formats, EDMS systems and authenticity of information</technical_committee>
+    </editorialgroup>
+    <ics>
+      <code>35.240.30</code>
+      <text>IT applications in information, documentation and publishing</text>
+    </ics>
+    <structuredidentifier type="ISO">
+      <project-number>ISO/TR 14105</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata>

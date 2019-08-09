@@ -1,6 +1,9 @@
-<bibitem type="international-standard" id="ISO14813-5-2010">
-  <fetched>2019-06-11</fetched>
-  <title format="text/plain" language="en" script="Latn">Intelligent transport systems -- Reference model architecture(s) for the ITS sector -- Part 5: Requirements for architecture description in ITS standards</title>
+<bibdata type="standard">
+  <fetched>2019-08-09</fetched>
+  <title type="title-intro" format="text/plain" language="en" script="Latn">Intelligent transport systems</title>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Reference model architecture(s) for the ITS sector</title>
+  <title type="title-part" format="text/plain" language="en" script="Latn">Part 5: Requirements for architecture description in ITS standards</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Intelligent transport systems - Reference model architecture(s) for the ITS sector - Part 5: Requirements for architecture description in ITS standards</title>
   <uri type="src">https://www.iso.org/standard/46008.html</uri>
   <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:46008:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/04/60/46008.detail.rss</uri>
@@ -20,7 +23,7 @@
   <language>en</language>
   <language>fr</language>
   <script>Latn</script>
-  <abstract format="plain" language="en" script="Latn">ISO 14813-5:2010 gives requirements for the description and documentation of the architecture of intelligent transport systems (ITS) in standards dealing with ITS. It also gives the definitions of terms to be used when documenting or referencing aspects of architecture description in those standards.</abstract>
+  <abstract format="text/plain" language="en" script="Latn">ISO 14813-5:2010 gives requirements for the description and documentation of the architecture of intelligent transport systems (ITS) in standards dealing with ITS. It also gives the definitions of terms to be used when documenting or referencing aspects of architecture description in those standards.</abstract>
   <status>
     <stage>90</stage>
     <substage>92</substage>
@@ -34,24 +37,30 @@
     </owner>
   </copyright>
   <relation type="obsoletes">
-    <bibitem>
-      <formattedref>ISO/TR 14813-5:1999</formattedref>
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/TR 14813-5:1999</formattedref>
     </bibitem>
   </relation>
   <relation type="obsoletes">
-    <bibitem>
-      <formattedref>ISO/DIS 14813-5</formattedref>
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/DIS 14813-5</formattedref>
     </bibitem>
   </relation>
-  <editorialgroup>
-    <technical_committee number="204" type="TC">ISO/TC 204Intelligent transport systems</technical_committee>
-  </editorialgroup>
-  <ics>
-    <code>03.220.01</code>
-    <text>Transport in general</text>
-  </ics>
-  <ics>
-    <code>35.240.60</code>
-    <text>IT applications in transport</text>
-  </ics>
-</bibitem>
+  <ext>
+    <doctype>international-standard</doctype>
+    <editorialgroup>
+      <technical_committee number="204" type="TC">ISO/TC 204Intelligent transport systems</technical_committee>
+    </editorialgroup>
+    <ics>
+      <code>03.220.01</code>
+      <text>Transport in general</text>
+    </ics>
+    <ics>
+      <code>35.240.60</code>
+      <text>IT applications in transport</text>
+    </ics>
+    <structuredidentifier type="ISO">
+      <project-number>ISO 14813</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata>
