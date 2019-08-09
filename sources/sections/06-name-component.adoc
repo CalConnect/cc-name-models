@@ -215,7 +215,7 @@ A nickname is a familiar name given to a person instead of or as well as the
 real personal name.
 
 [example]
-The given name "`Mikhail`" in Russion often goes by the nickname "`Misha`".
+The given name "`Mikhail`" in Russian often goes by the nickname "`Misha`".
 
 [example]
 The given name "`José`" in Spanish often goes by the nickname "`Pepe`".
