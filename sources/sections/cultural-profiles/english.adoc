@@ -28,19 +28,19 @@ are often joined by a hyphen or hyphens.
 [example]
 Henry Hepburne-Scott
 
-[example]
-====
 Some families having as many as
 three or four words making up their surname.
 
+[example]
+====
 Charles Hepburn-Stuart-Forbes-Trefusis, 21st Baron Clinton.
 ====
 
-[example]
-====
 It is not unusual for compound surnames to be composed of separate words
 not linked by a hyphen.
 
+[example]
+====
 |===
 |Iain|Duncan Smith
 |given name|family name
