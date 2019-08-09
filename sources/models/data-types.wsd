@@ -23,4 +23,11 @@ class NameString {
   +text: String
 }
 
+NaturalNumber -[hidden]- String
+Iso639Code    -[hidden]- String
+Iso639Code    -[hidden]- Iso15924Code
+
+Iso24229Code  -[hidden]- Uri
+NameString    -[hidden]- Uri
+
 @enduml
