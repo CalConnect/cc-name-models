@@ -5,8 +5,8 @@
   <title language="fr" format="text/plain" type="main">Applications informatiques en terminologie — Nommage — Structure des noms de personnes</title>
   <title language="fr" format="text/plain" type="title-intro">Applications informatiques en terminologie</title>
   <title language="fr" format="text/plain" type="title-main">Nommage — Structure des noms de personnes</title>
-  <docidentifier type="iso">ISO/NWIP 37100</docidentifier>
-  <docnumber>37100</docnumber>
+  <docidentifier type="iso">ISO/NWIP XXXXX</docidentifier>
+  <docnumber>XXXXX</docnumber>
   <contributor>
     <role type="author"/>
     <organization>
@@ -49,7 +49,7 @@
       <secretariat>KATS</secretariat>
     </editorialgroup>
     <structuredidentifier>
-      <project-number>ISO 37100</project-number>
+      <project-number>ISO XXXXX</project-number>
     </structuredidentifier>
   </ext>
 </bibdata>
