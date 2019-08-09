@@ -55,5 +55,8 @@ include::sections/07-name-pattern.adoc[]
 include::sections/08-name-profile.adoc[]
 
 include::sections/a1-annex.adoc[]
+include::sections/aa-honorifics.adoc[]
+include::sections/ab-occupation.adoc[]
+
 include::sections/a2-cultures.adoc[]
 include::sections/zz-references.adoc[]

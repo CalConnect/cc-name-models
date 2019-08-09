@@ -2,10 +2,6 @@
 [appendix,subtype=informative]
 == Enumeration of name components
 
-// TODO
-
-=== Introduction
-
 === Types of surname
 
 * Patrilineal surname
@@ -20,103 +16,6 @@
 
 // TODO.
 
-=== Honorific types
-
-English
-
-* urn:iso:name:honorific:general:mr
-* urn:iso:name:honorific:general:mrs
-* urn:iso:name:honorific:general:miss
-* urn:iso:name:honorific:general:ms
-* urn:iso:name:honorific:general:ms
-
-//  TODO: disambiguate
-
-* urn:iso:name:honorific:rank:emperor
-* urn:iso:name:honorific:rank:empress
-
-* urn:iso:name:honorific:rank:king
-* urn:iso:name:honorific:rank:queen
-
-* urn:iso:name:honorific:rank:archduke
-* urn:iso:name:honorific:rank:archduchess
-
-* urn:iso:name:honorific:rank:grand-prince
-* urn:iso:name:honorific:rank:grand-princess
-
-* urn:iso:name:honorific:rank:grand-duke
-* urn:iso:name:honorific:rank:grand-duchess
-
-* urn:iso:name:honorific:rank:prince
-* urn:iso:name:honorific:rank:princess
-* urn:iso:name:honorific:rank:infante
-* urn:iso:name:honorific:rank:infanta
-* urn:iso:name:honorific:rank:królewicz
-* urn:iso:name:honorific:rank:królewna
-
-* urn:iso:name:honorific:rank:duke
-* urn:iso:name:honorific:rank:duchess
-
-* urn:iso:name:honorific:rank:sovereign-prince
-* urn:iso:name:honorific:rank:sovereign-princess
-* urn:iso:name:honorific:rank:fürst
-* urn:iso:name:honorific:rank:fürstin
-
-* urn:iso:name:honorific:rank:marquess
-* urn:iso:name:honorific:rank:marquis
-* urn:iso:name:honorific:rank:marchioness
-* urn:iso:name:honorific:rank:margrave
-* urn:iso:name:honorific:rank:landgrave
-* urn:iso:name:honorific:rank:count-palatine
-
-* urn:iso:name:honorific:rank:count
-* urn:iso:name:honorific:rank:countess
-* urn:iso:name:honorific:rank:earl
-
-* urn:iso:name:honorific:rank:burgrave
-* urn:iso:name:honorific:rank:chatelain
-* urn:iso:name:honorific:rank:castellan
-
-* urn:iso:name:honorific:rank:viscount
-* urn:iso:name:honorific:rank:viscountess
-* urn:iso:name:honorific:rank:vidame
-
-* urn:iso:name:honorific:rank:baron
-* urn:iso:name:honorific:rank:baroness
-* urn:iso:name:honorific:rank:baronet
-* urn:iso:name:honorific:rank:baronetess
-* urn:iso:name:honorific:rank:hereditary-knight
-* urn:iso:name:honorific:rank:lady
-* urn:iso:name:honorific:rank:ritter
-* urn:iso:name:honorific:rank:ridder
-
-* urn:iso:name:honorific:rank:knight
-* urn:iso:name:honorific:rank:dame-chevalier
-
-* urn:iso:name:honorific:rank:esquire
-* urn:iso:name:honorific:rank:laird
-* urn:iso:name:honorific:rank:edler
-* urn:iso:name:honorific:rank:jonkheer
-* urn:iso:name:honorific:rank:junker
-
-* urn:iso:name:honorific:rank:gentleman
-* urn:iso:name:honorific:rank:younger
-* urn:iso:name:honorific:rank:maid
-
-
-Occupation
-
-* urn:iso:name:honorific:occupation:doctor
-* urn:iso:name:honorific:occupation:esquire
-* urn:iso:name:honorific:occupation:captain
-* urn:iso:name:honorific:occupation:coach
-* urn:iso:name:honorific:occupation:officer
-* urn:iso:name:honorific:occupation:reverend
-* urn:iso:name:honorific:occupation:father
-* urn:iso:name:honorific:occupation:rabbi
-* urn:iso:name:honorific:occupation:professor
-
-
 === Role name
 
 === Generational name
@@ -124,5 +23,4 @@ Occupation
 * Junior
 * Senior
 * Numerical
-
 

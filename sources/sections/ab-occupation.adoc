@@ -1,0 +1,14 @@
+[[AnnexA]]
+[appendix,subtype=informative]
+== Occupation
+
+* urn:iso:name:honorific:occupation:doctor
+* urn:iso:name:honorific:occupation:esquire
+* urn:iso:name:honorific:occupation:captain
+* urn:iso:name:honorific:occupation:coach
+* urn:iso:name:honorific:occupation:officer
+* urn:iso:name:honorific:occupation:reverend
+* urn:iso:name:honorific:occupation:father
+* urn:iso:name:honorific:occupation:rabbi
+* urn:iso:name:honorific:occupation:professor
+

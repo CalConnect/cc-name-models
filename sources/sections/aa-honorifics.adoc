@@ -1,0 +1,238 @@
+[[AnnexA]]
+[appendix,subtype=informative]
+== Honorific types
+
+=== General
+
+==== Mister
+
+Code:: urn:iso:name:honorific:general:mr
+Description:: commonly used English honorific for men
+
+[example]
+Mr. Smith
+
+[example]
+Mr Smith
+
+|===
+|Language | Abbreviations | Rendered | Position
+
+|en | Mr, Mr. | Mr | Prefix
+|fr | M., Mssr. | Monsieur | Prefix
+|de |  | Herr | Prefix
+|===
+
+
+==== Mrs
+
+Code:: urn:iso:name:honorific:general:mrs
+Description:: commonly used English honorific for women. Originated from "Mistress".
+
+[example]
+Mrs. Smith
+
+[example]
+Mrs Smith
+
+|===
+|Language | Abbreviations | Rendered | Position
+
+|en | Mrs, Mrs. | Mrs | Prefix
+|de |  | Frau | Prefix
+
+|===
+
+==== Miss
+
+Code:: urn:iso:name:honorific:general:miss
+
+Description:: commonly used English honorific traditionally only for an unmarried woman. Originated from "Mistress".
+
+[example]
+Miss Smith
+
+[example]
+Ms. Smith
+
+
+|===
+|Language | Abbreviations | Rendered | Position
+
+|en | Ms, Ms. | Miss | Prefix
+|fr | Mlle | Mademoiselle | Prefix
+|de |  | Fräulein | Prefix
+
+|===
+
+==== Ms
+
+Code:: urn:iso:name:honorific:general:ms
+Description:: common English honorific for women regardless of marital status. Originated from "Mistress".
+
+[example]
+Ms Smith
+
+[example]
+Ms. Smith
+
+
+|===
+|Language | Abbreviations | Rendered | Position
+
+|en | Ms, Ms. | Ms | Prefix
+|de |  | Frau | Prefix
+
+|===
+
+==== Madam
+
+Code:: urn:iso:name:honorific:general:madam
+Description:: formal form of address for women
+
+[example]
+Mme. M. Curie
+
+[example]
+Mme. Chiang Kai-shek
+
+|===
+|Language | Abbreviations | Rendered | Position
+
+|en | Ma'am | Madam | Prefix
+|fr | Mme | Madame | Prefix
+|de |  | Frau | Prefix
+
+|===
+
+
+=== Rank
+
+==== Emperor
+
+Code:: urn:iso:name:honorific:rank:emperor
+Description::
+
+[example]
+Emperor of India
+
+[example]
+Kaiser Franz II
+
+[example]
+Napoléon Bonaparte empereur des Français
+
+|===
+|Language | Abbreviations | Rendered | Position
+
+|en | | Emperor | Prefix
+|fr |  | empereur | Prefix
+|es |  | Emperador | Prefix
+|de |  | Kaiser | Prefix
+
+|===
+
+==== King
+
+Code:: urn:iso:name:honorific:rank:king
+Description:: generally title given to a male monarch
+
+[example]
+King Felipe VI
+
+[example]
+Felipe VI de España
+
+[example]
+el rey Felipe V
+
+[example]
+Willem-Alexander Claus George Ferdinand, Koning der Nederlanden, Prins van Oranje-Nassau, Jonkheer van Amsberg
+
+[example]
+le roi Louis XVI
+
+[example]
+König Wilhelm II. von Württemberg
+
+|===
+|Language | Abbreviations | Rendered | Position
+
+|en | | King | Prefix
+|fr |  | le roi | Prefix
+|es |  | el rey | Prefix
+|de |  | König | Prefix
+
+|===
+
+==== Others
+
+//  TODO: disambiguate
+
+* urn:iso:name:honorific:rank:empress
+* urn:iso:name:honorific:rank:queen
+
+* urn:iso:name:honorific:rank:archduke
+* urn:iso:name:honorific:rank:archduchess
+
+* urn:iso:name:honorific:rank:grand-prince
+* urn:iso:name:honorific:rank:grand-princess
+
+* urn:iso:name:honorific:rank:grand-duke
+* urn:iso:name:honorific:rank:grand-duchess
+
+* urn:iso:name:honorific:rank:prince
+* urn:iso:name:honorific:rank:princess
+* urn:iso:name:honorific:rank:infante
+* urn:iso:name:honorific:rank:infanta
+* urn:iso:name:honorific:rank:królewicz
+* urn:iso:name:honorific:rank:królewna
+
+* urn:iso:name:honorific:rank:duke
+* urn:iso:name:honorific:rank:duchess
+
+* urn:iso:name:honorific:rank:sovereign-prince
+* urn:iso:name:honorific:rank:sovereign-princess
+* urn:iso:name:honorific:rank:fürst
+* urn:iso:name:honorific:rank:fürstin
+
+* urn:iso:name:honorific:rank:marquess
+* urn:iso:name:honorific:rank:marquis
+* urn:iso:name:honorific:rank:marchioness
+* urn:iso:name:honorific:rank:margrave
+* urn:iso:name:honorific:rank:landgrave
+* urn:iso:name:honorific:rank:count-palatine
+
+* urn:iso:name:honorific:rank:count
+* urn:iso:name:honorific:rank:countess
+* urn:iso:name:honorific:rank:earl
+
+* urn:iso:name:honorific:rank:burgrave
+* urn:iso:name:honorific:rank:chatelain
+* urn:iso:name:honorific:rank:castellan
+
+* urn:iso:name:honorific:rank:viscount
+* urn:iso:name:honorific:rank:viscountess
+* urn:iso:name:honorific:rank:vidame
+
+* urn:iso:name:honorific:rank:baron
+* urn:iso:name:honorific:rank:baroness
+* urn:iso:name:honorific:rank:baronet
+* urn:iso:name:honorific:rank:baronetess
+* urn:iso:name:honorific:rank:hereditary-knight
+* urn:iso:name:honorific:rank:lady
+* urn:iso:name:honorific:rank:ritter
+* urn:iso:name:honorific:rank:ridder
+
+* urn:iso:name:honorific:rank:knight
+* urn:iso:name:honorific:rank:dame-chevalier
+
+* urn:iso:name:honorific:rank:esquire
+* urn:iso:name:honorific:rank:laird
+* urn:iso:name:honorific:rank:edler
+* urn:iso:name:honorific:rank:jonkheer
+* urn:iso:name:honorific:rank:junker
+
+* urn:iso:name:honorific:rank:gentleman
+* urn:iso:name:honorific:rank:younger
+* urn:iso:name:honorific:rank:maid
