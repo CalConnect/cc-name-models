@@ -58,7 +58,7 @@ or the name is duplicated as the surname.
 ==== Examples
 
 [example]
-"`Mulyono`", the original name of "`Joko Widodo.`"
+"`Mulyono`", the original name of "`Joko Widodo`"
 
 [example]
 Kusno Sosrodihardjo

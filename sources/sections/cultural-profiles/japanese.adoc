@@ -35,7 +35,7 @@ unless both the spelling and pronunciation are given.
 
 //(example from W3C)
 [example]
-東海林 can be read as Tōkairin or Shōji
+東海林 can be read as Tōkairin or Shōji.
 
 [example]
 ====
