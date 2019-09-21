@@ -128,7 +128,7 @@ help:
 
 .PHONY: prep
 ## Install build dependencies "if needed"
-prep: Gemfile Gemfile.lock package.json package-lock.json $(NPM_DECKTAPE_DEPS)
+prep: Gemfile Gemfile.lock package.json $(NPM_DECKTAPE_DEPS)
 	@for gem in \
 		metanorma \
 		relaton \
