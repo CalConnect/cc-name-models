@@ -10,7 +10,7 @@ reverse link HonorificType to Style--><path d="M89.8438,106.5938 C89.8438,106.59
 reverse link Style to Duchess--><path d="M89.8438,261.4031 C89.8438,261.4031 89.8438,376.0234 89.8438,376.0234 " fill="none" id="Style&lt;-Duchess" style="stroke: #000000; stroke-width: 1.5625; stroke-dasharray: 7.0,7.0;"/><polygon fill="#000000" points="89.8438,253.5906,83.5938,267.6531,89.8438,261.4031,96.0938,267.6531,89.8438,253.5906" style="stroke: #000000; stroke-width: 1.5625;"/><text fill="#000000" font-family="Helvetica" font-size="20.3125" lengthAdjust="spacingAndGlyphs" textLength="131.25" x="94.5313" y="320.417">«instanceOf»</text><!--MD5=[54abe649cd81ad7dd25b9786a6cbb92f]
 link Duchess to duchessOfYork--><path d="M170.1125,404.6875 C194.3078,404.6875 215.2344,404.6875 215.2344,404.6875 C215.2344,404.6875 215.2344,505.2359 215.2344,555.903 " fill="none" id="Duchess-duchessOfYork" style="stroke: #000000; stroke-width: 1.5625;"/><!--MD5=[bd0dca45f9d5c9d5096ce02d435ed365]
 link York to duchessOfYork--><path d="M436.4266,404.6875 C402.625,404.6875 355.0781,404.6875 355.0781,404.6875 C355.0781,404.6875 355.0781,505.2359 355.0781,555.903 " fill="none" id="York-duchessOfYork" style="stroke: #000000; stroke-width: 1.5625;"/><!--MD5=[7ea8d1b60e924d904a8e768337131b0f]
-reverse link Honorific to duchessOfYork--><path d="M285.1563,443.7984 C285.1563,443.7984 285.1563,555.8038 285.1563,555.8038 " fill="none" id="Honorific&lt;-duchessOfYork" style="stroke: #000000; stroke-width: 1.5625; stroke-dasharray: 7.0,7.0;"/><polygon fill="#000000" points="285.1563,435.9859,278.9063,450.0484,285.1563,443.7984,291.4063,450.0484,285.1563,435.9859" style="stroke: #000000; stroke-width: 1.5625;"/><text fill="#000000" font-family="Helvetica" font-size="20.3125" lengthAdjust="spacingAndGlyphs" textLength="131.25" x="286.7188" y="503.2295">«instanceOf»</text><!--MD5=[4f077199709d04031f7c00ca10e7d1f1]
+reverse link Honorific to duchessOfYork--><path d="M285.1563,443.7984 C285.1563,443.7984 285.1563,555.8038 285.1563,555.8038 " fill="none" id="Honorific&lt;-duchessOfYork" style="stroke: #000000; stroke-width: 1.5625; stroke-dasharray: 7.0,7.0;"/><polygon fill="#000000" points="285.1563,435.9859,278.9063,450.0484,285.1563,443.7984,291.4063,450.0484,285.1563,435.9859" style="stroke: #000000; stroke-width: 1.5625;"/><text fill="#000000" font-family="Helvetica" font-size="20.3125" lengthAdjust="spacingAndGlyphs" textLength="131.25" x="286.7188" y="503.2295">«instanceOf»</text><!--MD5=[6ff86c741ed1f3b1312ed9eb8ea59097]
 @startuml
 
 
@@ -76,7 +76,7 @@ Honorific     <..  duchessOfYork : <<instanceOf>>
 
 @enduml
 
-PlantUML version 1.2019.10(Fri Sep 13 20:53:03 UTC 2019)
+PlantUML version 1.2019.11(Sun Sep 22 10:02:15 UTC 2019)
 (GPL source distribution)
 Java Runtime: OpenJDK Runtime Environment
 JVM: OpenJDK 64-Bit Server VM

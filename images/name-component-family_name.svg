@@ -3,7 +3,7 @@ class NameComponent--><rect fill="#FFFFFF" filter="url(#fcjm8trty1g8x)" height="
 class FamilyName--><rect fill="#FFFFFF" filter="url(#fcjm8trty1g8x)" height="82.4585" id="FamilyName" style="stroke: #000000; stroke-width: 2.34375;" width="278.125" x="9.375" y="168.75"/><text fill="#000000" font-family="Helvetica" font-size="18.75" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="132.8125" x="82.0313" y="193.9667">FamilyName</text><line style="stroke: #000000; stroke-width: 2.34375;" x1="10.9375" x2="285.9375" y1="206.2012" y2="206.2012"/><text fill="#000000" font-family="Helvetica" font-size="17.1875" lengthAdjust="spacingAndGlyphs" textLength="259.375" x="18.75" y="228.405">+type: FamilyNameType[0..*]</text><line style="stroke: #000000; stroke-width: 2.34375;" x1="10.9375" x2="285.9375" y1="238.7085" y2="238.7085"/><!--MD5=[5b0e42925ff6394a936344bcee78eea5]
 class FamilyNameType--><rect fill="#FFFFFF" filter="url(#fcjm8trty1g8x)" height="120.6543" id="FamilyNameType" style="stroke: #000000; stroke-width: 2.34375;" width="195.3125" x="50.7813" y="345.3125"/><text fill="#000000" font-family="Helvetica" font-size="15.625" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="115.625" x="90.625" y="367.6285">«enumeration»</text><text fill="#000000" font-family="Helvetica" font-size="18.75" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="185.9375" x="55.4688" y="388.7177">FamilyNameType</text><line style="stroke: #000000; stroke-width: 2.34375;" x1="52.3438" x2="244.5313" y1="400.9521" y2="400.9521"/><text fill="#000000" font-family="Helvetica" font-size="17.1875" lengthAdjust="spacingAndGlyphs" textLength="98.4375" x="60.1563" y="423.156">patronymic</text><text fill="#000000" font-family="Helvetica" font-size="17.1875" lengthAdjust="spacingAndGlyphs" textLength="104.6875" x="60.1563" y="443.1633">matronymic</text><line style="stroke: #000000; stroke-width: 2.34375;" x1="52.3438" x2="244.5313" y1="453.4668" y2="453.4668"/><!--MD5=[4d0003c55bab3ae9a5a50379463e74b8]
 reverse link NameComponent to FamilyName--><path d="M148.4375,106.3 C148.4375,106.3 148.4375,168.3125 148.4375,168.3125 " fill="none" id="NameComponent&lt;-FamilyName" style="stroke: #000000; stroke-width: 1.5625;"/><polygon fill="none" points="137.5002,106.3,148.4375,75.05,159.3752,106.3,137.5002,106.3" style="stroke: #000000; stroke-width: 1.5625;"/><!--MD5=[83647d18145c514fe4782240a00b010f]
-link FamilyName to FamilyNameType--><path d="M148.4375,251.5766 C148.4375,278.675 148.4375,314.5373 148.4375,344.8247 " fill="none" id="FamilyName-FamilyNameType" style="stroke: #000000; stroke-width: 1.5625;"/><!--MD5=[fdadceb33029e940159f82e62f248257]
+link FamilyName to FamilyNameType--><path d="M148.4375,251.5766 C148.4375,278.675 148.4375,314.5373 148.4375,344.8247 " fill="none" id="FamilyName-FamilyNameType" style="stroke: #000000; stroke-width: 1.5625;"/><!--MD5=[8652efabc568432ce4d6c0d278a48ff5]
 @startuml
 
 
@@ -63,7 +63,7 @@ enum FamilyNameType <<enumeration>> {
 
 @enduml
 
-PlantUML version 1.2019.10(Fri Sep 13 20:53:03 UTC 2019)
+PlantUML version 1.2019.11(Sun Sep 22 10:02:15 UTC 2019)
 (GPL source distribution)
 Java Runtime: OpenJDK Runtime Environment
 JVM: OpenJDK 64-Bit Server VM

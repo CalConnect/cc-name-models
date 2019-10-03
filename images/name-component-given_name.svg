@@ -3,7 +3,7 @@ class NameComponent--><rect fill="#FFFFFF" filter="url(#f1ebqmmsacg53w)" height=
 class GivenName--><rect fill="#FFFFFF" filter="url(#f1ebqmmsacg53w)" height="82.4585" id="GivenName" style="stroke: #000000; stroke-width: 2.34375;" width="271.875" x="9.375" y="168.75"/><text fill="#000000" font-family="Helvetica" font-size="18.75" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="123.4375" x="83.5938" y="193.9667">GivenName</text><line style="stroke: #000000; stroke-width: 2.34375;" x1="10.9375" x2="279.6875" y1="206.2012" y2="206.2012"/><text fill="#000000" font-family="Helvetica" font-size="17.1875" lengthAdjust="spacingAndGlyphs" textLength="253.125" x="18.75" y="228.405">+type: GivenNameType[0..*]</text><line style="stroke: #000000; stroke-width: 2.34375;" x1="10.9375" x2="279.6875" y1="238.7085" y2="238.7085"/><!--MD5=[d44f12620ee6307d1389e89cce773082]
 class GivenNameType--><rect fill="#FFFFFF" filter="url(#f1ebqmmsacg53w)" height="80.6396" id="GivenNameType" style="stroke: #000000; stroke-width: 2.34375;" width="185.9375" x="52.3438" y="345.3125"/><text fill="#000000" font-family="Helvetica" font-size="15.625" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="115.625" x="87.5" y="367.6285">«enumeration»</text><text fill="#000000" font-family="Helvetica" font-size="18.75" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="176.5625" x="57.0313" y="388.7177">GivenNameType</text><line style="stroke: #000000; stroke-width: 2.34375;" x1="53.9063" x2="236.7188" y1="400.9521" y2="400.9521"/><line style="stroke: #000000; stroke-width: 2.34375;" x1="53.9063" x2="236.7188" y1="413.4521" y2="413.4521"/><!--MD5=[45fe219c08cb99cad731567c8751f0fc]
 reverse link NameComponent to GivenName--><path d="M145.3125,106.3 C145.3125,106.3 145.3125,168.3125 145.3125,168.3125 " fill="none" id="NameComponent&lt;-GivenName" style="stroke: #000000; stroke-width: 1.5625;"/><polygon fill="none" points="134.3752,106.3,145.3125,75.05,156.2502,106.3,134.3752,106.3" style="stroke: #000000; stroke-width: 1.5625;"/><!--MD5=[c757f2da83859df588d47b44c5e5ff69]
-link GivenName to GivenNameType--><path d="M145.3125,251.8141 C145.3125,280.038 145.3125,317.1541 145.3125,345.1852 " fill="none" id="GivenName-GivenNameType" style="stroke: #000000; stroke-width: 1.5625;"/><!--MD5=[b62d4555962ccf6176215e5e1e93a223]
+link GivenName to GivenNameType--><path d="M145.3125,251.8141 C145.3125,280.038 145.3125,317.1541 145.3125,345.1852 " fill="none" id="GivenName-GivenNameType" style="stroke: #000000; stroke-width: 1.5625;"/><!--MD5=[d60df904bf740a276814d924963f2ca3]
 @startuml
 
 
@@ -61,7 +61,7 @@ enum GivenNameType <<enumeration>> {
 
 @enduml
 
-PlantUML version 1.2019.10(Fri Sep 13 20:53:03 UTC 2019)
+PlantUML version 1.2019.11(Sun Sep 22 10:02:15 UTC 2019)
 (GPL source distribution)
 Java Runtime: OpenJDK Runtime Environment
 JVM: OpenJDK 64-Bit Server VM

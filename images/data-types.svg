@@ -10,7 +10,7 @@ link NaturalNumber to String--><!--MD5=[eb5499e39b23886ffd26d4f51550615a]
 link Iso639Code to String--><!--MD5=[aec1bc081e86b285bc832af69d9050d2]
 link Iso639Code to Iso15924Code--><!--MD5=[c9eced5943862f5d3bb6361afd5c6af2]
 link Iso24229Code to Uri--><!--MD5=[7a8ee73b676c5d4b8a5692c23743b2e8]
-link NameString to Uri--><!--MD5=[f86b245d80793aa94ab9a4a5d9307ad0]
+link NameString to Uri--><!--MD5=[ee88844b63aeb14ffba39c9c4ad0dff1]
 @startuml
 
 
@@ -81,7 +81,7 @@ NameString    -[hidden]- Uri
 
 @enduml
 
-PlantUML version 1.2019.10(Fri Sep 13 20:53:03 UTC 2019)
+PlantUML version 1.2019.11(Sun Sep 22 10:02:15 UTC 2019)
 (GPL source distribution)
 Java Runtime: OpenJDK Runtime Environment
 JVM: OpenJDK 64-Bit Server VM

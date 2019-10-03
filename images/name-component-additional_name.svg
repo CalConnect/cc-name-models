@@ -3,7 +3,7 @@ class NameComponent--><rect fill="#FFFFFF" filter="url(#fa3tqew6agucw)" height="
 class AdditionalName--><rect fill="#FFFFFF" filter="url(#fa3tqew6agucw)" height="82.4585" id="AdditionalName" style="stroke: #000000; stroke-width: 2.34375;" width="307.8125" x="9.375" y="168.75"/><text fill="#000000" font-family="Helvetica" font-size="18.75" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="175" x="75.7813" y="193.9667">AdditionalName</text><line style="stroke: #000000; stroke-width: 2.34375;" x1="10.9375" x2="315.625" y1="206.2012" y2="206.2012"/><text fill="#000000" font-family="Helvetica" font-size="17.1875" lengthAdjust="spacingAndGlyphs" textLength="289.0625" x="18.75" y="228.405">+type: AdditionalNameType[0..*]</text><line style="stroke: #000000; stroke-width: 2.34375;" x1="10.9375" x2="315.625" y1="238.7085" y2="238.7085"/><!--MD5=[35edace78d2852b6012068cfcb59ec0e]
 class AdditionalNameType--><rect fill="#FFFFFF" filter="url(#fa3tqew6agucw)" height="80.6396" id="AdditionalNameType" style="stroke: #000000; stroke-width: 2.34375;" width="237.5" x="44.5313" y="345.3125"/><text fill="#000000" font-family="Helvetica" font-size="15.625" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="115.625" x="105.4688" y="367.6285">«enumeration»</text><text fill="#000000" font-family="Helvetica" font-size="18.75" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="228.125" x="49.2188" y="388.7177">AdditionalNameType</text><line style="stroke: #000000; stroke-width: 2.34375;" x1="46.0938" x2="280.4688" y1="400.9521" y2="400.9521"/><line style="stroke: #000000; stroke-width: 2.34375;" x1="46.0938" x2="280.4688" y1="413.4521" y2="413.4521"/><!--MD5=[c5d7618093b01db3ad94393c11b38765]
 reverse link NameComponent to AdditionalName--><path d="M163.2813,106.3 C163.2813,106.3 163.2813,168.3125 163.2813,168.3125 " fill="none" id="NameComponent&lt;-AdditionalName" style="stroke: #000000; stroke-width: 1.5625;"/><polygon fill="none" points="152.3439,106.3,163.2813,75.05,174.2188,106.3,152.3439,106.3" style="stroke: #000000; stroke-width: 1.5625;"/><!--MD5=[b1acca077bb628feea66a65905fb6d50]
-link AdditionalName to AdditionalNameType--><path d="M163.2813,251.8141 C163.2813,280.038 163.2813,317.1541 163.2813,345.1852 " fill="none" id="AdditionalName-AdditionalNameType" style="stroke: #000000; stroke-width: 1.5625;"/><!--MD5=[85435584eab8b89dee28a2d18ab9f267]
+link AdditionalName to AdditionalNameType--><path d="M163.2813,251.8141 C163.2813,280.038 163.2813,317.1541 163.2813,345.1852 " fill="none" id="AdditionalName-AdditionalNameType" style="stroke: #000000; stroke-width: 1.5625;"/><!--MD5=[329770eccef5f4d122a7c28903bd71ae]
 @startuml
 
 
@@ -61,7 +61,7 @@ enum AdditionalNameType <<enumeration>> {
 
 @enduml
 
-PlantUML version 1.2019.10(Fri Sep 13 20:53:03 UTC 2019)
+PlantUML version 1.2019.11(Sun Sep 22 10:02:15 UTC 2019)
 (GPL source distribution)
 Java Runtime: OpenJDK Runtime Environment
 JVM: OpenJDK 64-Bit Server VM
