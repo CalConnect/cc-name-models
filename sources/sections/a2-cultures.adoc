@@ -6,7 +6,7 @@ include::cultural-profiles/afghan.adoc[]
 
 include::cultural-profiles/albanian.adoc[]
 
-include::cultural-profiles/arab-muslium.adoc[]
+include::cultural-profiles/arab-muslim.adoc[]
 
 include::cultural-profiles/bangladeshi.adoc[]
 
