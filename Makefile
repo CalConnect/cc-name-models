@@ -12,9 +12,12 @@ endif
 
 PUBLISHING_DIRECTORY ?= published
 
-SRC := $(shell yq r metanorma.yml metanorma.source.files | cut -c 3-999)
+SRC      := $(shell yq r metanorma.yml metanorma.source.files | cut -c 3-999)
+ADOC_SRC := $(filter-out README.adoc, $(wildcard sources/*.adoc))
 ifeq ($(SRC),ll)
-	SRC := $(filter-out README.adoc, $(wildcard sources/*.adoc))
+	SRC := $(ADOC_SRC)
+else ifeq ($(SRC),)
+	SRC := $(ADOC_SRC)
 endif
 
 # All .adoc files
