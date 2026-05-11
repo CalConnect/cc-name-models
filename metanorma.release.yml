@@ -1,0 +1,4 @@
+documents:
+  - source: sources/cc-xxxxx.adoc
+  - source: sources/iso-xxxxx.adoc
+    visibility: private
