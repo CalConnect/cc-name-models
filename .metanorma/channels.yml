@@ -1,5 +1,0 @@
-# .metanorma/channels.yml — cc-name-models
-
-channels:
-  - name: public/standards
-    description: "CalConnect documents from cc-name-models"
