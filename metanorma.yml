@@ -1,11 +1,9 @@
+---
 metanorma:
-  deploy:
-    email: travis-ci@metanorma.org
   source:
     files:
     - sources/cc-xxxxx.adoc
     - sources/iso-xxxxx.adoc
-relaton:
   collection:
     name: Computer applications in terminology -- Naming -- Structure of personal
       names
